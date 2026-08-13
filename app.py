@@ -1,4 +1,3 @@
-%%writefile app.py
 # -*- coding: utf-8 -*-
 """
 PPDA High-Value Tender Prediction — Streamlit App
