@@ -1,6 +1,9 @@
-__pycache__/
-.ipynb_checkpoints/
-.env
-*.log
-.streamlit/secrets.toml
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+joblib==1.4.2
+xgboost==2.0.3
+scipy==1.13.1
+huggingface_hub==0.24.6
 
