@@ -44,20 +44,52 @@ st.markdown(
         --ppda-gold: #FCD116;
         --ppda-red: #D90000;
         --ppda-black: #111111;
+        --ppda-bg: #F7F4EC;
+        --ppda-panel: #FFFFFF;
+        --ppda-text: #1F1F1F;
     }
+
+    /* Force light background + dark text everywhere, regardless of browser theme override */
+    .stApp {
+        background-color: var(--ppda-bg) !important;
+    }
+    .stApp, .stApp p, .stApp label, .stApp span, .stApp div,
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--ppda-text) !important;
+    }
+    section[data-testid="stSidebar"] {
+        background-color: #EFEADC !important;
+    }
+    section[data-testid="stSidebar"] * {
+        color: var(--ppda-text) !important;
+    }
+
+    /* Input fields — force readable light backgrounds */
+    div[data-baseweb="input"] input,
+    div[data-baseweb="textarea"] textarea,
+    div[data-baseweb="select"] > div,
+    div[data-baseweb="base-input"] {
+        background-color: var(--ppda-panel) !important;
+        color: var(--ppda-text) !important;
+        border: 1px solid rgba(0,0,0,0.15) !important;
+    }
+
     .stApp header {background: transparent;}
     div[data-testid="stForm"] {
         border: 1px solid rgba(217, 0, 0, 0.15);
         border-radius: 14px;
         padding: 1.5rem 1.5rem 1rem 1.5rem;
-        background: #FFFFFF;
+        background: var(--ppda-panel) !important;
     }
     .ppda-hero {
         padding: 1.25rem 1.5rem;
         border-radius: 14px;
-        background: linear-gradient(135deg, rgba(252,209,22,0.25), rgba(217,0,0,0.08));
+        background: linear-gradient(135deg, rgba(252,209,22,0.35), rgba(217,0,0,0.12));
         border: 1px solid rgba(217,0,0,0.15);
         margin-bottom: 1.25rem;
+    }
+    .ppda-hero h1, .ppda-hero p {
+        color: var(--ppda-black) !important;
     }
     .ppda-hero h1 {
         margin: 0;
@@ -71,15 +103,15 @@ st.markdown(
         opacity: 0.85;
     }
     div.stButton > button, button[kind="formSubmit"] {
-        background: var(--ppda-red);
-        color: white;
+        background: var(--ppda-red) !important;
+        color: white !important;
         border: none;
         border-radius: 8px;
         font-weight: 600;
     }
     div.stButton > button:hover, button[kind="formSubmit"]:hover {
-        background: #b30000;
-        color: white;
+        background: #b30000 !important;
+        color: white !important;
     }
     </style>
     """,
