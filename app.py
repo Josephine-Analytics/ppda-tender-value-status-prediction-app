@@ -1,6 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+PPDA High-Value Tender Prediction — Streamlit App
+
+Run locally:
+    streamlit run app.py
+    (place ppda_full_pipeline.pkl in this same folder to skip the download)
+
+Run on Streamlit Cloud:
+    Push this file + requirements.txt to GitHub, deploy via share.streamlit.io.
+    If ppda_full_pipeline.pkl is NOT committed to the repo, the app will
+    automatically download it from the Hugging Face Hub repo configured below.
+"""
+
 import os
 import datetime
 
+import numpy as np
+import pandas as pd
 import streamlit as st
 import joblib
 
@@ -16,7 +32,59 @@ MODEL_FILENAME = "ppda_full_pipeline.pkl"
 # Only used if the .pkl is not found locally / not committed to the GitHub repo.
 HUGGING_FACE_REPO_ID = "Josephine-Analytics/ppda-tender-value-status-prediction"
 
-st.set_page_config(page_title="PPDA Tender Value Prediction", page_icon="💰", layout="centered")
+st.set_page_config(page_title="PPDA Tender Value Prediction", page_icon="💰", layout="wide")
+
+# ---------------------------------------------------------------------------
+# Custom styling — Uganda-inspired accent palette (black / gold / red)
+# ---------------------------------------------------------------------------
+st.markdown(
+    """
+    <style>
+    :root {
+        --ppda-gold: #FCD116;
+        --ppda-red: #D90000;
+        --ppda-black: #111111;
+    }
+    .stApp header {background: transparent;}
+    div[data-testid="stForm"] {
+        border: 1px solid rgba(217, 0, 0, 0.15);
+        border-radius: 14px;
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+        background: #FFFFFF;
+    }
+    .ppda-hero {
+        padding: 1.25rem 1.5rem;
+        border-radius: 14px;
+        background: linear-gradient(135deg, rgba(252,209,22,0.25), rgba(217,0,0,0.08));
+        border: 1px solid rgba(217,0,0,0.15);
+        margin-bottom: 1.25rem;
+    }
+    .ppda-hero h1 {
+        margin: 0;
+        font-size: clamp(1.1rem, 2.6vw, 1.8rem);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .ppda-hero p {
+        margin: 0.25rem 0 0 0;
+        opacity: 0.85;
+    }
+    div.stButton > button, button[kind="formSubmit"] {
+        background: var(--ppda-red);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+    div.stButton > button:hover, button[kind="formSubmit"]:hover {
+        background: #b30000;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ---------------------------------------------------------------------------
 # Preprocessor class — MUST match the class used when the pipeline was
@@ -140,47 +208,75 @@ unique_procurement_methods = ["OPEN", "LIMITED", "SELECTIVE", "DIRECT"]
 unique_tender_statuses = ["complete", "active"]
 currencies = ["UGX", "USD", "KES", "EUR", "GBP", "JPY"]
 
-st.title("💰 PPDA Tender Value Status Prediction Model")
-st.markdown("---")
-st.markdown("Enter the tender details below to predict if a tender is **High-Value** or **Normal-Value**.")
+st.markdown(
+    """
+    <div class="ppda-hero">
+        <h1>💰 PPDA Tender Value Status Prediction</h1>
+        <p>Enter the tender details below to predict if a tender is <b>High-Value</b> or <b>Normal-Value</b>.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+with st.sidebar:
+    st.header("⚙️ Configuration")
+    st.markdown("Adjust these parameters to customize your prediction.")
+    buyer_name = st.text_input(
+        "Buyer Name", "Uganda National Roads Authority",
+        help="The procuring entity. High-value thresholds are calculated per entity."
+    )
+    tender_procurementmethod = st.selectbox(
+        "Procurement Method", unique_procurement_methods,
+        help="OPEN tenders are typically competitive; DIRECT/SELECTIVE are more restricted."
+    )
+    tender_status = st.selectbox("Tender Status", unique_tender_statuses)
 
 with st.form("tender_prediction_form"):
     st.header("📝 Tender Details")
 
     col1, col2 = st.columns(2)
     with col1:
-        tender_title = st.text_input("Tender Title", "Procurement of Office Supplies")
+        tender_title = st.text_input(
+            "Tender Title", "Procurement of Office Supplies",
+            help="Short title as it would appear on the tender notice."
+        )
     with col2:
         tender_description = st.text_area(
             "Tender Description",
             "Supply and delivery of various office stationery and equipment for the financial year.",
+            help="More detail helps the model's text features pick up relevant signals."
         )
 
-    st.subheader("Buyer & Procurement Information")
-    with st.sidebar:
-        st.header("⚙️ Configuration")
-        st.markdown("Adjust these parameters to customize your prediction.")
-        buyer_name = st.text_input("Buyer Name", "Uganda National Roads Authority")
-        tender_procurementmethod = st.selectbox("Procurement Method", unique_procurement_methods)
-        tender_status = st.selectbox("Tender Status", unique_tender_statuses)
-
+    st.subheader("Value")
     col3, col4 = st.columns(2)
     with col3:
         tender_value_amount = st.number_input(
-            "Tender Value Amount (in selected currency)", min_value=0.0, value=10000000.0, step=1000000.0
+            "Tender Value Amount (in selected currency)",
+            min_value=0.0, value=10000000.0, step=1000000.0,
+            help="Enter the raw amount in the currency selected on the right; it's converted to UGX internally."
         )
     with col4:
         tender_value_currency = st.selectbox("Tender Value Currency", currencies)
 
+    if tender_value_amount <= 0:
+        st.warning("⚠️ Tender value is 0 — the prediction will likely default to Normal-Value regardless of other inputs.")
+
     st.subheader("🗓️ Dates")
-    with st.expander("View/Edit Tender Dates"):
+    with st.expander("View/Edit Tender Dates", expanded=False):
         today = datetime.date.today()
-        tender_date = st.date_input("Date", today)
+        tender_date = st.date_input("Date", today, help="Publication date — used to derive year/month/quarter features.")
         tender_period_start_date = st.date_input("Tender Period Start Date", today - datetime.timedelta(days=30))
-        tender_period_end_date = st.date_input("Tender Period End Date", today + datetime.timedelta(days=60))
+        tender_period_end_date = st.date_input(
+            "Tender Period End Date", today + datetime.timedelta(days=60),
+            help="Must be after the start date — duration is a key model feature."
+        )
+
+    date_error = tender_period_end_date <= tender_period_start_date
+    if date_error:
+        st.error("🚫 Tender Period End Date must be after the Start Date.")
 
     st.markdown("---")
-    submitted = st.form_submit_button("🚀 Predict Tender Value Status")
+    submitted = st.form_submit_button("🚀 Predict Tender Value Status", disabled=date_error)
 
     if submitted:
         input_data = pd.DataFrame(
@@ -211,10 +307,38 @@ with st.form("tender_prediction_form"):
             prediction_numerical = loaded_pipeline.predict(input_data)[0]
             prediction_label = "Yes" if prediction_numerical == 1 else "No"
 
-            st.success(f"#### The predicted outcome for this tender is: **{prediction_label}**")
-            if prediction_label == "Yes":
-                st.info("This tender is predicted to be a **high-value** tender. Consider strategic allocation of resources. 📈")
-            else:
-                st.info("This tender is predicted to be a **normal-value** tender. 📊")
+            # Confidence score, if the underlying model supports predict_proba
+            proba = None
+            try:
+                proba = loaded_pipeline.predict_proba(input_data)[0]  # [P(No), P(Yes)]
+            except Exception:
+                pass
+
+            st.markdown("---")
+            result_col, chart_col = st.columns([1, 1])
+
+            with result_col:
+                if prediction_label == "Yes":
+                    st.success(f"### 🟢 Predicted: **High-Value**")
+                    st.info("Consider strategic allocation of resources and closer oversight for this tender. 📈")
+                else:
+                    st.info(f"### 🔵 Predicted: **Normal-Value**")
+                    st.caption("Standard procurement handling is likely sufficient. 📊")
+
+                if proba is not None:
+                    confidence = proba[1] if prediction_label == "Yes" else proba[0]
+                    st.metric("Model Confidence", f"{confidence * 100:.1f}%")
+                    st.progress(float(confidence))
+
+            with chart_col:
+                if proba is not None:
+                    proba_df = pd.DataFrame(
+                        {"Outcome": ["Normal-Value (No)", "High-Value (Yes)"], "Probability": [proba[0], proba[1]]}
+                    ).set_index("Outcome")
+                    st.caption("Prediction probability breakdown")
+                    st.bar_chart(proba_df, height=220)
+                else:
+                    st.caption("This model doesn't expose probability scores.")
+
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
