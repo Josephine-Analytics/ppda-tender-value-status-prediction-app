@@ -1,3 +1,4 @@
+#app.py
 # -*- coding: utf-8 -*-
 """
 PPDA High-Value Tender Prediction — Streamlit App
@@ -30,9 +31,9 @@ MODEL_FILENAME = "ppda_full_pipeline.pkl"
 
 # TODO: set this to your actual Hugging Face Hub repo id, e.g. "Josephine-Analytics/ppda-tender-model"
 # Only used if the .pkl is not found locally / not committed to the GitHub repo.
-HUGGING_FACE_REPO_ID = "JosephineNamyalo/Tender-Value-Status-Prediction-Model"
+HUGGING_FACE_REPO_ID = "Josephine-Analytics/ppda-tender-value-status-prediction"
 
-st.set_page_config(page_title="PPDA Tender Value Prediction", page_icon="💰", layout="wide")
+st.set_page_config(page_title="PPDA High-Value Tender Prediction", page_icon="💰", layout="wide")
 
 # ---------------------------------------------------------------------------
 # Custom styling — Uganda-inspired accent palette (black / gold / red)
@@ -129,7 +130,6 @@ class PPDA_Preprocessor(BaseEstimator, TransformerMixin):
         self.conversion_rates = conversion_rates
         self.cat_cols = cat_cols_to_encode
         self.numeric_feature_names = [
-            "tender_value_amount_ugx",
             "tender_duration",
             "year",
             "month",
@@ -238,13 +238,12 @@ loaded_pipeline = load_pipeline()
 # ---------------------------------------------------------------------------
 unique_procurement_methods = ["OPEN", "LIMITED", "SELECTIVE", "DIRECT"]
 unique_tender_statuses = ["complete", "active"]
-currencies = ["UGX", "USD", "KES", "EUR", "GBP", "JPY"]
 
 st.markdown(
     """
     <div class="ppda-hero">
-        <h1>💰 PPDA Tender Value Status Prediction</h1>
-        <p>Enter the tender details below to predict if a tender is <b>High-Value</b> or <b>Normal-Value</b>.</p>
+        <h1>💰 PPDA High-Value Tender Prediction</h1>
+        <p>Enter the tender details below to predict <b>High-Value Tender: Yes</b> or <b>No</b>.</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -279,20 +278,6 @@ with st.form("tender_prediction_form"):
             help="More detail helps the model's text features pick up relevant signals."
         )
 
-    st.subheader("Value")
-    col3, col4 = st.columns(2)
-    with col3:
-        tender_value_amount = st.number_input(
-            "Tender Value Amount (in selected currency)",
-            min_value=0.0, value=10000000.0, step=1000000.0,
-            help="Enter the raw amount in the currency selected on the right; it's converted to UGX internally."
-        )
-    with col4:
-        tender_value_currency = st.selectbox("Tender Value Currency", currencies)
-
-    if tender_value_amount <= 0:
-        st.warning("⚠️ Tender value is 0 — the prediction will likely default to Normal-Value regardless of other inputs.")
-
     st.subheader("🗓️ Dates")
     with st.expander("View/Edit Tender Dates", expanded=False):
         today = datetime.date.today()
@@ -308,7 +293,7 @@ with st.form("tender_prediction_form"):
         st.error("🚫 Tender Period End Date must be after the Start Date.")
 
     st.markdown("---")
-    submitted = st.form_submit_button("🚀 Predict Tender Value Status", disabled=date_error)
+    submitted = st.form_submit_button("🚀 Predict High-Value Tender Status", disabled=date_error)
 
     if submitted:
         input_data = pd.DataFrame(
@@ -319,8 +304,11 @@ with st.form("tender_prediction_form"):
                 "tender_title": [tender_title],
                 "tender_description": [tender_description],
                 "tender_status": [tender_status],
-                "tender_value_amount": [float(tender_value_amount)],
-                "tender_value_currency": [tender_value_currency],
+                # Not used as a model feature (removed to fix target leakage) —
+                # kept here only because the preprocessor's transform() still
+                # references these columns internally before discarding them.
+                "tender_value_amount": [0.0],
+                "tender_value_currency": ["UGX"],
                 "tender_tenderperiod_enddate": [tender_period_end_date.strftime("%d/%m/%Y")],
                 "tender_tenderperiod_startdate": [tender_period_start_date.strftime("%d/%m/%Y")],
                 "link": ["dummy_link"],
@@ -350,11 +338,12 @@ with st.form("tender_prediction_form"):
             result_col, chart_col = st.columns([1, 1])
 
             with result_col:
+                st.markdown("#### High-Value Tender")
                 if prediction_label == "Yes":
-                    st.success(f"### 🟢 Predicted: **High-Value**")
+                    st.success("### 🟢 High-Value Tender: **Yes**")
                     st.info("Consider strategic allocation of resources and closer oversight for this tender. 📈")
                 else:
-                    st.info(f"### 🔵 Predicted: **Normal-Value**")
+                    st.info("### 🔵 High-Value Tender: **No**")
                     st.caption("Standard procurement handling is likely sufficient. 📊")
 
                 if proba is not None:
@@ -365,7 +354,7 @@ with st.form("tender_prediction_form"):
             with chart_col:
                 if proba is not None:
                     proba_df = pd.DataFrame(
-                        {"Outcome": ["Normal-Value (No)", "High-Value (Yes)"], "Probability": [proba[0], proba[1]]}
+                        {"Outcome": ["High-Value Tender: No", "High-Value Tender: Yes"], "Probability": [proba[0], proba[1]]}
                     ).set_index("Outcome")
                     st.caption("Prediction probability breakdown")
                     st.bar_chart(proba_df, height=220)
