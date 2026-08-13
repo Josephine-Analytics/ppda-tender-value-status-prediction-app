@@ -1,0 +1,6 @@
+# Ignore files generated during development or not meant for version control
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+# Do NOT ignore ppda_full_pipeline.pkl if you intend to push it to GitHub
