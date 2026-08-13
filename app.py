@@ -30,7 +30,7 @@ MODEL_FILENAME = "ppda_full_pipeline.pkl"
 
 # TODO: set this to your actual Hugging Face Hub repo id, e.g. "Josephine-Analytics/ppda-tender-model"
 # Only used if the .pkl is not found locally / not committed to the GitHub repo.
-HUGGING_FACE_REPO_ID = "Josephine-Analytics/ppda-tender-value-status-prediction"
+HUGGING_FACE_REPO_ID = "JosephineNamyalo/Tender-Value-Status-Prediction-Model"
 
 st.set_page_config(page_title="PPDA Tender Value Prediction", page_icon="💰", layout="wide")
 
