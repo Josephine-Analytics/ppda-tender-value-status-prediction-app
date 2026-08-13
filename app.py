@@ -1,5 +1,5 @@
 #app.py
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 """
 PPDA High-Value Tender Prediction — Streamlit App
 
@@ -267,14 +267,22 @@ with st.form("tender_prediction_form"):
 
     col1, col2 = st.columns(2)
     with col1:
-        tender_title = st.text_input(
+        tender_title = st.text_area(
             "Tender Title", "Procurement of Office Supplies",
+            height=100,
             help="Short title as it would appear on the tender notice."
+        )
+        st.caption(
+            "💡 **Tip:** Good titles name the works/goods/services and, where "
+            "relevant, the location or scope — e.g. *'Rehabilitation of Regional "
+            "Highway, Northern Uganda'* rather than just *'Road Works'*. Clearer "
+            "titles help the model's text features pick up stronger signals."
         )
     with col2:
         tender_description = st.text_area(
             "Tender Description",
             "Supply and delivery of various office stationery and equipment for the financial year.",
+            height=180,
             help="More detail helps the model's text features pick up relevant signals."
         )
 
