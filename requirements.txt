@@ -1,9 +1,5 @@
-pandas # Removed explicit version to allow pip to find compatible version with Colab
-numpy # Removed explicit version to allow pip to find compatible version
-scikit-learn # Removed explicit version to allow pip to find compatible version
-streamlit==1.30.0 # Keeping this version as it's targeted
-joblib # Removed explicit version to allow pip to find compatible version
-xgboost==2.0.0 # Keeping this version as it's targeted
-scipy # Removed explicit version to allow pip to find compatible version
-requests
-huggingface_hub # Added to ensure model download functionality
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+.streamlit/secrets.toml
