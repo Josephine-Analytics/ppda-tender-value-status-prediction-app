@@ -1,5 +1,5 @@
-#app.py
-#-*- coding: utf-8 -*-
+%%writefile app.py
+# -*- coding: utf-8 -*-
 """
 PPDA High-Value Tender Prediction — Streamlit App
 
@@ -103,16 +103,41 @@ st.markdown(
         margin: 0.25rem 0 0 0;
         opacity: 0.85;
     }
-    div.stButton > button, button[kind="formSubmit"] {
-        background: var(--ppda-red) !important;
-        color: white !important;
-        border: none;
-        border-radius: 8px;
-        font-weight: 600;
+    div.stButton > button,
+    button[kind="formSubmit"],
+    div[data-testid="stFormSubmitButton"] button,
+    button[data-testid="stFormSubmitButton"],
+    div[data-testid="stForm"] button {
+        background-color: var(--ppda-red) !important;
+        color: #FFFFFF !important;
+        border: 1px solid var(--ppda-red) !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        opacity: 1 !important;
     }
-    div.stButton > button:hover, button[kind="formSubmit"]:hover {
-        background: #b30000 !important;
-        color: white !important;
+    div.stButton > button *,
+    button[kind="formSubmit"] *,
+    div[data-testid="stFormSubmitButton"] button *,
+    button[data-testid="stFormSubmitButton"] *,
+    div[data-testid="stForm"] button * {
+        color: #FFFFFF !important;
+    }
+    div.stButton > button:hover,
+    button[kind="formSubmit"]:hover,
+    div[data-testid="stFormSubmitButton"] button:hover,
+    button[data-testid="stFormSubmitButton"]:hover,
+    div[data-testid="stForm"] button:hover {
+        background-color: #b30000 !important;
+        border: 1px solid #b30000 !important;
+        color: #FFFFFF !important;
+    }
+    div.stButton > button:disabled,
+    div[data-testid="stFormSubmitButton"] button:disabled,
+    button[data-testid="stFormSubmitButton"]:disabled {
+        background-color: #d9a3a3 !important;
+        border: 1px solid #d9a3a3 !important;
+        color: #FFFFFF !important;
+        opacity: 0.7 !important;
     }
     </style>
     """,
