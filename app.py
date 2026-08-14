@@ -23,20 +23,16 @@ import joblib
 from sklearn.base import BaseEstimator, TransformerMixin
 from huggingface_hub import hf_hub_download
 
-# ---------------------------------------------------------------------------
 # Configuration
-# ---------------------------------------------------------------------------
 MODEL_FILENAME = "ppda_full_pipeline.pkl"
 
-# TODO: set this to your actual Hugging Face Hub repo id, e.g. "Josephine-Analytics/ppda-tender-model"
+# TO DO: set this to the actual Hugging Face Hub repo id, e.g. "Josephine-Analytics/ppda-tender-model"
 # Only used if the .pkl is not found locally / not committed to the GitHub repo.
-HUGGING_FACE_REPO_ID = "Josephine-Analytics/ppda-tender-value-status-prediction"
+HUGGING_FACE_REPO_ID = "JosephineNamyalo/Tender-Value-Status-Prediction-Model"
 
 st.set_page_config(page_title="PPDA High-Value Tender Prediction", page_icon="💰", layout="wide")
 
-# ---------------------------------------------------------------------------
 # Custom styling — Uganda-inspired accent palette (black / gold / red)
-# ---------------------------------------------------------------------------
 st.markdown(
     """
     <style>
@@ -143,11 +139,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------------------------
 # Preprocessor class — MUST match the class used when the pipeline was
 # trained/pickled (same attributes, same transform logic), and must be
 # defined here in app.py's own module namespace so joblib can unpickle it.
-# ---------------------------------------------------------------------------
 class PPDA_Preprocessor(BaseEstimator, TransformerMixin):
     def __init__(self, tfidf_vectorizer, conversion_rates, cat_cols_to_encode):
         self.tfidf = tfidf_vectorizer
@@ -221,9 +215,7 @@ class PPDA_Preprocessor(BaseEstimator, TransformerMixin):
         return final_features
 
 
-# ---------------------------------------------------------------------------
 # Model loading — local file first, Hugging Face Hub fallback
-# ---------------------------------------------------------------------------
 @st.cache_resource
 def load_pipeline():
     model_path = MODEL_FILENAME
@@ -257,9 +249,7 @@ def load_pipeline():
 
 loaded_pipeline = load_pipeline()
 
-# ---------------------------------------------------------------------------
 # Streamlit UI
-# ---------------------------------------------------------------------------
 unique_procurement_methods = ["OPEN", "LIMITED", "SELECTIVE", "DIRECT"]
 unique_tender_statuses = ["complete", "active"]
 
