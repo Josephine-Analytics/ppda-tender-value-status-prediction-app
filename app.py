@@ -167,6 +167,7 @@ st.markdown(
     }
     section[data-testid="stFileUploaderDropzone"] button {
         background-color: var(--ppda-red) !important;
+        color: #FFFFFF !important;
         border: 1px solid var(--ppda-red) !important;
         border-radius: 8px !important;
     }
@@ -188,6 +189,62 @@ st.markdown(
     section[data-testid="stFileUploaderDropzone"] *,
     div[data-testid="stSlider"] [role="slider"] {
         cursor: pointer !important;
+    }
+    /* hint text and date boxes stay readable even when the browser is in dark mode */
+    ::placeholder {
+        color: #8A8A8A !important;
+        opacity: 1 !important;
+    }
+    div[data-testid="stDateInput"] div {
+        background-color: #FFFFFF !important;
+    }
+    div[data-testid="stDateInput"] input {
+        color: #1F1F1F !important;
+    }
+
+    /* the description box takes the free height; the title box stays a few lines tall */
+    textarea[aria-label="Tender Title"] {
+        height: 4.4rem !important;
+    }
+    textarea[aria-label="Tender Description"] {
+        height: 5rem !important;
+        min-height: 5rem !important;
+    }
+    /* small helper notes: shown when there is room, hidden on short screens */
+    .ppda-note {
+        font-size: 0.85rem;
+        line-height: 1.45;
+        margin-top: 0.4rem;
+    }
+    .ppda-note ul { margin: 0.25rem 0 0 1.1rem; padding: 0; }
+    @media (max-height: 779px) {
+        .ppda-note { display: none; }
+    }
+
+    /* bigger text on bigger screens, and a description box that fills the screen height */
+    @media (max-width: 1599px) and (min-height: 780px) {
+        html { font-size: 17px; }
+        label[data-testid="stWidgetLabel"] p { font-size: 0.95rem !important; }
+        div[data-testid="stCaptionContainer"] p { font-size: 0.85rem !important; }
+        button[role="tab"] p { font-size: 0.95rem !important; }
+        textarea[aria-label="Tender Title"] { height: 5.2rem !important; }
+        textarea[aria-label="Tender Description"] { height: calc(100vh - 612px) !important; }
+    }
+    @media (min-width: 1600px) and (min-height: 780px) {
+        html { font-size: 19px; }
+        label[data-testid="stWidgetLabel"] p { font-size: 0.95rem !important; }
+        div[data-testid="stCaptionContainer"] p { font-size: 0.85rem !important; }
+        button[role="tab"] p { font-size: 0.95rem !important; }
+        textarea[aria-label="Tender Title"] { height: 5.2rem !important; }
+        textarea[aria-label="Tender Description"] { height: calc(100vh - 668px) !important; }
+    }
+    @media (min-width: 1600px) and (min-height: 980px) {
+        html { font-size: 21px; }
+        label[data-testid="stWidgetLabel"] p { font-size: 0.95rem !important; }
+        div[data-testid="stCaptionContainer"] p { font-size: 0.85rem !important; }
+        button[role="tab"] p { font-size: 0.95rem !important; }
+        textarea[aria-label="Tender Title"] { height: 5.2rem !important; }
+        textarea[aria-label="Tender Description"] { height: calc(100vh - 732px) !important; }
     }
     </style>
     """,
@@ -590,6 +647,14 @@ with tab_single:
         elif not submitted:
             st.markdown("#### High-Value Tender")
             st.info("Fill in the tender details and press **Predict**. The result will appear here.")
+            st.markdown(
+                '<div class="ppda-note"><b>Tips for a better prediction</b><ul>'
+                "<li>Name the works, goods or services in the title, and add the scope in the description.</li>"
+                "<li><i>Date Published</i> is the day the tender notice went out on the PPDA portal.</li>"
+                "<li><i>Period Start</i> and <i>Period End</i> are when bids open and the deadline.</li>"
+                "</ul></div>",
+                unsafe_allow_html=True,
+            )
         else:
             input_data = pd.DataFrame(
                 {
@@ -647,9 +712,15 @@ with tab_single:
                         proba_df = pd.DataFrame(
                             {"Outcome": ["No", "Yes"], "Probability": [proba[0], proba[1]]}
                         ).set_index("Outcome")
-                        st.bar_chart(proba_df, height=150)
+                        st.bar_chart(proba_df, height=160)
                 else:
                     st.caption("This model doesn't expose probability scores.")
+
+                st.markdown(
+                    '<div class="ppda-note">The confidence is the model\'s estimate, not a guarantee. '
+                    "A Yes means the tender is worth a closer look. People make the final call.</div>",
+                    unsafe_allow_html=True,
+                )
 
             except Exception as e:
                 st.error(f"An error occurred during prediction: {e}")
