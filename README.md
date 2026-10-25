@@ -1,34 +1,97 @@
 # PPDA High-Value Tender Prediction
 
-A machine learning system that predicts whether a public procurement tender is likely to be **High-Value**, using Uganda's Public Procurement and Disposal of Public Assets Authority (PPDA) tender records. Built as an end-to-end pipeline — from raw data to a live, interactive web app.
+A machine learning app that predicts whether a public procurement tender is likely to be **high-value**, built on tender records from Uganda's Public Procurement and Disposal of Public Assets Authority (PPDA). It goes from raw data to a live web app, and it works two ways: check **one tender** at a time, or **upload a whole procurement period** and get every tender ranked by how likely it is to be high-value.
 
-🔗 **Live App:** https://ppda-tender-value-status-prediction-app-j54tsnepkszjzdxcf2vura.streamlit.app/
-🎥 **Video Demo:** (https://drive.google.com/file/d/10fAYZ_qvv73-aYVp6UsdCIzIjZeHN4qn/view)
-🤗 **Model on Hugging Face Hub:** [huggingface.co/JosephineNamyalo/Tender-Value-Status-Prediction-Model](https://huggingface.co/JosephineNamyalo/Tender-Value-Status-Prediction-Model)
+- 🔗 **Live app:** https://ppda-tender-value-status-prediction-app-j54tsnepkszjzdxcf2vura.streamlit.app/
+- 🎥 **Demo video:** [Watch on Google Drive](https://drive.google.com/file/d/10fAYZ_qvv73-aYVp6UsdCIzIjZeHN4qn/view)
+- 🤗 **Model on Hugging Face:** [JosephineNamyalo/Tender-Value-Status-Prediction-Model](https://huggingface.co/JosephineNamyalo/Tender-Value-Status-Prediction-Model)
 
 ---
 
-## Problem Statement
+## The problem
 
-Public procurement entities issue thousands of tenders every year, but only a fraction are high-value or high-risk enough to need close oversight. Procurement teams have limited time and can't review every tender in equal depth.
+Public procurement bodies issue thousands of tenders a year, but only some are large or risky enough to need close oversight. Procurement teams have limited time and can't review every tender in the same depth, and entering tenders into a tool one by one is almost as slow as reviewing them by hand.
 
-**ML Goal:** predict, from a tender's basic characteristics (buyer, procurement method, title, description, dates), whether it is likely to be a **High-Value** tender — a binary classification problem — so oversight resources can be prioritized before the tender is awarded.
+**The goal:** from what is known about a tender (the buyer, the procurement method, the title and description, the dates), predict whether it is likely to be high-value, so oversight goes where it matters most. This is a binary classification problem (Yes / No).
 
-> **Note on the target:** the tender's monetary value is used *only* to construct the target label, not as a model input feature. Each tender is labeled "high-value" relative to its own buyer's typical tender size (see [Target Definition](#target-definition) below), not a global cutoff.
+> **A rule I kept:** the tender's monetary value is only used to build the label. It is never an input to the model. Each tender is labelled "high-value" relative to its own buyer's tenders, not against one global cutoff (see [Target definition](#target-definition)).
+
+---
+
+## What the app does
+
+The app has two tabs.
+
+### 1. Single tender
+Fill in the buyer, procurement method, status, title, description and dates (the form starts empty), then press **Predict**. If anything is missing, the app tells you which fields to fill in. You get a Yes/No answer, the model's confidence, and a chart of the probabilities.
+
+### 2. Batch: upload a file
+Upload the list of tenders for a period, as a **CSV or Excel (.xlsx)** file. The app scores every tender and ranks them from most to least likely to be high-value, so reviewers can start at the top of the list.
+
+- **Ranked results** with a probability bar for each tender and a Yes/No flag.
+- **A cut-off slider** (50% by default). Lowering it flags more tenders. That catches more of the real high-value ones, at the cost of more false alarms.
+- **Summary figures:** tenders scored, tenders flagged, and the share flagged.
+- **Download** the full ranked results as a CSV.
+- **Warnings** for tenders from buyers the model never saw in training, and for rows with missing or unreadable dates.
+- Up to **20,000 rows** per upload. The raw PPDA export works as it is.
+
+**Columns the file needs** (matched ignoring capital letters and spaces):
+
+| Column | Example |
+|---|---|
+| `buyer_name` | Office of the Prime Minister |
+| `tender_procurementmethod` | LIMITED |
+| `tender_status` | active |
+| `tender_title` | Supply of Fuel and Lubricants |
+| `tender_description` | Supply and delivery of diesel, petrol and lubricants... |
+| `date` | 09/06/2022 |
+| `tender_tenderperiod_startdate` | 09/06/2022 |
+| `tender_tenderperiod_enddate` | 07/10/2022 |
+
+Dates are day/month/year. Any other columns, such as `tender_id`, are kept and shown in the results. If your file has a tender value column, it is ignored. The app also offers a small example file you can download and copy the layout from.
+
+---
+
+## Try it
+
+These two examples were checked on the live app. They show the model's pattern. They are not real tenders.
+
+The form starts empty, so type these in. Dates can stay as they are for the No example.
+
+**A "No"**
+
+| Field | Value |
+|---|---|
+| Buyer | Uganda National Roads Authority |
+| Method / Status | OPEN / complete |
+| Title | Procurement of Office Supplies |
+| Description | Supply and delivery of various office stationery and equipment for the financial year. |
+
+The model answers **No** with about 74% confidence. The exact figure moves a little with the dates you leave in the form.
+
+**A "Yes"**
+
+| Field | Value |
+|---|---|
+| Buyer | Office of the Prime Minister |
+| Method / Status | LIMITED / active |
+| Title | Supply of Fuel and Lubricants |
+| Description | Supply and delivery of diesel, petrol and lubricants for vehicles and generators for one financial year. |
+| Date, start, end | 2022/06/09, 2022/06/09, 2022/10/07 |
+
+The model answers **Yes** with about 86% confidence.
 
 ---
 
 ## Dataset
 
-- **Source:** Uganda's Public Procurement and Disposal of Public Assets Authority (PPDA) — real, publicly-issued tender notices.
-- **Size:** 20,212 records, 20 raw columns, 0 duplicate rows.
-- **Key fields:** buyer entity, procurement method, tender title & description, tender value & currency, publication and bid-opening dates.
+- **Source:** real tender notices from the PPDA portal (Uganda).
+- **Size:** 20,212 records and 20 raw columns, with no duplicate rows.
+- **Key fields:** buyer, procurement method, title and description, tender value and currency, publication and bid-opening dates.
 
----
+### Target definition
 
-## Target Definition
-
-A tender is labeled **High-Value = Yes** if its converted value (in UGX) is at or above the **75th percentile of tender values for that specific buyer**, rather than a single global threshold. This means "high-value" is relative to what's unusually large *for that entity* — a large tender for a small district office and a large tender for a national roads authority are judged against their own respective baselines.
+A tender is labelled **high-value (Yes)** if its value, converted to UGX, is at or above the **75th percentile of that buyer's own tenders**. A large tender for a small district office and a large tender for a national roads authority are therefore judged against their own baselines. About one tender in four (5,186 of 20,212) ends up labelled Yes.
 
 ```python
 entity_thresholds = df.groupby("buyer_name")["tender_value_amount_ugx"].quantile(0.75)
@@ -40,106 +103,129 @@ df["high_value_tender"] = df.apply(
 
 ---
 
-## Data Pipeline
+## How the data is prepared
 
-1. **Clean** — fixed inconsistent column names, dropped a fully-empty column, standardized text fields, removed duplicates.
-2. **Standardize currency** — converted every tender value into a single common currency (UGX) using fixed exchange rates.
-3. **Engineer features** — tender duration (days between tender period start/end), publication year/month/quarter/day-of-week, per-entity value threshold.
-4. **Vectorize text** — TF-IDF on combined tender title + description.
-5. **Encode categoricals** — one-hot encoding for buyer name, procurement method, and tender status.
+1. **Clean:** fix inconsistent column names, drop a completely empty column, trim stray spaces in the text columns, and check for duplicates (there were none).
+2. **Convert currency:** every tender value goes to UGX using fixed exchange rates.
+3. **Build features:** how long the tender stays open, the publication year, month, quarter and day of the week, and each buyer's own threshold.
+4. **Text:** the title and description are joined and turned into TF-IDF scores for the 5,000 most useful terms.
+5. **Categories:** the buyer, procurement method and tender status are one-hot encoded.
 
-The full pipeline (cleaning → feature engineering → model) is wrapped in a single scikit-learn `Pipeline` object (`PPDA_Preprocessor` + classifier) and persisted as one `.pkl` file, so the exact same transformations run identically at inference time as at training time.
+All of this lives in one scikit-learn `Pipeline` (a custom `PPDA_Preprocessor` plus the classifier), saved as a single file. The same steps run at prediction time as at training time.
 
-## Exploratory Data Analysis
-
-- **Tender value distribution** is heavily right-skewed; a log transform reveals an approximately normal underlying distribution — confirming why a per-entity percentile threshold (rather than one global cutoff) was the right approach for labeling.
-- **Tender duration** is also right-skewed — most tenders complete within roughly 20–90 days, with a smaller number extending much longer.
-- **Correlation analysis** shows that, individually, the numeric/date features (year, month, quarter, day-of-week, duration) have very weak linear correlation with the target — including the raw tender value itself (0.01), since the label is entity-relative rather than absolute. This confirms the model needs buyer identity, procurement method, and tender text (via TF-IDF) to predict well, not numeric features alone.
+### A leakage bug I fixed
+An earlier version of the preprocessor also fed the converted tender value into the model as a feature. The label is built from that same value, so the model could nearly read the answer off its input. I removed it and retrained. The numeric features are now just the duration and the date parts.
 
 ---
 
-## Models Compared
+## What the data shows
 
-Four models were trained and evaluated on the same train/test split and feature set:
+- Raw tender values are heavily skewed. On a log scale they look roughly bell-shaped, which is why the threshold is set per buyer.
+- Most tenders stay open for a few weeks up to about three months, with a smaller number running much longer.
+- Procurement method carries real signal. Open tenders are the bulk of the data (roughly one in four is high-value). Limited tenders are the only method where high-value ones outnumber the rest.
+- No numeric feature correlates strongly with the label. The best is duration at 0.08, and the raw tender value is only 0.01. The model has to lean on the buyer, the procurement method and the tender text.
 
-| Model | Accuracy | Precision | Recall | F1-Score |
+---
+
+## Models compared
+
+Four models were trained and tested on the same 80/20 split (4,043 test tenders). All figures are for the Yes class.
+
+| Model | Accuracy | Precision | Recall | F1 |
 |---|---|---|---|---|
-| Logistic Regression (baseline) | 75.9% | 52.3% | 67.6% | 58.9% |
-| **Random Forest** | **83.3%** | **75.1%** | 52.1% | **61.6%** |
-| XGBoost | 81.9% | 75.2% | 44.2% | 55.7% |
-| Neural Network (MLPClassifier) | 81.6% | 73.4% | 44.5% | 55.4% |
+| Logistic regression (baseline) | 75.9% | 52.3% | 67.6% | 59.0% |
+| **Random forest** | **83.3%** | 75.2% | 52.2% | **61.6%** |
+| XGBoost | 81.9% | 75.4% | 43.7% | 55.3% |
+| Neural network (MLP) | 81.6% | 73.4% | 44.5% | 55.4% |
 
-**Random Forest** was selected as the production model — the best balance of accuracy, precision, and F1-score among the four.
+- **Precision:** when the model says Yes, how often is it right?
+- **Recall:** of the tenders that really are high-value, how many does it catch?
 
-- **Precision** answers: "When the model predicts High-Value, how often is it right?"
-- **Recall** answers: "Of all the actual High-Value tenders, how many did the model catch?"
-
----
-
-## Deployment Architecture
-
-```
-Raw PPDA CSV → Cleaning & Feature Engineering → Trained Pipeline (.pkl)
-                                                        │
-                                    ┌───────────────────┴───────────────────┐
-                                    │                                       │
-                          Hugging Face Hub                            GitHub Repo
-                       (hosts the .pkl model file)              (app.py, requirements.txt)
-                                    │                                       │
-                                    └───────────────┬───────────────────────┘
-                                                     │
-                                            Streamlit Cloud
-                                          (live prediction app)
-```
-
-- **Model hosting:** Hugging Face Hub (the trained pipeline exceeds typical GitHub file-size practices, so it's hosted separately and downloaded at runtime).
-- **App hosting:** Streamlit Cloud, deployed directly from this GitHub repository.
-- **Fallback logic:** `app.py` checks for the model file locally first (for fast local development) and falls back to downloading it from Hugging Face Hub if not found — so the same code runs both locally and in the cloud.
+The **random forest** is the production model. It has the best accuracy and F1 of the four, its precision is within a fraction of XGBoost's, and it catches more of the high-value tenders. The saved pipeline is fitted on all 20,212 records, so the test-set scores above are the honest estimate of how it does on tenders it hasn't seen.
 
 ---
 
-## Repository Structure
+## Using it responsibly
+
+- **It's a screening aid, not a decision-maker.** It ranks tenders so people know where to look first, and people still review the flagged ones.
+- **It misses some.** At the 50% cut-off the model catches about half of the high-value tenders. Lowering the slider in batch mode catches more, with more false alarms.
+- **It learns from past data.** Buyers it never saw in training are scored from the method, wording and dates only, and the app says so.
+
+---
+
+## Architecture
 
 ```
-├── app.py                    # Streamlit application (inference + UI)
-├── requirements.txt          # Python dependencies
-├── .gitignore                # Excludes the large .pkl from git tracking
+Raw PPDA CSV → cleaning and features → trained pipeline (.pkl)
+                                              │
+                          ┌───────────────────┴───────────────────┐
+                          │                                       │
+                 Hugging Face Hub                          GitHub repo
+              (hosts the model file)              (app.py, requirements.txt)
+                          │                                       │
+                          └───────────────────┬───────────────────┘
+                                              │
+                                       Streamlit Cloud
+                                       (the live app)
+```
+
+- **Model hosting:** the saved pipeline is about 270 MB, which is too big for GitHub, so it lives on Hugging Face and `app.py` downloads it when it starts.
+- **App hosting:** Streamlit Cloud deploys straight from this repository.
+- **One codebase, two places:** `app.py` uses a local `ppda_full_pipeline.pkl` if it finds one and otherwise downloads the model, so it runs the same way on a laptop and in the cloud.
+- **Updating the model:** upload the new file to the Hugging Face repo under the same filename, then reboot the app from Manage app and clear its cache. The app keeps the old model in memory until you do. The Hugging Face repo must stay public, with gated access switched off.
+
+---
+
+## Repository structure
+
+```
+├── app.py                              # Streamlit app: single tender + batch upload
+├── requirements.txt                    # Python dependencies
+├── .gitignore                          # keeps the large .pkl out of git
 ├── .streamlit/
-│   └── config.toml           # App theme configuration
-├── PPDA_HighValueTender_Model.ipynb   # Full training notebook (data → model)
+│   └── config.toml                     # app theme
+├── PPDA_HighValueTender_Model.ipynb    # full notebook: data to model
 └── README.md
 ```
 
-*(The trained `ppda_full_pipeline.pkl` is not committed to this repository — see [Deployment Architecture](#deployment-architecture).)*
+The trained `ppda_full_pipeline.pkl` is not in this repository. See [Architecture](#architecture).
 
 ---
 
-## Running Locally
+## Running it locally
 
 ```bash
-git clone <this-repo-url>
-cd <repo-folder>
+git clone https://github.com/Josephine-Analytics/ppda-tender-value-status-prediction-app.git
+cd ppda-tender-value-status-prediction-app
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Optionally, place `ppda_full_pipeline.pkl` in the same folder as `app.py` to skip the Hugging Face download step.
+Put `ppda_full_pipeline.pkl` next to `app.py` to skip the download. Reading `.xlsx` uploads needs `openpyxl`, which is already in `requirements.txt`.
 
 ---
 
-## Tech Stack
+## Tech stack
 
-- **Data processing:** pandas, NumPy
-- **Modeling:** scikit-learn (Logistic Regression, Random Forest, MLPClassifier), XGBoost
-- **NLP features:** TF-IDF (scikit-learn)
-- **Visualization:** Matplotlib, Seaborn
-- **App framework:** Streamlit
-- **Model hosting:** Hugging Face Hub
-- **Deployment:** Streamlit Cloud, GitHub
+- **Data:** pandas, NumPy
+- **Models:** scikit-learn (logistic regression, random forest, MLP), XGBoost
+- **Text features:** TF-IDF (scikit-learn)
+- **Charts:** Matplotlib, Seaborn
+- **App:** Streamlit, with `openpyxl` for Excel uploads
+- **Hosting:** Hugging Face Hub, GitHub, Streamlit Cloud
+
+---
+
+## What's next
+
+- Show *why* a tender was flagged, not just that it was.
+- Retrain automatically on fresh PPDA data.
+- Let reviewers confirm or correct each flag, and learn from their feedback.
+- Serve the model through an API, so a procurement or financial management system can call it directly.
 
 ---
 
 ## Author
 
 **Josephine Namyalo**
-Refactory Data Science And Analytics Capstone Project — 2026
+Refactory Data Science and Analytics Capstone Project, 2026
