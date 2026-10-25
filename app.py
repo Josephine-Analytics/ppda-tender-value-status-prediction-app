@@ -73,8 +73,11 @@ st.markdown(
     }
 
     .stApp header {background: transparent;}
+    div[data-testid="stForm"] div[data-testid="stVerticalBlock"] {
+        gap: 0.6rem !important;
+    }
     div.block-container, div[data-testid="stMainBlockContainer"] {
-        padding-top: 1.6rem !important;
+        padding-top: 1.2rem !important;
         padding-bottom: 0.75rem !important;
     }
     div[data-testid="stForm"] {
@@ -84,11 +87,11 @@ st.markdown(
         background: var(--ppda-panel) !important;
     }
     .ppda-hero {
-        padding: 0.7rem 1.25rem;
+        padding: 0.55rem 1.25rem;
         border-radius: 14px;
         background: linear-gradient(135deg, rgba(252,209,22,0.35), rgba(217,0,0,0.12));
         border: 1px solid rgba(217,0,0,0.15);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3rem;
     }
     .ppda-hero h1, .ppda-hero p {
         color: var(--ppda-black) !important;
@@ -515,7 +518,7 @@ with st.sidebar:
 tab_single, tab_batch = st.tabs(["🧾 Single tender", "📂 Batch: upload a file"])
 
 with tab_single:
-    form_col, result_col = st.columns([1.15, 1], gap="large")
+    form_col, result_col = st.columns([1.5, 1], gap="large")
 
     with form_col:
         with st.form("tender_prediction_form"):
@@ -529,22 +532,36 @@ with tab_single:
             tender_description = st.text_area(
                 "Tender Description", "",
                 placeholder="e.g. Supply and delivery of diesel, petrol and lubricants for one financial year.",
-                height=80,
+                height=68,
                 help="More detail helps the model's text features pick up relevant signals."
             )
 
-            with st.expander("🗓️ View/Edit Tender Dates", expanded=False):
-                today = datetime.date.today()
-                tender_date = st.date_input("Date", today, help="Publication date — used to derive year/month/quarter features.")
-                tender_period_start_date = st.date_input("Tender Period Start Date", today - datetime.timedelta(days=30))
+            date_col1, date_col2, date_col3 = st.columns(3)
+            with date_col1:
+                tender_date = st.date_input(
+                    "Date Published", value=None,
+                    help="The day the tender notice was published on the PPDA portal. "
+                         "For a tender you are about to publish, use today's date."
+                )
+            with date_col2:
+                tender_period_start_date = st.date_input(
+                    "Period Start", value=None,
+                    help="Tender period start: the day the tender opens for bids."
+                )
+            with date_col3:
                 tender_period_end_date = st.date_input(
-                    "Tender Period End Date", today + datetime.timedelta(days=60),
-                    help="Must be after the start date — duration is a key model feature."
+                    "Period End", value=None,
+                    help="Tender period end: the bid deadline. It must be after the start date, because how long "
+                         "a tender stays open is one of the model's features."
                 )
 
-            date_error = tender_period_end_date <= tender_period_start_date
+            date_error = (
+                tender_period_start_date is not None
+                and tender_period_end_date is not None
+                and tender_period_end_date <= tender_period_start_date
+            )
             if date_error:
-                st.error("🚫 Tender Period End Date must be after the Start Date.")
+                st.error("🚫 Period End must be after Period Start.")
 
             submitted = st.form_submit_button("🚀 Predict High-Value Tender Status", disabled=date_error)
 
@@ -561,6 +578,12 @@ with tab_single:
             missing_fields.append("Tender Title")
         if not tender_description.strip():
             missing_fields.append("Tender Description")
+        if tender_date is None:
+            missing_fields.append("Date Published")
+        if tender_period_start_date is None:
+            missing_fields.append("Period Start")
+        if tender_period_end_date is None:
+            missing_fields.append("Period End")
 
         if submitted and missing_fields:
             st.warning("Please fill in: " + ", ".join(missing_fields))
