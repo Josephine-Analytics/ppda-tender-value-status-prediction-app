@@ -326,7 +326,48 @@ def read_uploaded_file(uploaded):
         return pd.read_csv(io.BytesIO(data), encoding="latin1")
 
 
-def prepare_batch(raw):
+CATEGORY_PREFIXES = {
+    "buyer_name": "buyer_name_",
+    "tender_procurementmethod": "tender_procurementmethod_",
+    "tender_status": "tender_status_",
+}
+
+
+def learned_categories(pipeline, prefix):
+    """The exact spellings the model learned for one categorical column."""
+    try:
+        names = pipeline.named_steps["preprocess"].ohe_feature_names
+        return [n[len(prefix):] for n in names if n.startswith(prefix)]
+    except Exception:
+        return []
+
+
+def match_to_learned(values, learned):
+    """Use the spelling the model learned, ignoring stray spaces and capitals.
+
+    The model was trained on the raw export, where some names carry stray spaces.
+    Trimming them blindly would make those buyers look unseen.
+    """
+    exact = set(learned)
+    by_key = {}
+    for name in learned:
+        by_key.setdefault(name.strip().casefold(), []).append(name)
+
+    def fix(value):
+        if value in exact:
+            return value
+        stripped = value.strip()
+        if stripped in exact:
+            return stripped
+        options = by_key.get(stripped.casefold(), [])
+        if len(options) == 1:
+            return options[0]
+        return stripped
+
+    return values.map(fix)
+
+
+def prepare_batch(raw, pipeline=None):
     """Clean an uploaded table into what the model expects.
 
     Returns (tidy table, model input, missing column names).
@@ -340,7 +381,9 @@ def prepare_batch(raw):
 
     model_input = pd.DataFrame(index=df.index)
     for col in TEXT_COLUMNS:
-        model_input[col] = df[col].fillna("").astype(str).str.strip()
+        values = df[col].fillna("").astype(str)
+        learned = learned_categories(pipeline, CATEGORY_PREFIXES[col]) if (pipeline is not None and col in CATEGORY_PREFIXES) else []
+        model_input[col] = match_to_learned(values, learned) if learned else values.str.strip()
     for col in DATE_COLUMNS:
         parsed = pd.to_datetime(df[col], dayfirst=True, errors="coerce")
         model_input[col] = parsed.dt.strftime("%d/%m/%Y")
@@ -603,7 +646,7 @@ with tab_batch:
                 elif len(raw) > MAX_BATCH_ROWS:
                     st.error(f"The file has {len(raw):,} rows. Please upload {MAX_BATCH_ROWS:,} or fewer at a time.")
                 else:
-                    df, model_input, missing = prepare_batch(raw)
+                    df, model_input, missing = prepare_batch(raw, loaded_pipeline)
                     if missing:
                         st.error("These required columns are missing: " + ", ".join(f"`{c}`" for c in missing))
                     else:
