@@ -169,6 +169,19 @@ st.markdown(
     div[data-testid="stFileUploaderFile"] * {
         color: #1F1F1F !important;
     }
+    /* show the clickable hand over things you click (text boxes keep the text cursor) */
+    div[data-baseweb="select"],
+    div[data-baseweb="select"] *,
+    div[data-baseweb="popover"] li,
+    ul[role="listbox"] li,
+    button[role="tab"],
+    div[data-testid="stExpander"] summary,
+    div[data-testid="stExpander"] summary *,
+    section[data-testid="stFileUploaderDropzone"],
+    section[data-testid="stFileUploaderDropzone"] *,
+    div[data-testid="stSlider"] [role="slider"] {
+        cursor: pointer !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -475,14 +488,18 @@ with st.sidebar:
     st.markdown("Adjust these parameters to customize your prediction.")
     st.caption("These three fields are used by the Single tender tab.")
     buyer_name = st.text_input(
-        "Buyer Name", "Uganda National Roads Authority",
+        "Buyer Name", "", placeholder="e.g. Office of the Prime Minister",
         help="The procuring entity. High-value thresholds are calculated per entity."
     )
     tender_procurementmethod = st.selectbox(
         "Procurement Method", unique_procurement_methods,
+        index=None, placeholder="Choose a method",
         help="OPEN tenders are typically competitive; DIRECT/SELECTIVE are more restricted."
     )
-    tender_status = st.selectbox("Tender Status", unique_tender_statuses)
+    tender_status = st.selectbox(
+        "Tender Status", unique_tender_statuses,
+        index=None, placeholder="Choose a status",
+    )
 
 tab_single, tab_batch = st.tabs(["🧾 Single tender", "📂 Batch: upload a file"])
 
@@ -493,7 +510,7 @@ with tab_single:
         col1, col2 = st.columns(2)
         with col1:
             tender_title = st.text_area(
-                "Tender Title", "Procurement of Office Supplies",
+                "Tender Title", "", placeholder="e.g. Supply of Fuel and Lubricants",
                 height=100,
                 help="Short title as it would appear on the tender notice."
             )
@@ -505,8 +522,8 @@ with tab_single:
             )
         with col2:
             tender_description = st.text_area(
-                "Tender Description",
-                "Supply and delivery of various office stationery and equipment for the financial year.",
+                "Tender Description", "",
+                placeholder="e.g. Supply and delivery of diesel, petrol and lubricants for one financial year.",
                 height=180,
                 help="More detail helps the model's text features pick up relevant signals."
             )
@@ -528,7 +545,22 @@ with tab_single:
         st.markdown("---")
         submitted = st.form_submit_button("🚀 Predict High-Value Tender Status", disabled=date_error)
 
-        if submitted:
+        # the form starts empty, so check everything is filled in before predicting
+        missing_fields = []
+        if not buyer_name.strip():
+            missing_fields.append("Buyer Name (sidebar)")
+        if tender_procurementmethod is None:
+            missing_fields.append("Procurement Method (sidebar)")
+        if tender_status is None:
+            missing_fields.append("Tender Status (sidebar)")
+        if not tender_title.strip():
+            missing_fields.append("Tender Title")
+        if not tender_description.strip():
+            missing_fields.append("Tender Description")
+
+        if submitted and missing_fields:
+            st.warning("Please fill in: " + ", ".join(missing_fields))
+        elif submitted:
             input_data = pd.DataFrame(
                 {
                     "date": [tender_date.strftime("%d/%m/%Y")],
