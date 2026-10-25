@@ -23,7 +23,7 @@ Public procurement bodies issue thousands of tenders a year, but only some are l
 The app has two tabs.
 
 ### 1. Single tender
-Fill in the buyer, procurement method, status, title, description and dates (the form starts empty), then press **Predict**. If anything is missing, the app tells you which fields to fill in. You get a Yes/No answer, the model's confidence, and a chart of the probabilities.
+Fill in the buyer, procurement method, status, title, description and the three dates (the form starts empty), then press **Predict**. The result appears beside the form, so everything fits on one screen. If anything is missing, the app tells you which fields to fill in. You get a Yes/No answer, the model's confidence, and a chart of the probabilities.
 
 ### 2. Batch: upload a file
 Upload the list of tenders for a period, as a **CSV or Excel (.xlsx)** file. The app scores every tender and ranks them from most to least likely to be high-value, so reviewers can start at the top of the list.
@@ -56,7 +56,7 @@ Dates are day/month/year. Any other columns, such as `tender_id`, are kept and s
 
 These two examples were checked on the live app. They show the model's pattern. They are not real tenders.
 
-The form starts empty, so type these in. Dates can stay as they are for the No example.
+The form starts empty, so type these in. All three dates are required. Type each one as year/month/day and press Enter.
 
 **A "No"**
 
@@ -66,8 +66,9 @@ The form starts empty, so type these in. Dates can stay as they are for the No e
 | Method / Status | OPEN / complete |
 | Title | Procurement of Office Supplies |
 | Description | Supply and delivery of various office stationery and equipment for the financial year. |
+| Date Published, Period Start, Period End | 2026/10/24, 2026/09/24, 2026/12/23 |
 
-The model answers **No** with about 74% confidence. The exact figure moves a little with the dates you leave in the form.
+The model answers **No** with about 74% confidence when I ran it. The exact figure moves a little with the dates.
 
 **A "Yes"**
 
@@ -77,7 +78,7 @@ The model answers **No** with about 74% confidence. The exact figure moves a lit
 | Method / Status | LIMITED / active |
 | Title | Supply of Fuel and Lubricants |
 | Description | Supply and delivery of diesel, petrol and lubricants for vehicles and generators for one financial year. |
-| Date, start, end | 2022/06/09, 2022/06/09, 2022/10/07 |
+| Date Published, Period Start, Period End | 2022/06/09, 2022/06/09, 2022/10/07 |
 
 The model answers **Yes** with about 86% confidence.
 
