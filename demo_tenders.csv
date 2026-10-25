@@ -1,0 +1,749 @@
+_link,id,tag,date,ocid,buyer_id,buyer_name,tender_id,tender_procurementMethod,tender_title,tender_description,tender_status, tender_value_amount , Value amount per tender ,tender_value_currency,tender_bidOpening_date,tender_bidOpening_address_streetAddress,tender_bidOpening_location_description,tender_tenderPeriod_endDate,tender_tenderPeriod_startDate
+id-30.1547,ocds-rdvc92-911642604247-2022-01-19T14:57:27+00:00,compiled,19/01/2022,ocds-rdvc92-911642604247,578,Ngora District Local Government,79280,OPEN,Supply And Delivery Of Ict Equipment To Ngora Seed Secondary School Odwarat,Supply And Delivery Of Ict Equipment To Ngora Seed Secondary School Odwarat,complete,"148,842,899",,UGX,09/09/2021,PDU,PDU,09/09/2021,22/07/2021
+id-1.2684,ocds-rdvc92-821679990857-2023-03-28T08:07:37+00:00,compiled,28/03/2023,ocds-rdvc92-821679990857,472,Uganda National Examinations Board,85364,OPEN,"Supply And Delivery Of Desktop Computers And Laptop For Pfo Directorate Of Finance, Planning And Projects","Supply And Delivery Of Desktop Computers And Laptop For Pfo Directorate Of Finance, Planning And Projects",complete,"12,200,000",,UGX,29/03/2023,"UNEB, PDU, Room 46","UNEB, PDU, Room 46",29/03/2023,03/03/2023
+id-16.671,ocds-rdvc92-271655453143-2022-06-17T08:05:43+00:00,compiled,17/06/2022,ocds-rdvc92-271655453143,478,Uganda Revenue Authority,81659,OPEN,Installation Of Sliding Shutters At The Entrance And Exit At The Ura Tower,Installation Of Sliding Shutters At The Entrance And Exit At The Ura Tower,complete,"11,500,000",,UGX,15/02/2022,URA PDU,URA PDU,14/02/2022,18/01/2022
+id-27.1257,ocds-rdvc92-951688968432-2023-07-10T05:53:52+00:00,compiled,10/07/2023,ocds-rdvc92-951688968432,689,UGANDA PRISONS SERVICE,86711,LIMITED,Procurement Of Assorted Medical Equipment For Lower Level Health Facilities,Procurement Of Assorted Medical Equipment For Lower Level Health Facilities,complete,"199,966,000",,UGX,27/09/2022,UGANDA PRISONS HEADQUARTERS,UGANDA PRISONS HEADQUARTERS,27/09/2022,05/09/2022
+id-19.2550,ocds-rdvc92-201617978506-2021-04-09T11:28:26+00:00,compiled,09/04/2021,ocds-rdvc92-201617978506,467,Insurance Regulatory Authority,75089,OPEN,"Supply, Installation And Customisation Of A Risk Based Supervision Regulatory Reporting Software","Supply, Installation And Customisation Of A Risk Based Supervision Regulatory Reporting Software",complete,"3,960,000,000",,UGX,21/05/2021,"The Procurement & Disposal Unit, Insurance Regulatory Authority of Uganda. 2nd Floor, Block B, Legacy Towers, Plot 5 Kyadondo Road, Nakasero, Kampala.     	Telephone: 256 (0) 414-346712/253564. procurement@ira.go.ug , procurements@ira.go.ug with a copy to ira@ira.go.ug","The Procurement & Disposal Unit, Insurance Regulatory Authority of Uganda. 2nd Floor, Block B, Legacy Towers, Plot 5 Kyadondo Road, Nakasero, Kampala.     	Telephone: 256 (0) 414-346712/253564. procurement@ira.go.ug , procurements@ira.go.ug with a copy to ira@ira.go.ug",21/05/2021,02/03/2021
+id-12.2091,ocds-rdvc92-621732709008-2024-11-27T12:03:28+00:00,compiled,27/11/2024,ocds-rdvc92-621732709008,481,Uganda Wildlife Authority,92018,OPEN,Supply Of Audio Visuals For The Tourist Briefing Shade At Ruhija,Supply Of Audio Visuals For The Tourist Briefing Shade At Ruhija,complete,"10,000,000",,UGX,27/08/2024,"UGANDA WILDLIFE AUTHORITY, PLOT 7 P.O BOX 3530 KAMWAKYA KAMPALA","UGANDA WILDLIFE AUTHORITY, PLOT 7 P.O BOX 3530 KAMWAKYA KAMPALA",26/08/2024,13/08/2024
+id-21.1478,ocds-rdvc92-801626695302-2021-07-19T08:48:22+00:00,compiled,19/07/2021,ocds-rdvc92-801626695302,418,National Agricultural Research Organization,77040,LIMITED,Supply And Installation Of A Float Feeding Ship Manufacturing Equipment,Supply And Installation Of A Float Feeding Ship Manufacturing Equipment,complete,"1,000,000,000",,UGX,14/10/2020,"Naro, pdu","Naro, pdu",25/09/2020,23/09/2020
+id-27.1786,ocds-rdvc92-631707820534-2024-02-13T10:35:34+00:00,compiled,13/02/2024,ocds-rdvc92-631707820534,433,National Water & Sewerage Corporation,90275,OPEN,Supply Of Replacement Parts For Hikvision Network Ip Cameras At Katosi Â Wpd Under Reservation Scheme,Supply Of Replacement Parts For Hikvision Network Ip Cameras At Katosi Â Wpd Under Reservation Scheme,complete,"6,000,000",,UGX,12/12/2023,"National Water & Sewerage Corporation
+Plot No. 18/20 6th Street, Industrial Area
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801
+Email: nwscbid@nwscic.co.ug","National Water & Sewerage Corporation
+Plot No. 18/20 6th Street, Industrial Area
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801
+Email: nwscbid@nwscic.co.ug",12/12/2023,12/10/2023
+id-19.740,ocds-rdvc92-711655724539-2022-06-20T11:28:59+00:00,compiled,20/06/2022,ocds-rdvc92-711655724539,689,UGANDA PRISONS SERVICE,81741,OPEN,Assorted Materials To Be Used In Painting Of Junior Officers` Accommodation (30 Blocks Of 10 Single Roomed Units In Each) Under Ocs` Initiatives,Assorted Materials To Be Used In Painting Of Junior Officers` Accommodation (30 Blocks Of 10 Single Roomed Units In Each) Under Ocs` Initiatives,complete,"12,162,000",,UGX,22/10/2021,UGANDA PRISONS HEADQUARTERS,UGANDA PRISONS HEADQUARTERS,22/10/2021,18/08/2021
+id-13.632,ocds-rdvc92-631711438999-2024-03-26T07:43:19+00:00,compiled,26/03/2024,ocds-rdvc92-631711438999,475,Uganda Printing & Publishing Corporation,89233,OPEN,Supply Of Bulk Filing Unit,Supply Of Bulk Filing Unit,complete,"25,000,000",,UGX,11/10/2023,UPPC,UPPC,11/10/2023,18/09/2023
+id-14.1913,ocds-rdvc92-101594724201-2020-07-14T07:56:41+00:00,compiled,14/07/2020,ocds-rdvc92-101594724201,455,Uganda Broadcasting Corporation,71600,LIMITED,Design And Construction Of Studio Set And Background For Ubc News Studio And Auditorium,Design And Construction Of Studio Set And Background For Ubc News Studio And Auditorium,complete,"117,825,000",,UGX,03/09/2019,UBC PDU,UBC PDU,03/09/2019,31/07/2019
+id-9.1298,ocds-rdvc92-951631618753-2021-09-14T08:25:53+00:00,compiled,14/09/2021,ocds-rdvc92-951631618753,424,National Drug Authority,78165,OPEN,Provision Of Services To Air Veterinary Video Animations On Ntv Television,Provision Of Services To Air Veterinary Video Animations On Ntv Television,complete,"34,826,803",,UGX,23/02/2021,"PDU
+Plot 19,Lumumba Avenue
+Rumee Towers
+P.o Box 23096
+Kampala","PDU
+Plot 19,Lumumba Avenue
+Rumee Towers
+P.o Box 23096
+Kampala",23/02/2021,11/01/2021
+id-19.1411,ocds-rdvc92-331568616132-2019-09-16T04:42:12+00:00,compiled,16/09/2019,ocds-rdvc92-331568616132,481,Uganda Wildlife Authority,67146,OPEN,Supply Of Accountable Stationery At Headuarter,Supply Of Accountable Stationery At Headuarter,complete,"23,028,775",,UGX,16/08/2019,Conference room 2,PDU,16/08/2019,16/08/2019
+id-4.1920,ocds-rdvc92-591575524160-2019-12-05T02:36:00+00:00,compiled,05/12/2019,ocds-rdvc92-591575524160,461,Uganda Electricity Generation Company,67746,OPEN,Routine Preventive Maintenance Of Air Conditioners,Routine Preventive Maintenance Of Air Conditioners,complete,"8,400,000",,UGX,21/10/2019,UEGCL Head Office,UEGCL Head Office,21/10/2019,19/09/2019
+id-4.633,ocds-rdvc92-501593418187-2020-06-29T05:09:47+00:00,compiled,29/06/2020,ocds-rdvc92-501593418187,746,National Identification & Registration Authority,70140,OPEN,Hotel Services For Senior Management Retreat,Hotel Services For Senior Management Retreat,complete,"98,200,000",,UGX,31/12/2019,PDU Offices NIRA,PDU Offices NIRA,31/12/2019,14/10/2019
+id-31.1811,ocds-rdvc92-181601458600-2020-09-30T06:36:40+00:00,compiled,30/09/2020,ocds-rdvc92-181601458600,460,Uganda Electricity Distribution Company,72809,OPEN,Disposal Of Creosote Contaminated Soil,Disposal Of Creosote Contaminated Soil,complete,"60,000,000",,UGX,17/07/2020,"UEDCL Tower, P.O Box 7390 Kampala Uganda, Plot 37 Nakasero Road","UEDCL Tower, P.O Box 7390 Kampala Uganda, Plot 37 Nakasero Road",17/07/2020,24/12/2019
+id-4.1173,ocds-rdvc92-661625489520-2021-07-05T09:52:00+00:00,compiled,05/07/2021,ocds-rdvc92-661625489520,25,Electoral Commission,76680,LIMITED,Printing And Supply Of Voter Education Handbook,Printing And Supply Of Voter Education Handbook,complete,"118,000,000",,UGX,21/05/2021,ec-pdu (room 9),ec-pdu (room 9),19/05/2021,22/03/2021
+id-3.427,ocds-rdvc92-631615965806-2021-03-17T04:23:26+00:00,compiled,17/03/2021,ocds-rdvc92-631615965806,396,"Ministry of Education, Science, Technology and Sports",74655,OPEN,Procurement Of Seweing Machines For Sne,Procurement Of Seweing Machines For Sne,complete,"91,800,000",,UGX,06/11/2020,"PDU
+MINISTRY OF EDUCATION AND SPORTS
+EMBASSY HOUSE","PDU
+MINISTRY OF EDUCATION AND SPORTS
+EMBASSY HOUSE",06/11/2020,16/10/2020
+id-18.916,ocds-rdvc92-861593811741-2020-07-03T18:29:01+00:00,compiled,03/07/2020,ocds-rdvc92-861593811741,635,Directorate of Citzenship and Immigration Control,70518,OPEN,"Construction Of Uni-Pots & Public Toilet At Ngomorom, Madiopei, Waligo & Awino Border Posts","Construction Of Uni-Pots & Public Toilet At Ngomorom, Madiopei, Waligo & Awino Border Posts",complete,"237,945,985",,UGX,19/11/2019,PDU,PDU,19/11/2019,18/10/2019
+id-21.1690,ocds-rdvc92-511662019682-2022-09-01T08:08:02+00:00,compiled,01/09/2022,ocds-rdvc92-511662019682,460,Uganda Electricity Distribution Company,83207,OPEN,Clearing Services For (125) Containers Of Creosote Oil Under A Framework Contract For Two Years.,Clearing Services For (125) Containers Of Creosote Oil Under A Framework Contract For Two Years.,complete,"34,375,000",,UGX,22/02/2022,"Plot 37 Nakasero Road, 6th Floor UEDCL Tower.","Plot 37 Nakasero Road, 6th Floor UEDCL Tower.",22/02/2022,25/01/2022
+id-10.776,ocds-rdvc92-191655732009-2022-06-20T13:33:29+00:00,compiled,20/06/2022,ocds-rdvc92-191655732009,393,"Ministry of Agriculture, Animal Industry and Fisheries",81751,OPEN,Supply And Installation Of Network Switches In Naddec,Supply And Installation Of Network Switches In Naddec,complete,"40,000,000",,UGX,05/04/2022,PDU,PDU,05/04/2022,01/12/2021
+id-9.1170,ocds-rdvc92-501708315680-2024-02-19T04:08:00+00:00,compiled,19/02/2024,ocds-rdvc92-501708315680,478,Uganda Revenue Authority,88836,OPEN,Provision Of Catering Services For Various Ura Stations Under Framework Contract,Provision Of Catering Services For Various Ura Stations Under Framework Contract,complete,"440,880,000",,UGX,08/12/2023,"Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug","Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug",08/12/2023,19/07/2023
+id-8.1013,ocds-rdvc92-511564997690-2019-08-05T07:34:50+00:00,compiled,05/08/2019,ocds-rdvc92-511564997690,399,Ministry of Foreign Affairs,71658,OPEN,Machinery And Equipments,Machinery And Equipments,complete,"10,190,000",,UGX,21/01/2020,"Procurement and Disposal Unit
+Ministry of Foreign Affairs
+Room 1.5","Procurement and Disposal Unit
+Ministry of Foreign Affairs
+Room 1.5",17/01/2020,12/11/2019
+id-6.1375,ocds-rdvc92-461680181762-2023-03-30T13:09:22+00:00,compiled,30/03/2023,ocds-rdvc92-461680181762,427,National Forestry Authority,85430,OPEN,Service Maintenance Of Ict Equipment At Nfa Hq  And Field Offices & Repair Of Printers-Copiers,Service Maintenance Of Ict Equipment At Nfa Hq  And Field Offices & Repair Of Printers-Copiers,complete,"30,000,000",,UGX,31/01/2023,National Forestry Authority,National Forestry Authority,31/01/2023,03/01/2023
+id-16.905,ocds-rdvc92-941614846026-2021-03-04T05:20:36+00:00,compiled,04/03/2021,ocds-rdvc92-941614846026,622,Uganda Road Fund,74433,OPEN,"Calendars, Seasons Greetings Cards ","Calendars, Seasons Greetings Cards ",complete,"19,200,000",,UGX,27/10/2020,"Uganda Road Fund, 5th Floor Twed Towers Nakasero, Plot 10 Kafu Road","Uganda Road Fund, 5th Floor Twed Towers Nakasero, Plot 10 Kafu Road",27/10/2020,06/10/2020
+id-24.945,ocds-rdvc92-331594644227-2020-07-13T09:43:47+00:00,compiled,13/07/2020,ocds-rdvc92-331594644227,380,Kyambogo University,71498,OPEN,"Teaching Materials For The Departments Of Biological Sciences For Semester Ii, 2019/20 Academic Year","Teaching Materials For The Departments Of Biological Sciences For Semester Ii, 2019/20 Academic Year",complete,"33,260,500",,UGX,21/02/2020,"PDU, Kyambogo University","PDU, Kyambogo University",21/02/2020,13/02/2020
+id-15.2359,ocds-rdvc92-201625652991-2021-07-07T07:16:31+00:00,compiled,07/07/2021,ocds-rdvc92-201625652991,25,Electoral Commission,76729,OPEN,Supply Of Ink For Oce Cs6700,Supply Of Ink For Oce Cs6700,complete,"12,600,000",,UGX,26/03/2021,ec-pdu (room 9),ec-pdu (room 9),26/03/2021,02/02/2021
+id-5.1274,ocds-rdvc92-901623999024-2021-06-18T03:50:24+00:00,compiled,18/06/2021,ocds-rdvc92-901623999024,456,Uganda Bureau of Statistics,76371,OPEN,Printing Of Udhs 2021 Training Materials,Printing Of Udhs 2021 Training Materials,complete,"49,790,000",,UGX,27/05/2021,PDU Room 1.1,PDU Room 1.1,27/05/2021,11/05/2021
+id-16.795,ocds-rdvc92-121627282472-2021-07-26T03:54:32+00:00,compiled,26/07/2021,ocds-rdvc92-121627282472,381,LAW DEVELOPMENT CENTRE,77632,OPEN,Re-Design Of Ldc Website,Re-Design Of Ldc Website,complete,"8,708,400",,UGX,24/05/2021,"Law Development Centre, Procurement and Disposal Unit, P.O Box 7117,Kampala","Law Development Centre, Procurement and Disposal Unit, P.O Box 7117,Kampala",24/05/2021,20/04/2021
+id-9.112,ocds-rdvc92-861729580304-2024-10-22T06:58:24+00:00,compiled,22/10/2024,ocds-rdvc92-861729580304,433,National Water & Sewerage Corporation,91748,OPEN,Supply Of Assorted Fittings.,Supply Of Assorted Fittings.,complete,"668,706,000",,UGX,01/10/2024,"National Water and Sewerage Corporation
+Plot No. 43/49, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda
+Tel: 256-313-315864/801
+Email: nwscbid@nwscic.co.ug.","The Senior Manager Procurementâs Office
+National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda
+Tel: 256-313-315484/256-313-315801
+Email: nwscbid@nwscic.co.ug",01/10/2024,29/07/2024
+id-22.466,ocds-rdvc92-621712653068-2024-04-09T08:57:48+00:00,compiled,09/04/2024,ocds-rdvc92-621712653068,746,National Identification & Registration Authority,89344,OPEN,Procurement Of Network Essentials Switches,Procurement Of Network Essentials Switches,complete,"71,251,392",,UGX,06/09/2023,"The National Identification and Registration Authority (NIRA)
+Head Office- Kololo Airstrip
+P.O Box 26529, Kampala","The National Identification and Registration Authority (NIRA)
+Head Office- Kololo Airstrip
+P.O Box 26529, Kampala",06/09/2023,21/08/2023
+id-4.2722,ocds-rdvc92-151648185440-2022-03-25T05:17:20+00:00,compiled,25/03/2022,ocds-rdvc92-151648185440,433,National Water & Sewerage Corporation,79965,OPEN,Renovation Works Server Room And Main Gate Washrooms-Wpd Gaba Under Reservation Scheme.,Renovation Works Server Room And Main Gate Washrooms-Wpd Gaba Under Reservation Scheme.,complete,"18,122,874",,UGX,22/02/2022,"National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801","National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801",22/02/2022,08/12/2021
+id-22.2333,ocds-rdvc92-941687275546-2023-06-20T15:39:06+00:00,compiled,20/06/2023,ocds-rdvc92-941687275546,458,Uganda Communications Commission,86362,OPEN,Provision Of Services For Venue Set Up And Lay Out For The Uganda Film Festival (Uff 2023),Provision Of Services For Venue Set Up And Lay Out For The Uganda Film Festival (Uff 2023),complete,"136,587,360",,UGX,31/03/2023,"Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-434883
+Email:ucc@cc.co.ug","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-434883
+Email:ucc@cc.co.ug",31/03/2023,03/03/2023
+id-30.433,ocds-rdvc92-651729513309-2024-10-21T12:21:49+00:00,compiled,21/10/2024,ocds-rdvc92-651729513309,472,Uganda National Examinations Board,91741,OPEN,Service Of Rmgt 796Pf Five Colour Printing Machine,Service Of Rmgt 796Pf Five Colour Printing Machine,complete,"140,000,000",,UGX,16/08/2024,"UNEB NTINDA, PDU, ROOM 46","UNEB NTINDA, PDU, ROOM 46",16/08/2024,31/07/2024
+id-22.1358,ocds-rdvc92-391622715295-2021-06-03T07:14:55+00:00,compiled,03/06/2021,ocds-rdvc92-391622715295,456,Uganda Bureau of Statistics,76116,OPEN,Procurement Of Branded Face Masks,Procurement Of Branded Face Masks,complete,"9,000,000",,UGX,09/09/2020,ubos pdu,ubos pdu,09/09/2020,20/08/2020
+id-6.1498,ocds-rdvc92-151595852667-2020-07-27T09:24:27+00:00,compiled,27/07/2020,ocds-rdvc92-151595852667,410,Ministry of Works and Transport,72201,OPEN,Procurement For Foodstuff,Procurement For Foodstuff,complete,"564,892,200",,UGX,04/10/2018,Academy Board room,PDU EACAA,04/10/2018,06/06/2018
+id-1.2572,ocds-rdvc92-291591961076-2020-06-12T08:24:36+00:00,compiled,12/06/2020,ocds-rdvc92-291591961076,433,National Water & Sewerage Corporation,69795,OPEN,"Supply,Installation And Commisioning Of Assorted Labaratory Equipment'S For Ssd Under Reservation Scheme","Supply,Installation And Commisioning Of Assorted Labaratory Equipment'S For Ssd Under Reservation Scheme",complete,"49,932,894",,UGX,27/02/2020,"National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: +256-313-315801/256-313-315800","National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: +256-313-315801/256-313-315800",18/02/2020,25/11/2019
+id-10.1346,ocds-rdvc92-501629276660-2021-08-18T05:51:00+00:00,compiled,18/08/2021,ocds-rdvc92-501629276660,433,National Water & Sewerage Corporation,77860,OPEN,Supply Of Manual Motor Satarter For Mutundwe Pumps,Supply Of Manual Motor Satarter For Mutundwe Pumps,complete,"12,500,000",,UGX,11/02/2021,"National Water & Sewerage Corporation
+ Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+ P.O.Box 7053 Kampala, Uganda
+ Tel: 256-313-315800/801","National Water & Sewerage Corporation
+ Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+ P.O.Box 7053 Kampala, Uganda
+ Tel: 256-313-315800/801",11/02/2021,12/01/2021
+id-7.2437,ocds-rdvc92-931628771235-2021-08-12T09:27:30+00:00,compiled,12/08/2021,ocds-rdvc92-931628771235,561,Rukungiri District Local Government,79458,SELECTIVE,Construction Of Rain Water Harvesting Systems ,Construction Of Rain Water Harvesting Systems ,complete,"15,000,000",,UGX,21/09/2021,RUKUNGIRI DISTRICT HQRS MAIN BUILDING FIRST FLOOR ROOM 21,RUKUNGIRI DISTRICT HQRS MAIN BUILDING FIRST FLOOR ROOM 21,21/09/2021,09/08/2021
+id-25.8,ocds-rdvc92-151592570105-2020-06-19T09:35:05+00:00,compiled,19/06/2020,ocds-rdvc92-151592570105,635,Directorate of Citzenship and Immigration Control,69834,OPEN,Appraisal Forms And Performance Plans,Appraisal Forms And Performance Plans,complete,"75,000,000",,UGX,30/03/2020,PDU DCIC,PDU DCIC,30/03/2020,06/03/2020
+id-21.2994,ocds-rdvc92-761591824161-2020-06-10T18:22:41+00:00,compiled,10/06/2020,ocds-rdvc92-761591824161,432,National Social Security Fund,69717,OPEN,Staff Breakfast At Workers House Ccw,Staff Breakfast At Workers House Ccw,complete,"7,500,000",,UGX,29/01/2020,"NSSF HEAD Quarters
+WORKERS HSE 14TH FLOOR","NSSF HEAD Quarters
+WORKERS HSE 14TH FLOOR",29/01/2020,12/11/2019
+id-3.1849,ocds-rdvc92-681654243247-2022-06-03T08:00:47+00:00,compiled,03/06/2022,ocds-rdvc92-681654243247,436,Office of the President,81077,OPEN,"Hire Of Professional Movers To Transfer Assets Of Former Ministry Of Science, Technology And Innovation To The Ministry Of Works And Transport Stores","Hire Of Professional Movers To Transfer Assets Of Former Ministry Of Science, Technology And Innovation To The Ministry Of Works And Transport Stores",complete,"38,780,000",,UGX,20/01/2022,"office of the President
+2nd floor","office of the President
+2nd floor",20/01/2022,30/12/2021
+id-21.2774,ocds-rdvc92-481594195502-2020-07-08T05:05:02+00:00,compiled,08/07/2020,ocds-rdvc92-481594195502,13,Busitema University,70855,OPEN,Supply And Installation Of Cctv Cameras In Faculty Of Engineering,Supply And Installation Of Cctv Cameras In Faculty Of Engineering,complete,"20,450,000",,UGX,18/10/2019,PDU,PDU,18/10/2019,25/09/2019
+id-12.1190,ocds-rdvc92-181614153051-2021-02-24T04:50:51+00:00,compiled,24/02/2021,ocds-rdvc92-181614153051,739,Pride Microfinance Limited,74657,OPEN,Supply Of Black Monochrome Ribbons & Zebra P330I/P430I Atm Cleaning Rollers Pml/Supls/20/00793,Supply Of Black Monochrome Ribbons & Zebra P330I/P430I Atm Cleaning Rollers Pml/Supls/20/00793,complete,"5,150,000",,UGX,28/10/2020,PDU,PDU,28/10/2020,16/10/2020
+id-16.1819,ocds-rdvc92-831594640688-2020-07-13T08:44:48+00:00,compiled,13/07/2020,ocds-rdvc92-831594640688,407,Ministry of Public Service,71484,OPEN,Meals And Refreshments For Training Of Nrca Officers,Meals And Refreshments For Training Of Nrca Officers,complete,"5,848,080",,UGX,08/10/2019,"PDU, ROOM 38","PDU, ROOM 38",08/10/2019,09/09/2019
+id-1.839,ocds-rdvc92-571615808670-2021-03-15T08:45:57+00:00,compiled,15/03/2021,ocds-rdvc92-571615808670,462,Uganda Electricity Transmission Company,75252,OPEN,Electrical Materials,Electrical Materials,complete,"8,775,000",,UGX,17/09/2020,UETCL 2ND FLOOR ANNEX BUILDING PDD,UETCL 2ND FLOOR ANNEX BUILDING PDD,15/09/2020,05/06/2020
+id-2.1804,ocds-rdvc92-121584000672-2020-03-12T05:11:12+00:00,compiled,12/03/2020,ocds-rdvc92-121584000672,20,Diary Development Authority,69203,OPEN,Supply Of A Multi Functional Photocopier,Supply Of A Multi Functional Photocopier,complete,"23,500,000",,UGX,12/03/2020,"Dairy Development Authority
+Procurement & Disposal Unit","Dairy Development Authority
+Procurement & Disposal Unit",12/03/2020,03/02/2020
+id-22.1426,ocds-rdvc92-681666856077-2022-10-27T07:34:37+00:00,compiled,27/10/2022,ocds-rdvc92-681666856077,601,Mbale City,83773,OPEN,"Supply Of Computers, Laptops, Printers, Toners, Camera'S, Photocopiers, Scanners, Smart Tv'S, Pos Machines, Ipads, Gps Etc","Supply Of Computers, Laptops, Printers, Toners, Camera'S, Photocopiers, Scanners, Smart Tv'S, Pos Machines, Ipads, Gps Etc",complete,"140,500,000",,UGX,19/08/2022,City Chambers,Procurement and Disposal Unit 018,19/08/2022,28/06/2022
+id-12.2406,ocds-rdvc92-541688552961-2023-07-05T10:29:21+00:00,compiled,05/07/2023,ocds-rdvc92-541688552961,457,Uganda Coffee Development Authority,86671,SELECTIVE,Consultancy Services To Develop Detailed Engineerig Drawings For The Proposed Regional Coffee Laboratory And Offices For Rwenzori Reegion,Consultancy Services To Develop Detailed Engineerig Drawings For The Proposed Regional Coffee Laboratory And Offices For Rwenzori Reegion,complete,"140,000,000",,UGX,10/06/2022,UCDA BUILDING ROOM 2.3 SECOND FLOOR,UCDA BUILDING ROOM 2.3 SECOND FLOOR,10/06/2022,06/05/2022
+id-23.2220,ocds-rdvc92-261608707003-2020-12-23T04:03:23+00:00,compiled,23/12/2020,ocds-rdvc92-261608707003,397,Ministry of Energy and Mineral Development,73494,OPEN,Archival Boxes And Visitors Book,Archival Boxes And Visitors Book,complete,"11,269,000",,UGX,04/09/2020,"MEMD, PDU","MEMD, PDU",04/09/2020,13/08/2020
+id-21.46,ocds-rdvc92-741625493432-2021-07-05T10:57:12+00:00,compiled,05/07/2021,ocds-rdvc92-741625493432,25,Electoral Commission,76683,OPEN,Supply Of Water Marked Paper For In House Printing Of Ballot Papers,Supply Of Water Marked Paper For In House Printing Of Ballot Papers,complete,"28,500,000",,UGX,17/03/2021,ec-pdu (room 9),ec-pdu (room 9),17/03/2021,08/01/2021
+id-8.858,ocds-rdvc92-361618231110-2021-04-12T09:38:30+00:00,compiled,12/04/2021,ocds-rdvc92-361618231110,393,"Ministry of Agriculture, Animal Industry and Fisheries",75125,OPEN,Supply Of Furniture Under Acdp,Supply Of Furniture Under Acdp,complete,"55,185,252",,UGX,07/12/2020,PDU,PDU,07/12/2020,21/10/2020
+id-29.395,ocds-rdvc92-301700739134-2023-11-23T11:32:14+00:00,compiled,23/11/2023,ocds-rdvc92-301700739134,424,National Drug Authority,88031,OPEN,Supply And Delivery Of Movable Projector Screens With Tripod Stand For Central And Northern Regional Offices,Supply And Delivery Of Movable Projector Screens With Tripod Stand For Central And Northern Regional Offices,complete,"6,582,186",,UGX,23/10/2023,"PDU
+Plot 19, Lumumba Avenue
+Rumee Towers
+P.o  Box 23096
+Kampala","PDU
+Plot 19, Lumumba Avenue
+Rumee Towers
+P.o  Box 23096
+Kampala",23/10/2023,18/09/2023
+id-12.380,ocds-rdvc92-181583839377-2020-03-10T08:22:57+00:00,compiled,10/03/2020,ocds-rdvc92-181583839377,689,UGANDA PRISONS SERVICE,69111,LIMITED,Timber For Production Of Office Furniture & School Furniture,Timber For Production Of Office Furniture & School Furniture,complete,"187,320,000",,UGX,13/11/2019,"PDU
+Uganda Prisons Service","PDU
+Uganda Prisons Service",13/11/2019,08/10/2019
+id-25.1360,ocds-rdvc92-341616660766-2021-03-25T05:26:06+00:00,compiled,25/03/2021,ocds-rdvc92-341616660766,396,"Ministry of Education, Science, Technology and Sports",74864,OPEN,Construction Of Facilities In Selected Institutions  In Uganda Under Elgon,Construction Of Facilities In Selected Institutions  In Uganda Under Elgon,complete,"27,193,647,178",,UGX,01/09/2020,"PDU
+MINISTRY OF EDUCATION AND SPORTS
+EMBASSY HOUSE 3RD FLOOR ROOM 7","PDU
+MINISTRY OF EDUCATION AND SPORTS
+EMBASSY HOUSE 3RD FLOOR ROOM 7",01/09/2020,26/06/2020
+id-8.678,ocds-rdvc92-211583303226-2020-03-04T03:27:06+00:00,compiled,04/03/2020,ocds-rdvc92-211583303226,589,Jinja Municipal Council,68965,OPEN,Equipping Of Furniture In The Main Hall,Equipping Of Furniture In The Main Hall,complete,"60,000,000",,UGX,15/11/2019,Committee Room 1,Procurement and Disposal Unit,15/11/2019,27/09/2019
+id-14.2581,ocds-rdvc92-951606130480-2020-11-23T08:21:21+00:00,compiled,23/11/2020,ocds-rdvc92-951606130480,561,Rukungiri District Local Government,75275,OPEN,Serveying  Land And Development Of Physical For Bikurungu T/C,Serveying  Land And Development Of Physical For Bikurungu T/C,complete,"100,000,000",,UGX,23/12/2020,RUKUNGIRI DISTRICT HQRS PROCUREMENT OFFICE MAIN BUILDING 1ST FLOOR ROOM 20,RUKUNGIRI DISTRICT HQRS PROCUREMENT OFFICE MAIN BUILDING 1ST FLOOR ROOM 20,23/12/2020,30/10/2020
+id-25.1881,ocds-rdvc92-311614918156-2021-03-05T01:22:36+00:00,compiled,05/03/2021,ocds-rdvc92-311614918156,436,Office of the President,74361,OPEN,Printing Various Documents For Policy Development And Capacity Building Department,Printing Various Documents For Policy Development And Capacity Building Department,complete,"11,545,000",,UGX,11/02/2021,"PDU Office, Level II, Room 1212","PDU Office, Level II, Room 1212",11/02/2021,02/02/2021
+id-26.2843,ocds-rdvc92-931638187086-2021-11-29T11:58:06+00:00,compiled,29/11/2021,ocds-rdvc92-931638187086,401,Ministry of Health,78765,LIMITED,Procurement Of Assorted Ict Equipment For Covid19 Testing Laboratory At Entebbe Airport,Procurement Of Assorted Ict Equipment For Covid19 Testing Laboratory At Entebbe Airport,complete,"258,000,000",,UGX,22/10/2021,MOH,MOH,22/10/2021,04/10/2021
+id-11.2966,ocds-rdvc92-691607666447-2020-12-11T03:00:47+00:00,compiled,11/12/2020,ocds-rdvc92-691607666447,478,Uganda Revenue Authority,73393,OPEN,Provision Of Consultancy Services To Conduct Iso 9001:2015 Training And Predetermined Audit Assessment,Provision Of Consultancy Services To Conduct Iso 9001:2015 Training And Predetermined Audit Assessment,complete,"250,000,000",,UGX,23/12/2020,"Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637","Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637",23/12/2020,26/11/2020
+id-11.2641,ocds-rdvc92-541597039997-2020-08-10T03:13:17+00:00,compiled,10/08/2020,ocds-rdvc92-541597039997,17,Civil Aviation Authority,72415,OPEN,Designing And Printing Of Standard Call Off Order Books,Designing And Printing Of Standard Call Off Order Books,complete,"20,000,000",,UGX,20/12/2019,"PDU,UCAA Head Office","PDU,UCAA Head Office",19/12/2019,15/10/2019
+id-18.800,ocds-rdvc92-311613483158-2021-02-16T10:45:58+00:00,compiled,16/02/2021,ocds-rdvc92-311613483158,433,National Water & Sewerage Corporation,74098,LIMITED,Construction And Commissioning Of Two 162M3 Steel Reservoir Tanks In Nsengwe - Mubende And Kiwamirebe In Kajjansi Town Council Under Lot 1 & 2,Construction And Commissioning Of Two 162M3 Steel Reservoir Tanks In Nsengwe - Mubende And Kiwamirebe In Kajjansi Town Council Under Lot 1 & 2,complete,"435,420,000",,UGX,29/11/2019,"The Senior Manager Procurement
+National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala
+P.O.Box 7053 Kampala, Uganda","The Senior Manager Procurement
+National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala
+P.O.Box 7053 Kampala, Uganda",29/11/2019,04/10/2019
+id-1.1680,ocds-rdvc92-231580106619-2020-01-27T03:30:19+00:00,compiled,27/01/2020,ocds-rdvc92-231580106619,418,National Agricultural Research Organization,68169,OPEN,Supply Of Laptop Computer For The Program Leader - Banana,Supply Of Laptop Computer For The Program Leader - Banana,complete,"7,030,000",,UGX,05/08/2019,NARL - KAWANDA PDU OFFICE,NARL - KAWANDA PDU OFFICE,05/08/2019,18/06/2019
+id-2.2429,ocds-rdvc92-831657202299-2022-07-07T13:58:19+00:00,compiled,07/07/2022,ocds-rdvc92-831657202299,385,Makerere University,82381,OPEN,"Supply Of Assorted Consumables For Semester Two Examinations, 2020-2021 For College Of Humanities And Social Sciences","Supply Of Assorted Consumables For Semester Two Examinations, 2020-2021 For College Of Humanities And Social Sciences",complete,"10,974,000",,UGX,09/02/2022,CHUSS/CAES Sub Procurement and Disposal Unit,CHUSS/CAES Sub Procurement and Disposal Unit,09/02/2022,13/12/2021
+id-29.1114,ocds-rdvc92-961701264691-2023-11-29T13:31:31+00:00,compiled,29/11/2023,ocds-rdvc92-961701264691,433,National Water & Sewerage Corporation,88037,OPEN,"Supply Of Surface Self-Priming Deep Pumps For Katosi, Wpd Under Reservation Scheme.","Supply Of Surface Self-Priming Deep Pumps For Katosi, Wpd Under Reservation Scheme.",complete,"14,160,000",,UGX,03/11/2023,"National Water & Sewerage Corporation
+Plot 18/20, 6th Street, Industrial Area, Kampala
+P.O.Box 7053, Kampala, Uganda
+Tel: 256-313-315484/801","National Water & Sewerage Corporation
+Plot 18/20, 6th Street, Industrial Area, Kampala
+P.O.Box 7053, Kampala, Uganda
+Tel: 256-313-315484/801",03/11/2023,21/08/2023
+id-2.2360,ocds-rdvc92-201592897679-2020-06-23T04:34:39+00:00,compiled,23/06/2020,ocds-rdvc92-201592897679,30,Health Service Commission,70079,OPEN,Assorted Furniture Items For Resource Centre - Hsc/Supls/19-20/00177,Assorted Furniture Items For Resource Centre - Hsc/Supls/19-20/00177,complete,"7,000,000",,UGX,18/05/2020,HSC Boardroom,HSC PDU,18/05/2020,29/05/2020
+id-7.1338,ocds-rdvc92-911575453066-2019-12-04T06:51:06+00:00,compiled,04/12/2019,ocds-rdvc92-911575453066,461,Uganda Electricity Generation Company,67736,OPEN,Design And Printing Of Genews And Annual Reports,Design And Printing Of Genews And Annual Reports,complete,"30,000,000",,UGX,30/07/2019,UEGCL Head office,UEGCL Head office,30/07/2019,11/06/2019
+id-24.2265,ocds-rdvc92-961686547650-2023-06-12T05:27:30+00:00,compiled,12/06/2023,ocds-rdvc92-961686547650,433,National Water & Sewerage Corporation,86159,OPEN,Provision Of  Cloud Services For Nwsc For  A Period Of Three (3) Years,Provision Of  Cloud Services For Nwsc For  A Period Of Three (3) Years,active,"875,353,500",,UGX,25/07/2023,"National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda
+Tel: 256-313-315801/256-313-315484
+Email: nwscbid@nwscic.co.ug","National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda
+Tel: 256-313-315801/256-313-315484
+Email: nwscbid@nwscic.co.ug",25/07/2023,05/05/2023
+id-5.283,ocds-rdvc92-951582189671-2020-02-20T06:07:51+00:00,compiled,20/02/2020,ocds-rdvc92-951582189671,474,Uganda National Roads Authority,68719,OPEN,Consultancy Services For Feasibility Study And Detailed Engineering Design Of Lira - Abim Road (125Km),Consultancy Services For Feasibility Study And Detailed Engineering Design Of Lira - Abim Road (125Km),complete,"8,122,240,000",,UGX,25/12/2017,PDU Board room,PDU Registry,25/12/2017,27/06/2017
+id-14.1739,ocds-rdvc92-921609911808-2021-01-06T02:43:28+00:00,compiled,06/01/2021,ocds-rdvc92-921609911808,477,Uganda Railway Cooperation ,73610,OPEN,Supply Of Tyres For The Reach Stacker Crane.,Supply Of Tyres For The Reach Stacker Crane.,complete,"72,000,000",,UGX,11/12/2020,URC,URC,11/12/2020,09/09/2020
+id-20.889,ocds-rdvc92-851687166400-2023-06-19T09:20:00+00:00,compiled,19/06/2023,ocds-rdvc92-851687166400,462,Uganda Electricity Transmission Company,86329,OPEN,Emergency Procurement For Supply Of Tyres And Tubes,Emergency Procurement For Supply Of Tyres And Tubes,complete,"12,000,000",,UGX,27/02/2023,"UETCL
+ P.O BOX 7625
+PLOT 10 HANNINGTON ROAD 
+KAMPALA, UGANDA","UETCL
+ P.O BOX 7625
+PLOT 10 HANNINGTON ROAD 
+KAMPALA, UGANDA",27/02/2023,11/01/2023
+id-19.163,ocds-rdvc92-191617178207-2021-03-31T05:10:07+00:00,compiled,31/03/2021,ocds-rdvc92-191617178207,467,Insurance Regulatory Authority,74996,OPEN,Emergency Supply Of Covid 19 Anti Spread Equipment,Emergency Supply Of Covid 19 Anti Spread Equipment,complete,"33,866,000",,UGX,16/12/2020,"IRA, PDU offices","IRA, PDU offices",16/12/2020,02/12/2020
+id-5.921,ocds-rdvc92-651642510231-2022-01-18T12:50:31+00:00,compiled,18/01/2022,ocds-rdvc92-651642510231,501,Busia District Local Government,79254,OPEN,Construction Of A Two Classroom Block At Bwanika P/S Under Ddeg,Construction Of A Two Classroom Block At Bwanika P/S Under Ddeg,complete,"70,000,000",,UGX,27/08/2021,PDU,PDU,27/08/2021,01/07/2021
+id-29.1238,ocds-rdvc92-381622019463-2021-05-26T05:57:43+00:00,compiled,26/05/2021,ocds-rdvc92-381622019463,566,Tororo District Local Government,75922,LIMITED,Construction Of A Five Stance Lined Vip Latrine At Sere Primary School Under Sfg,Construction Of A Five Stance Lined Vip Latrine At Sere Primary School Under Sfg,complete,"22,000,000",,UGX,04/12/2020,P.OO.BOX 1 TORORO,P.OO.BOX 1 TORORO,04/12/2020,17/06/2020
+id-8.944,ocds-rdvc92-291665481649-2022-10-11T09:47:29+00:00,compiled,11/10/2022,ocds-rdvc92-291665481649,424,National Drug Authority,83543,LIMITED,Supply And Delivery Of Laptop Computers,Supply And Delivery Of Laptop Computers,complete,"128,090,000",,UGX,26/08/2022,"PDU
+Plot 19, Lumumba Avenue
+Rumee Towers
+P.o Box 23096
+Kampala","PDU
+Plot 19, Lumumba Avenue
+Rumee Towers
+P.o Box 23096
+Kampala",26/08/2022,03/08/2022
+id-2.369,ocds-rdvc92-271616656835-2021-03-25T04:20:35+00:00,compiled,25/03/2021,ocds-rdvc92-271616656835,432,National Social Security Fund,74857,LIMITED,"Supply, Delivery And Installation Of Alarm Intrusion Detection System For Fourteen (14) Nssf Branches","Supply, Delivery And Installation Of Alarm Intrusion Detection System For Fourteen (14) Nssf Branches",complete,"157,325,010",,UGX,27/11/2020,NSSF,NSSF,25/11/2020,04/11/2020
+id-7.1551,ocds-rdvc92-241575707720-2019-12-07T05:35:20+00:00,compiled,07/12/2019,ocds-rdvc92-241575707720,458,Uganda Communications Commission,67785,OPEN,Printing Supply And Delivery Of 1500 Pcs Of Ucc Corporate Diaries For The Year 2020,Printing Supply And Delivery Of 1500 Pcs Of Ucc Corporate Diaries For The Year 2020,complete,"95,580,000",,UGX,05/08/2019,"Procurement and Disposal Unit 
+Uganda Communications Commission
+1st Floor, UCC House 
+Plot 42-44 Spring Road, Bugolobi
+P.O.Box 7376 Kampala Uganda","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-4348832
+Email:ucc@cc.co.ug",05/08/2019,22/07/2019
+id-5.933,ocds-rdvc92-451640194266-2021-12-22T17:31:06+00:00,compiled,22/12/2021,ocds-rdvc92-451640194266,645,Mubende District Local Government,79015,OPEN,Supply And Delivery Of One (1) Motorcycle For Production Department,Supply And Delivery Of One (1) Motorcycle For Production Department,complete,"17,000,000",,UGX,21/10/2021,Mubende-Pdu Unit,Mubende-Pdu Unit,21/10/2021,07/09/2021
+id-16.2048,ocds-rdvc92-501709620806-2024-03-05T06:40:06+00:00,compiled,05/03/2024,ocds-rdvc92-501709620806,385,Makerere University,89027,OPEN,Supply And Delivery Of Ict Equipment For Robert Senfuma'S Project Under Rif,Supply And Delivery Of Ict Equipment For Robert Senfuma'S Project Under Rif,complete,"7,760,000",,UGX,10/05/2023,"PDU BOARD ROOM LINCOLN FLATS, C6 MAKERERE UNIVERSITY","PDU BOARD ROOM LINCOLN FLATS, C6 MAKERERE UNIVERSITY",10/05/2023,11/04/2023
+id-20.1102,ocds-rdvc92-341618202002-2021-04-12T01:33:22+00:00,compiled,12/04/2021,ocds-rdvc92-341618202002,478,Uganda Revenue Authority,75108,OPEN,Supply Of Local Area Network Materials For Amudat Customs Office,Supply Of Local Area Network Materials For Amudat Customs Office,complete,"28,000,000",,UGX,19/02/2021,"Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637","Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637",19/02/2021,02/12/2020
+id-9.581,ocds-rdvc92-211694072441-2023-09-07T07:40:47+00:00,compiled,07/09/2023,ocds-rdvc92-211694072441,464,Uganda Heart Institute,87979,LIMITED,"Supply, Delivery And Installation Of Desktop Computers  And Ups","Supply, Delivery And Installation Of Desktop Computers  And Ups",complete,"136,500,000",,UGX,13/09/2023,Uganda Heart Institute,Uganda Heart Institute,13/09/2023,21/08/2023
+id-15.1004,ocds-rdvc92-281622627173-2021-06-02T06:46:13+00:00,compiled,02/06/2021,ocds-rdvc92-281622627173,461,Uganda Electricity Generation Company,76090,OPEN,Supply Installation & Configuration Of Biometric Access Control System At Isimba Hydro Power Plant,Supply Installation & Configuration Of Biometric Access Control System At Isimba Hydro Power Plant,complete,"65,000,000",,UGX,09/03/2020,UEGCL,UEGCL,09/03/2020,27/01/2020
+id-24.2479,ocds-rdvc92-111614244873-2021-02-25T06:21:13+00:00,compiled,25/02/2021,ocds-rdvc92-111614244873,545,Mityana District Local Government,74254,OPEN,Supply And Delivery Of  Ict Equipment,Supply And Delivery Of  Ict Equipment,complete,"154,475,000",,UGX,05/02/2021,District council hall,Mityana District PDU,05/02/2021,09/01/2020
+id-17.1271,ocds-rdvc92-931593670192-2020-07-02T03:09:52+00:00,compiled,02/07/2020,ocds-rdvc92-931593670192,517,Kampala Capital City Authority,70336,OPEN,Procurement Of Security Services,Procurement Of Security Services,complete,"278,400,000",,UGX,06/03/2020,"PDU First floor, Room B116","PDU First floor, Room B116",06/03/2020,02/03/2020
+id-31.1618,ocds-rdvc92-421628238898-2021-08-06T05:34:58+00:00,compiled,06/08/2021,ocds-rdvc92-421628238898,642,Nebbi District Local Government,77539,LIMITED,Rehabilitation Of Pagwata Hc Iii Opd,Rehabilitation Of Pagwata Hc Iii Opd,complete,"43,000,000",,UGX,04/12/2020,"PDU, NEBBI DLG","PDU, NEBBI DLG",04/12/2020,15/07/2020
+id-16.1241,ocds-rdvc92-981625036201-2021-06-30T03:56:41+00:00,compiled,30/06/2021,ocds-rdvc92-981625036201,427,National Forestry Authority,76568,OPEN,"Raising 100,000 Seedlings; Exotic & Indigenous Tree Species; Moroto Tree Nursery","Raising 100,000 Seedlings; Exotic & Indigenous Tree Species; Moroto Tree Nursery",complete,"12,000,000",,UGX,02/12/2020,National Forestry Authority,National Forestry Authority,02/12/2020,05/11/2020
+id-25.406,ocds-rdvc92-111627028491-2021-07-23T05:21:31+00:00,compiled,23/07/2021,ocds-rdvc92-111627028491,748,Uganda Retirement Benefits Regulatory Authority,77156,OPEN,Supply Of Laptops (Ordinary),Supply Of Laptops (Ordinary),complete,"42,000,000",,UGX,15/09/2020,"PDU OFFICES, 5TH FLOOR","PDU OFFICES, 5TH FLOOR",15/09/2020,11/08/2020
+id-13.988,ocds-rdvc92-201632479350-2021-09-24T07:29:10+00:00,compiled,24/09/2021,ocds-rdvc92-201632479350,601,Mbale City,79740,OPEN,"Repairs, Spares And Maintenance Of Vehicles / Equipment","Repairs, Spares And Maintenance Of Vehicles / Equipment",complete,"40,000,000",,UGX,24/08/2021,City Chambers,"Procurement & Disposal Unit, Room 018",24/08/2021,25/06/2021
+id-0.1196,ocds-rdvc92-521650357483-2022-04-19T08:38:03+00:00,compiled,19/04/2022,ocds-rdvc92-521650357483,602,Soroti Municipality,80343,OPEN,"Rehabilitation Of Outpatient Block, Terrazo And Solar Works At Princess Diana Health Centre Iv","Rehabilitation Of Outpatient Block, Terrazo And Solar Works At Princess Diana Health Centre Iv",complete,"169,459,000",,UGX,09/02/2022,Soroti City Hall,Soroti City PDU,09/02/2022,27/10/2021
+id-2.2112,ocds-rdvc92-371622117453-2021-05-27T09:10:53+00:00,compiled,27/05/2021,ocds-rdvc92-371622117453,410,Ministry of Works and Transport,75976,OPEN,Supply Of Oil And Lubricant,Supply Of Oil And Lubricant,complete,"12,655,000",,UGX,01/03/2021,Ministry of Works and Transport  Plot 57-59 Jinja Road Kampala,Ministry of Works and Transport  Plot 57-59 Jinja Road Kampala,01/03/2021,07/12/2020
+id-0.742,ocds-rdvc92-321580107819-2020-01-27T03:50:19+00:00,compiled,27/01/2020,ocds-rdvc92-321580107819,457,Uganda Coffee Development Authority,68170,OPEN,"Designing, Printing Of Certificates Of Origin, Rejection, Record Books And Robusta Handbooks","Designing, Printing Of Certificates Of Origin, Rejection, Record Books And Robusta Handbooks",complete,"32,500,000",,UGX,03/10/2019,"PDU Room 2.3, 2nd Floor-Coffee House, Jinja Road","PDU Room 2.3, 2nd Floor-Coffee House, Jinja Road",02/10/2019,27/08/2019
+id-13.2164,ocds-rdvc92-711658219069-2022-07-19T08:24:29+00:00,compiled,19/07/2022,ocds-rdvc92-711658219069,689,UGANDA PRISONS SERVICE,82599,OPEN,Alcohol Sanitizer,Alcohol Sanitizer,complete,"40,024,000",,UGX,16/12/2021,UGANDA PRISONS HEADQUARTERS,UGANDA PRISONS HEADQUARTERS,16/12/2021,19/11/2021
+id-1.2603,ocds-rdvc92-911655195391-2022-06-14T08:29:51+00:00,compiled,14/06/2022,ocds-rdvc92-911655195391,482,Uganda Wildlife Education Centre,81511,OPEN,Supply Of Staff Chicken And Fish For November & December 2021,Supply Of Staff Chicken And Fish For November & December 2021,complete,"31,200,000",,UGX,26/10/2021,UWEC BOARDROOM,UWEC PDU,26/10/2021,13/10/2021
+id-22.2232,ocds-rdvc92-111600237199-2020-09-16T03:19:59+00:00,compiled,16/09/2020,ocds-rdvc92-111600237199,604,Soroti District Local Government,72704,OPEN,Construction Of A 2 In 1 Teachers House In Achuna Primary School - Ddeg Education,Construction Of A 2 In 1 Teachers House In Achuna Primary School - Ddeg Education,complete,"90,000,000",,UGX,07/08/2020,Lukiko Hall,"PDU Office, Soroti DLG",07/08/2020,30/06/2020
+id-23.661,ocds-rdvc92-321657716781-2022-07-13T12:53:01+00:00,compiled,13/07/2022,ocds-rdvc92-321657716781,18,Cotton Development Organization,82682,OPEN,Provision Of Security Services At Cotton House,Provision Of Security Services At Cotton House,complete,"33,984,000",,UGX,30/05/2022,"PDU, CLEMENT HILL","PDU, CLEMENT HILL",30/05/2022,16/05/2022
+id-22.2845,ocds-rdvc92-981615363920-2021-03-10T05:12:00+00:00,compiled,10/03/2021,ocds-rdvc92-981615363920,397,Ministry of Energy and Mineral Development,74429,OPEN,Renewal Of Wifi Licenses,Renewal Of Wifi Licenses,complete,"12,240,000",,UGX,17/09/2020,"MEMD AMBERHOUSE
+ROOM C 109","MEMD AMBERHOUSE
+ROOM C 109",17/09/2020,25/08/2020
+id-22.230,ocds-rdvc92-801676366689-2023-02-14T09:24:49+00:00,compiled,14/02/2023,ocds-rdvc92-801676366689,472,Uganda National Examinations Board,84938,OPEN,Supply And Delivery Of Cleaning Materials For Ple 2022 Centres,Supply And Delivery Of Cleaning Materials For Ple 2022 Centres,complete,"49,843,200",,UGX,06/10/2022,"UNEB, PDU, Room 46","UNEB, PDU, Room 46",06/10/2022,23/08/2022
+id-16.2891,ocds-rdvc92-601628511461-2021-08-09T09:17:41+00:00,compiled,09/08/2021,ocds-rdvc92-601628511461,25,Electoral Commission,77582,OPEN,Supply Of Sanitiser (20 Ltr Jerrycan),Supply Of Sanitiser (20 Ltr Jerrycan),complete,"8,000,000",,UGX,10/05/2021,ec-pdu (room 9),ec-pdu (room 9),10/05/2021,25/03/2021
+id-4.2537,ocds-rdvc92-641665638493-2022-10-13T05:21:33+00:00,compiled,13/10/2022,ocds-rdvc92-641665638493,427,National Forestry Authority,83562,OPEN,Minor Repairs Of Vehicle Isusu Truck Reg No Uaj 379X-Headquaters,Minor Repairs Of Vehicle Isusu Truck Reg No Uaj 379X-Headquaters,complete,"15,835,600",,UGX,10/11/2021,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,10/11/2021,03/11/2021
+id-30.91,ocds-rdvc92-801618488935-2021-04-15T09:15:35+00:00,compiled,15/04/2021,ocds-rdvc92-801618488935,621,Uganda Registration Services Bureau,75229,OPEN,Procurement Of Production And Distribution Of Civil  Registration Materials,Procurement Of Production And Distribution Of Civil  Registration Materials,complete,"12,469,000",,UGX,12/02/2021,"URSB PDU OFFICES, FLOOR FOUR","URSB PDU OFFICES, FLOOR FOUR",12/02/2021,09/12/2020
+id-7.2574,ocds-rdvc92-371627030561-2021-07-23T05:56:01+00:00,compiled,23/07/2021,ocds-rdvc92-371627030561,25,Electoral Commission,77157,OPEN,"Supply And Implementation Of Election Results And Dissemination System (Ertds) And Equipment,Connectivity,Cyber Security Solutions,Video Wall And Display Screens For Ertds Communication Network","Supply And Implementation Of Election Results And Dissemination System (Ertds) And Equipment,Connectivity,Cyber Security Solutions,Video Wall And Display Screens For Ertds Communication Network",complete,"19,837,450,000",,UGX,13/05/2020,ec-pdu (room 9),ec-pdu (room 9),13/05/2020,21/02/2020
+id-9.2061,ocds-rdvc92-131659332847-2022-08-01T05:47:27+00:00,compiled,01/08/2022,ocds-rdvc92-131659332847,25,Electoral Commission,82782,OPEN,Supply Of Ink (Cymk) For Registers For Polling  For Omoro County By-Election 2022,Supply Of Ink (Cymk) For Registers For Polling  For Omoro County By-Election 2022,complete,"13,000,000",,UGX,11/05/2022,ec-pdu (room 9),ec-pdu (room 9),11/05/2022,07/04/2022
+id-27.1589,ocds-rdvc92-491653982643-2022-05-31T07:37:23+00:00,compiled,31/05/2022,ocds-rdvc92-491653982643,619,Office of the Auditor General,80958,OPEN,Repair Of Motor Vehicle Ug 0249H,Repair Of Motor Vehicle Ug 0249H,complete,"7,000,000",,UGX,26/04/2022,"Head Procurement and Disposal Unit
+Office of the Auditor General
+Plot 2C Apollo Kaggwa Road
+P.O.BOX 7083, Kampala","Head Procurement and Disposal Unit
+Office of the Auditor General
+Plot 2C Apollo Kaggwa Road
+P.O.BOX 7083, Kampala",25/04/2022,22/03/2022
+id-9.1957,ocds-rdvc92-541678195761-2023-03-07T13:29:21+00:00,compiled,07/03/2023,ocds-rdvc92-541678195761,790,Njeru Municipality,85118,OPEN,Construction Of 3 Stance Water Borne Toilet At Njeru Municipal Council Headquaters,Construction Of 3 Stance Water Borne Toilet At Njeru Municipal Council Headquaters,complete,"30,000,000",,UGX,13/03/2023,pdu njeru,pdu njeru,13/03/2023,24/02/2023
+id-23.2050,ocds-rdvc92-481645451614-2022-02-21T13:53:34+00:00,compiled,21/02/2022,ocds-rdvc92-481645451614,393,"Ministry of Agriculture, Animal Industry and Fisheries",79694,OPEN,"Construction Of Mini Irrigation Schemes At Lot1: Kanjobe Kabanyonyi-Kabale District, Lot 2: Kamoroto-Butebo District, Lot 3: Mazuba Mpologoma-Namutumba District And Lot 4: Tirinyi Mpologoma-Kibuku District","Construction Of Mini Irrigation Schemes At Lot1: Kanjobe Kabanyonyi-Kabale District, Lot 2: Kamoroto-Butebo District, Lot 3: Mazuba Mpologoma-Namutumba District And Lot 4: Tirinyi Mpologoma-Kibuku District",complete,"2,500,000,000",,UGX,16/08/2021,PDU,PDU,16/08/2021,19/05/2021
+id-28.1241,ocds-rdvc92-631594294206-2020-07-09T08:30:06+00:00,compiled,09/07/2020,ocds-rdvc92-631594294206,578,Ngora District Local Government,71832,OPEN,Management Of Mukura Grade A Cattle Market,Management Of Mukura Grade A Cattle Market,complete,"28,000,000",,UGX,09/09/2019,Ngora DLG-PDU,Ngora DLG-PDU,09/09/2019,07/08/2019
+id-14.2090,ocds-rdvc92-381578399810-2020-01-07T09:23:30+00:00,compiled,07/01/2020,ocds-rdvc92-381578399810,738,The Microfinance Support Centre Ltd,69162,OPEN,Supply Of (07) Motorcycles For The New Satellite Offices,Supply Of (07) Motorcycles For The New Satellite Offices,complete,"91,000,000",,UGX,29/11/2019,"Plot 32 Nakasero Road
+PDU,Ground Floor Right Wing","Plot 32 Nakasero Road
+PDU,Ground Floor Right Wing",29/11/2019,21/11/2019
+id-4.310,ocds-rdvc92-191675936357-2023-02-09T09:52:37+00:00,compiled,09/02/2023,ocds-rdvc92-191675936357,478,Uganda Revenue Authority,84848,OPEN,Supply Of Document Examination Equipment,Supply Of Document Examination Equipment,complete,"700,000,000",,UGX,10/03/2023,"Procurement & Disposal Unit
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341","Procurement & Disposal Unit
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341",10/03/2023,07/12/2022
+id-0.1915,ocds-rdvc92-581653641007-2022-05-27T08:43:27+00:00,compiled,27/05/2022,ocds-rdvc92-581653641007,418,National Agricultural Research Organization,80861,OPEN,Procurement Of Shade Net,Procurement Of Shade Net,complete,"33,984,000",,UGX,28/02/2022,National Coffee Research Institute(NaCORI) P.O.Box 185 Mukono,National Coffee Research Institute(NaCORI) P.O.Box 185 Mukono,28/02/2022,11/02/2022
+id-6.2182,ocds-rdvc92-541598805066-2020-08-30T13:31:06+00:00,compiled,30/08/2020,ocds-rdvc92-541598805066,756,Mubende Regional Referral Hospital,72568,OPEN,Supply Of Ultrasound Transducer/Probe (Curvilinear C4-2) For Philips Ultrasound Scanner (Clear Vue 350),Supply Of Ultrasound Transducer/Probe (Curvilinear C4-2) For Philips Ultrasound Scanner (Clear Vue 350),complete,"28,000,000",,UGX,05/05/2020,MUBENDE R.R.H PDU OFFICE,MUBENDE R.R.H PDU OFFICE,04/05/2020,27/04/2020
+id-12.1935,ocds-rdvc92-441628245082-2021-08-06T07:18:02+00:00,compiled,06/08/2021,ocds-rdvc92-441628245082,401,Ministry of Health,77558,OPEN,"Procurement Of Health Workers Uniforms, Shoes And Gum Boots For Nurses, Midwives And Clinicians","Procurement Of Health Workers Uniforms, Shoes And Gum Boots For Nurses, Midwives And Clinicians",complete,"3,998,240,000",,UGX,07/04/2021,MOH Head Quarters,MOH Head Quarters,07/04/2021,27/01/2021
+id-20.993,ocds-rdvc92-921574659667-2019-11-25T02:27:47+00:00,compiled,25/11/2019,ocds-rdvc92-921574659667,461,Uganda Electricity Generation Company,67661,OPEN,Company Memorabilia- Wall Calendars,Company Memorabilia- Wall Calendars,complete,"9,000,000",,UGX,06/08/2019,UEGCL Head Office Bukoto,UEGCL Head Office Bukoto,06/08/2019,07/06/2019
+id-31.1508,ocds-rdvc92-881623067814-2021-06-07T09:10:14+00:00,compiled,07/06/2021,ocds-rdvc92-881623067814,397,Ministry of Energy and Mineral Development,76185,OPEN,Procurement Of Furniture For Pdu,Procurement Of Furniture For Pdu,complete,"17,287,000",,UGX,27/05/2021,"MEMD AMBER HOUSE 
+ROOM C 109","MEMD AMBER HOUSE 
+ROOM C 109",27/05/2021,27/04/2021
+id-24.10,ocds-rdvc92-461649323610-2022-04-07T09:26:50+00:00,compiled,07/04/2022,ocds-rdvc92-461649323610,481,Uganda Wildlife Authority,80079,LIMITED,Supply Of 42Pcs Of Laptop Computers For Conservation Area Entry Gates,Supply Of 42Pcs Of Laptop Computers For Conservation Area Entry Gates,complete,"191,100,000",,UGX,14/12/2021,PDU,PDU,13/12/2021,01/11/2021
+id-5.926,ocds-rdvc92-101580283434-2020-01-29T04:37:14+00:00,compiled,29/01/2020,ocds-rdvc92-101580283434,474,Uganda National Roads Authority,68486,OPEN,Supply And Delivery Of Life Saving Appliances For Ferry Services Department Under Framework Contract For A Period Of Three Years,Supply And Delivery Of Life Saving Appliances For Ferry Services Department Under Framework Contract For A Period Of Three Years,complete,"2,588,267,545",,UGX,07/05/2019,PDU Board room,PDU Registry,07/05/2019,13/12/2018
+id-0.361,ocds-rdvc92-301679916335-2023-03-27T11:25:35+00:00,compiled,27/03/2023,ocds-rdvc92-301679916335,461,Uganda Electricity Generation Company,85358,OPEN,Street Lighting At Namanve Tpp,Street Lighting At Namanve Tpp,complete,"88,405,600",,UGX,25/11/2022,UEGCL Head Offices,UEGCL Head Offices,25/11/2022,06/10/2022
+id-27.1227,ocds-rdvc92-171729598675-2024-10-22T12:04:35+00:00,compiled,22/10/2024,ocds-rdvc92-171729598675,472,Uganda National Examinations Board,91757,OPEN,"Supply, Delivery And Installation Of Key Trackers","Supply, Delivery And Installation Of Key Trackers",complete,"58,169,000",,UGX,30/08/2024,"UNEB NTINDA, PDU, ROOM 46","UNEB NTINDA, PDU, ROOM 46",30/08/2024,05/07/2024
+id-15.1603,ocds-rdvc92-981654069717-2022-06-01T07:48:37+00:00,compiled,01/06/2022,ocds-rdvc92-981654069717,664,INSPECTORATE OF GOVERNMENT,81004,OPEN,1 Station Wagon And 6 Double Cabin Pickups,1 Station Wagon And 6 Double Cabin Pickups,complete,"1,481,590,418",,UGX,21/02/2022,"PDU, IG","PDU, IG",21/02/2022,22/12/2021
+id-8.1457,ocds-rdvc92-601569490616-2019-09-26T07:36:56+00:00,compiled,26/09/2019,ocds-rdvc92-601569490616,456,Uganda Bureau of Statistics,67210,OPEN,Printing Of Enumerators And Supervisors Manuals For Livestock Census 2019/2020,Printing Of Enumerators And Supervisors Manuals For Livestock Census 2019/2020,complete,"20,356,500",,UGX,21/08/2019,"Uganda Bureau of statistics,
+Procurement and disposal Unit,
+Statistics house, 1st Floor, Rm 1.1","Uganda Bureau of statistics,
+Procurement and disposal Unit,
+Statistics house, 1st Floor, Rm 1.1",21/08/2019,29/07/2019
+id-27.1552,ocds-rdvc92-571650973455-2022-04-26T11:44:15+00:00,compiled,26/04/2022,ocds-rdvc92-571650973455,601,Mbale City,81329,SELECTIVE,Compressor Pump For Vector Control,Compressor Pump For Vector Control,complete,"2,642,917",,UGX,16/05/2022,CITY CHAMBERS,"PROCUREMENT AND DISPOSAL UNIT, ROOM 018",16/05/2022,20/04/2022
+id-20.78,ocds-rdvc92-791702547388-2023-12-14T09:49:48+00:00,compiled,14/12/2023,ocds-rdvc92-791702547388,417,National Agricultural Advisory Services,88119,OPEN,Hotel Services For Stake Holders Engagement Meeting Ion The Implementation Of Agri-Led Project Interventions,Hotel Services For Stake Holders Engagement Meeting Ion The Implementation Of Agri-Led Project Interventions,complete,"9,086,000",,UGX,05/12/2023,NAADS Sec,NAADS Sec,05/12/2023,14/11/2023
+id-6.546,ocds-rdvc92-151622619742-2021-06-02T04:42:22+00:00,compiled,02/06/2021,ocds-rdvc92-151622619742,566,Tororo District Local Government,76078,LIMITED,Construction Of A Five Stance Lined Vip Latrine At Mpungwe Primary School Under Sfg,Construction Of A Five Stance Lined Vip Latrine At Mpungwe Primary School Under Sfg,complete,"22,000,000",,UGX,04/12/2020,TORORO DLG PDU OFFICE,TORORO DLG PDU OFFICE,04/12/2020,17/06/2020
+id-5.812,ocds-rdvc92-211608542554-2020-12-21T06:22:34+00:00,compiled,21/12/2020,ocds-rdvc92-211608542554,426,National Environment Management Authority,73457,OPEN,Provision Of Hotel Services Under Frame Work Contract For A Period Of 18 Months,Provision Of Hotel Services Under Frame Work Contract For A Period Of 18 Months,complete,"300,000,000",,UGX,26/02/2020,NEMA House Jinja Road,NEMA House Jinja Road,14/02/2020,15/11/2019
+id-15.891,ocds-rdvc92-241594792442-2020-07-15T02:54:02+00:00,compiled,15/07/2020,ocds-rdvc92-241594792442,397,Ministry of Energy and Mineral Development,71647,OPEN,Consultancy Services To Draft Regulations For The Biofuels Act 2018,Consultancy Services To Draft Regulations For The Biofuels Act 2018,complete,"54,280,000",,UGX,22/05/2019,"MEMD AMBERHOUSE
+ROOM C 109","MEMD AMBERHOUSE
+ROOM C 109",22/05/2019,10/01/2019
+id-7.2056,ocds-rdvc92-511656417043-2022-06-28T11:50:43+00:00,compiled,28/06/2022,ocds-rdvc92-511656417043,464,Uganda Heart Institute,81977,OPEN,Supply And Delivery Of Protective Equipment For Radiation Workers,Supply And Delivery Of Protective Equipment For Radiation Workers,complete,"12,314,016",,UGX,19/08/2021,Uganda Heart Institute,Uganda Heart Institute,19/08/2021,21/07/2021
+id-0.1681,ocds-rdvc92-381711608495-2024-03-28T06:48:15+00:00,compiled,28/03/2024,ocds-rdvc92-381711608495,457,Uganda Coffee Development Authority,89244,LIMITED,Supply And Delivery Of Immidachloprid Insecticide,Supply And Delivery Of Immidachloprid Insecticide,complete,"153,178,000",,UGX,28/11/2023,"Coffee House, Board Room 4th Floor",PDU Room 2:3 on 2nd Floor.,28/11/2023,26/10/2023
+id-7.499,ocds-rdvc92-181600062611-2020-09-14T02:50:11+00:00,compiled,14/09/2020,ocds-rdvc92-181600062611,478,Uganda Revenue Authority,72691,OPEN,Supply Of Wooden Pallets For Records And Registries,Supply Of Wooden Pallets For Records And Registries,complete,"20,000,000",,UGX,03/09/2020,"Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637","Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637",03/09/2020,14/08/2020
+id-20.1288,ocds-rdvc92-541675079247-2023-01-30T11:47:27+00:00,compiled,30/01/2023,ocds-rdvc92-541675079247,433,National Water & Sewerage Corporation,84640,OPEN,Building Cement For Operations And Maintenance,Building Cement For Operations And Maintenance,complete,"14,868,000",,UGX,26/10/2022,"National Water & Sewerage Corporation
+ Plot No. 18/20 6th Street, Industrial Area
+ P.O.Box 7053 Kampala, Uganda
+ Tel: 256-313-315484/801","National Water & Sewerage Corporation
+ Plot No. 18/20 6th Street, Industrial Area
+ P.O.Box 7053 Kampala, Uganda
+ Tel: 256-313-315484/801",26/10/2022,15/09/2022
+id-6.351,ocds-rdvc92-931594114449-2020-07-07T06:34:09+00:00,compiled,07/07/2020,ocds-rdvc92-931594114449,418,National Agricultural Research Organization,70734,LIMITED,Supply Of Tractors And Implements,Supply Of Tractors And Implements,complete,"250,000,000",,UGX,04/12/2019,NAROSEC,NAROSEC,04/12/2019,22/08/2019
+id-28.303,ocds-rdvc92-501587460271-2020-04-21T06:11:11+00:00,compiled,21/04/2020,ocds-rdvc92-501587460271,481,Uganda Wildlife Authority,69566,OPEN,Suppy And Installation Of Printer Head For The Plotter Machine For Planning Unit,Suppy And Installation Of Printer Head For The Plotter Machine For Planning Unit,complete,"12,000,000",,UGX,10/03/2020,PDU,PDU,10/03/2020,25/10/2019
+id-26.2238,ocds-rdvc92-381656496509-2022-06-29T09:55:09+00:00,compiled,29/06/2022,ocds-rdvc92-381656496509,418,National Agricultural Research Organization,82032,DIRECT,Procurement Of Machinery,Procurement Of Machinery,complete,"18,900,000",,UGX,13/05/2022,ARDC-Board Room,ARDC-Board Room,13/05/2022,04/05/2022
+id-31.1581,ocds-rdvc92-491580453610-2020-01-31T03:53:30+00:00,compiled,31/01/2020,ocds-rdvc92-491580453610,418,National Agricultural Research Organization,68265,OPEN,Farm Inputs For Cvim,Farm Inputs For Cvim,complete,"6,777,000",,UGX,14/11/2019,Board room NaCORI,PDU-NaCORI,14/11/2019,01/11/2019
+id-4.2669,ocds-rdvc92-861665649441-2022-10-13T08:24:01+00:00,compiled,13/10/2022,ocds-rdvc92-861665649441,427,National Forestry Authority,83566,OPEN,First Thinning And Pruning Of Forest Plantation-Mafuga Plantations,First Thinning And Pruning Of Forest Plantation-Mafuga Plantations,complete,"15,000,000",,UGX,24/05/2022,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,24/05/2022,09/05/2022
+id-13.953,ocds-rdvc92-231591859855-2020-06-11T04:17:35+00:00,compiled,11/06/2020,ocds-rdvc92-231591859855,432,National Social Security Fund,69721,OPEN,Request For Branded Pens For Customers,Request For Branded Pens For Customers,complete,"20,000,000",,UGX,10/03/2020,"NSSF HEAD QUARTERS
+WORKERS HSE 14TH FLOOR","NSSF HEAD QUARTERS
+WORKERS HSE 14TH FLOOR",10/03/2020,03/02/2020
+id-18.648,ocds-rdvc92-161600344072-2020-09-17T09:01:12+00:00,compiled,17/09/2020,ocds-rdvc92-161600344072,427,National Forestry Authority,72721,LIMITED,Provision Of Security Service To Nfa,Provision Of Security Service To Nfa,complete,"144,696,000",,UGX,13/02/2018,National Forestry Authority,National Forestry Authority,13/02/2018,31/01/2018
+id-27.2130,ocds-rdvc92-691708332857-2024-02-19T08:54:17+00:00,compiled,19/02/2024,ocds-rdvc92-691708332857,474,Uganda National Roads Authority,88848,OPEN,Consultancy Services For The Implementation Of Resettlement Assistance And Livelihood Restoration Programs For Koboko-Yumbe-Moyo Road (103.08Km),Consultancy Services For The Implementation Of Resettlement Assistance And Livelihood Restoration Programs For Koboko-Yumbe-Moyo Road (103.08Km),complete,"1,908,078,500",,UGX,17/11/2022,PDU Board Room,PDU Registry,17/11/2022,29/10/2020
+id-23.755,ocds-rdvc92-691687415523-2023-06-22T06:32:03+00:00,compiled,22/06/2023,ocds-rdvc92-691687415523,462,Uganda Electricity Transmission Company,86396,OPEN,Supply Of Comprehensive Network Tool,Supply Of Comprehensive Network Tool,complete,"59,000,340",,UGX,07/12/2022,"UETCL,
+PO. BOX 7625, Kampala
+Plot 10, Hannington Road.","UETCL,
+PO. BOX 7625, Kampala
+Plot 10, Hannington Road.",06/12/2022,13/09/2022
+id-11.473,ocds-rdvc92-271627981096-2021-08-03T05:58:16+00:00,compiled,03/08/2021,ocds-rdvc92-271627981096,642,Nebbi District Local Government,77446,LIMITED,Supply Of 2 Laptop Computers To Nyaravur -Angal Town Council,Supply Of 2 Laptop Computers To Nyaravur -Angal Town Council,complete,"4,000,000",,UGX,04/12/2020,"PDU,NEBBDLG","PDU,NEBBDLG",04/12/2020,12/05/2020
+id-9.2456,ocds-rdvc92-491708703582-2024-02-23T15:53:02+00:00,compiled,23/02/2024,ocds-rdvc92-491708703582,478,Uganda Revenue Authority,88955,OPEN,Supply Of Library Materials For Legal Services And Board Affairs,Supply Of Library Materials For Legal Services And Board Affairs,complete,"54,908,750",,UGX,06/02/2024,"Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug","Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug",05/02/2024,05/01/2024
+id-2.1084,ocds-rdvc92-871629878497-2021-08-25T05:01:37+00:00,compiled,25/08/2021,ocds-rdvc92-871629878497,399,Ministry of Foreign Affairs,77934,OPEN,Procurement Of Protective Wear Mask And Sanitizer,Procurement Of Protective Wear Mask And Sanitizer,complete,"31,000,000",,UGX,15/06/2021,MINISTRY OF FOREIGN AFFAIRS PDU,MINISTRY OF FOREIGN AFFAIRS PDU,15/06/2021,27/05/2021
+id-26.1887,ocds-rdvc92-541642578974-2022-01-19T07:56:14+00:00,compiled,19/01/2022,ocds-rdvc92-541642578974,521,Kapchorwa District Local Government,79267,SELECTIVE,Construction Of Kaserem Sub County Council Hall Phase 3,Construction Of Kaserem Sub County Council Hall Phase 3,complete,"10,185,000",,UGX,20/10/2021,Kapchorwa District Local Government-PDU,Kapchorwa District Local Government-PDU,20/10/2021,15/09/2021
+id-21.1756,ocds-rdvc92-811652363838-2022-05-12T13:57:18+00:00,compiled,12/05/2022,ocds-rdvc92-811652363838,581,Nwoya District Local Government,80591,SELECTIVE,Construction Of Incinerator At Latoro Hcii In Got Apwoyo Sub County,Construction Of Incinerator At Latoro Hcii In Got Apwoyo Sub County,complete,"17,000,000",,UGX,21/02/2022,ENGINEERING BOARDROOM,PDU,21/02/2022,24/06/2021
+id-20.517,ocds-rdvc92-701637475885-2021-11-21T06:24:45+00:00,compiled,21/11/2021,ocds-rdvc92-701637475885,478,Uganda Revenue Authority,78703,OPEN,Renovation Works For Elegu Osbp,Renovation Works For Elegu Osbp,complete,"120,000,000",,UGX,10/09/2021,"Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 041744 2155/6/7/8/9/3341","Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 041744 2155/6/7/8/9/3341",10/09/2021,17/08/2021
+id-3.781,ocds-rdvc92-611663950423-2022-09-23T16:27:03+00:00,compiled,23/09/2022,ocds-rdvc92-611663950423,478,Uganda Revenue Authority,83355,OPEN,Supply Of Intelligence Collection Tools,Supply Of Intelligence Collection Tools,complete,"36,592,000",,UGX,02/09/2022,"PDU, URA","PDU, URA",01/09/2022,03/08/2022
+id-2.1748,ocds-rdvc92-221708587727-2024-02-22T07:42:07+00:00,compiled,22/02/2024,ocds-rdvc92-221708587727,25,Electoral Commission,88906,OPEN,"Supply And Installation Of Air Conditioners In San Room, Ict Office And Ups Room","Supply And Installation Of Air Conditioners In San Room, Ict Office And Ups Room",complete,"79,800,000",,UGX,12/12/2023,ec-pdu,ec-pdu,12/12/2023,16/10/2023
+id-6.234,ocds-rdvc92-991666596816-2022-10-24T07:33:36+00:00,compiled,24/10/2022,ocds-rdvc92-991666596816,427,National Forestry Authority,83656,OPEN,Maintenance Of 200000 Seedlings Under Nctpp In Lendu Nursery,Maintenance Of 200000 Seedlings Under Nctpp In Lendu Nursery,complete,"12,000,000",,UGX,10/11/2021,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,10/11/2021,26/10/2021
+id-17.454,ocds-rdvc92-691682267805-2023-04-23T16:36:45+00:00,compiled,23/04/2023,ocds-rdvc92-691682267805,459,Uganda Development Bank,85600,OPEN,Procurement Of An Enterprise Resource Planning (Erp) Solution,Procurement Of An Enterprise Resource Planning (Erp) Solution,complete,"641,850,000",,UGX,31/05/2022,"Uganda Development Bank Limited, 
+Plot 6 Nakasero Road, Kampala, 
+Rwenzori Towers, 1st  Floor Wing B. 
+		P.O. Box 7210, Kampala; Email: info@udbl.co.ug","Uganda Development Bank Limited, 
+Plot 6 Nakasero Road, Kampala, 
+Rwenzori Towers, 1st  Floor Wing B. 
+		P.O. Box 7210, Kampala; Email: info@udbl.co.ug",31/05/2022,22/03/2022
+id-4.2829,ocds-rdvc92-321612195789-2021-02-01T13:09:49+00:00,compiled,01/02/2021,ocds-rdvc92-321612195789,427,National Forestry Authority,73838,OPEN,"Raising 200,000 Seedlings For Ctpp;Mbarara","Raising 200,000 Seedlings For Ctpp;Mbarara",complete,"24,000,000",,UGX,04/12/2020,National Forestry Authority,National Forestry Authority,04/12/2020,11/11/2020
+id-10.1010,ocds-rdvc92-461584617713-2020-03-19T08:35:13+00:00,compiled,19/03/2020,ocds-rdvc92-461584617713,600,Mbale District Local Government,69541,SELECTIVE,Construction Of A 5 Stance Pit Latrine At Nambozo P/S In Nakaloke S/C,Construction Of A 5 Stance Pit Latrine At Nambozo P/S In Nakaloke S/C,complete,"23,307,696",,UGX,13/11/2019,The New Lukhobo Hall at the District Headquarters,The procurement and Disposal Unit Room 212,13/11/2019,09/09/2019
+id-11.547,ocds-rdvc92-271612944643-2021-02-10T05:10:49+00:00,compiled,10/02/2021,ocds-rdvc92-271612944643,806,Kiira Motors Corporation,74053,OPEN,Accounting Software (Quickbooks Perpetual Licences),Accounting Software (Quickbooks Perpetual Licences),complete,"19,100,000",,UGX,04/12/2020,"Kiira Motors Corporation, Plot 13 Kimera Road, Ntinda","Kiira Motors Corporation, Plot 13 Kimera Road, Ntinda",30/11/2020,16/11/2020
+id-28.779,ocds-rdvc92-741615534006-2021-03-12T04:26:46+00:00,compiled,12/03/2021,ocds-rdvc92-741615534006,433,National Water & Sewerage Corporation,74530,OPEN,Supply Of Pumpset For Kabungamarket Kanungu-Under Reservation Scheme,Supply Of Pumpset For Kabungamarket Kanungu-Under Reservation Scheme,complete,"60,000,000",,UGX,05/11/2020,"National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial 
+Tel: +256-313-315801/256-313-315800 Area 
+P.O.Box 7053 Kampala, Uganda","National Water & Sewerage Corporation
+Plot No. 43/49 6th Street, Industrial 
+Tel: +256-313-315801/256-313-315800 Area 
+P.O.Box 7053 Kampala, Uganda",05/11/2020,21/09/2020
+id-30.2239,ocds-rdvc92-831603356145-2020-10-22T05:42:25+00:00,compiled,22/10/2020,ocds-rdvc92-831603356145,713,UGANDA POLICE FORCE,73879,LIMITED,Uganda Police Force Customised Calenders 2021 And Seasons Greeting Cards 2020,Uganda Police Force Customised Calenders 2021 And Seasons Greeting Cards 2020,complete,"100,000,000",,UGX,14/10/2020,UPF PDU,UPF PDU,14/10/2020,16/09/2020
+id-26.711,ocds-rdvc92-901596706689-2020-08-06T06:38:09+00:00,compiled,06/08/2020,ocds-rdvc92-901596706689,385,Makerere University,72389,OPEN,Provision Of Printing Services For Peace Musiimenta'S Project Under Rif,Provision Of Printing Services For Peace Musiimenta'S Project Under Rif,complete,"58,658,000",,UGX,31/03/2020,Makerere University procurement and disposal unit c.5 lincoln flats,Makerere University procurement and disposal unit c.5 lincoln flats,31/03/2020,03/12/2019
+id-14.2589,ocds-rdvc92-701656668693-2022-07-01T09:44:53+00:00,compiled,01/07/2022,ocds-rdvc92-701656668693,477,Uganda Railway Cooperation ,82134,OPEN,"Consultancy Services For The Recruitment Of The Chief Mechanical Engineer,Principal Civil Engineer ,Principal Internal Auditor And Principal Property Management Officer.","Consultancy Services For The Recruitment Of The Chief Mechanical Engineer,Principal Civil Engineer ,Principal Internal Auditor And Principal Property Management Officer.",complete,"35,000,000",,UGX,12/05/2022,URC,URC,12/05/2022,11/04/2022
+id-22.467,ocds-rdvc92-941594203565-2020-07-08T07:19:25+00:00,compiled,08/07/2020,ocds-rdvc92-941594203565,433,National Water & Sewerage Corporation,70891,OPEN,Compound Maintenance For Reservoirs And Boosters For Kampala Water For A Period Of Four (4) Months Under Reservation Scheme,Compound Maintenance For Reservoirs And Boosters For Kampala Water For A Period Of Four (4) Months Under Reservation Scheme,complete,"17,200,000",,UGX,02/09/2019,"The Senior Manager Procurement
+ National Water & Sewerage Corporation
+ Plot No. 18/20 6th street, Industrial Area
+ P.O.Box 7053, Kampala-Uganda
+ Tel: 256-313-315800/801","The Senior Manager Procurement
+ National Water & Sewerage Corporation
+ Plot No. 18/20 6th street, Industrial Area
+ P.O.Box 7053, Kampala-Uganda
+ Tel: 256-313-315800/801",02/09/2019,02/08/2019
+id-2.739,ocds-rdvc92-541679920957-2023-03-27T12:42:37+00:00,compiled,27/03/2023,ocds-rdvc92-541679920957,453,Uganda AIDS Commission ,85464,LIMITED,Annual Maintenance Of Alcatel Epabx System,Annual Maintenance Of Alcatel Epabx System,complete,"3,776,000",,UGX,14/09/2022,UAC,UAC,14/09/2022,27/07/2022
+id-15.1473,ocds-rdvc92-821657694372-2022-07-13T06:39:32+00:00,compiled,13/07/2022,ocds-rdvc92-821657694372,646,Ministry of Tourism Wildlife and Antiquities,82498,OPEN,Venue For The Purposive Marketing Of Handcrafted Products - Mbarara,Venue For The Purposive Marketing Of Handcrafted Products - Mbarara,complete,"7,000,000",,UGX,21/06/2022,pdu motwa,pdu motwa,21/06/2022,06/06/2022
+id-1.2785,ocds-rdvc92-891617105206-2021-03-30T08:53:26+00:00,compiled,30/03/2021,ocds-rdvc92-891617105206,433,National Water & Sewerage Corporation,74990,OPEN,"Fluorescent Lights And Accessories For Gaba Plants, R&B Stations Repairs- Wpd Under Reservation Scheme","Fluorescent Lights And Accessories For Gaba Plants, R&B Stations Repairs- Wpd Under Reservation Scheme",complete,"7,640,500",,UGX,15/02/2021,"National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801","National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801",15/02/2021,12/01/2021
+id-15.746,ocds-rdvc92-391617012876-2021-03-29T07:14:36+00:00,compiled,29/03/2021,ocds-rdvc92-391617012876,410,Ministry of Works and Transport,74943,OPEN,Repair Of Motor Vehicle Reg. No. Ug 1432W Used By H/Pdu,Repair Of Motor Vehicle Reg. No. Ug 1432W Used By H/Pdu,complete,"10,926,800",,UGX,23/12/2020,MoWT/PDU,MoWT/PDU,23/12/2020,12/11/2020
+id-3.465,ocds-rdvc92-451625138382-2021-07-01T08:19:42+00:00,compiled,01/07/2021,ocds-rdvc92-451625138382,472,Uganda National Examinations Board,76643,OPEN,"Supply, Delivery, Laying & Testing Of Armoured Cable At Uneb Printery, Kyambogo","Supply, Delivery, Laying & Testing Of Armoured Cable At Uneb Printery, Kyambogo",complete,"15,429,680",,UGX,09/11/2020,"UGANDA NATIONAL EXAMINATIONS BOARD, PDU ROOM 46, NTINDA","UGANDA NATIONAL EXAMINATIONS BOARD, PDU ROOM 46, NTINDA",09/11/2020,03/09/2020
+id-18.1527,ocds-rdvc92-201655040368-2022-06-12T13:26:08+00:00,compiled,12/06/2022,ocds-rdvc92-201655040368,18,Cotton Development Organization,81468,LIMITED,Emergency Procurement Of Spray Pumps For The 2022 Cotton Planting Season,Emergency Procurement Of Spray Pumps For The 2022 Cotton Planting Season,complete,"400,000,000",,UGX,18/03/2022,"PDU, COTTON HOUSE","PDU, COTTON HOUSE",18/03/2022,10/03/2022
+id-19.1196,ocds-rdvc92-371666875247-2022-10-27T12:54:07+00:00,compiled,27/10/2022,ocds-rdvc92-371666875247,674,NEW VISION PRINTING & PUBLISHING,83697,OPEN,Supply Of Ac Unit For Library,Supply Of Ac Unit For Library,complete,"5,310,000",,UGX,11/10/2022,Procurement Office,Procurement Office,05/10/2022,22/08/2022
+id-12.390,ocds-rdvc92-501627730385-2021-07-31T08:19:45+00:00,compiled,31/07/2021,ocds-rdvc92-501627730385,465,Uganda Human Rights Commission,77391,OPEN,Procurement Of Venue For Digital Resources Workshop,Procurement Of Venue For Digital Resources Workshop,complete,"13,375,000",,UGX,12/05/2021,UHRC - PDU,UHRC - PDU,12/05/2021,26/04/2021
+id-30.210,ocds-rdvc92-751675242292-2023-02-01T09:04:52+00:00,compiled,01/02/2023,ocds-rdvc92-751675242292,472,Uganda National Examinations Board,84693,OPEN,Supply & Delivery Dvds For Dtr,Supply & Delivery Dvds For Dtr,complete,"60,000,000",,UGX,14/09/2022,UNEB PDU ROOM 46 NTINDA,UNEB PDU ROOM 46 NTINDA,08/09/2022,22/08/2022
+id-18.1520,ocds-rdvc92-971642075690-2022-01-13T12:08:10+00:00,compiled,13/01/2022,ocds-rdvc92-971642075690,611,Mbarara University  Of Science and Technology,79206,LIMITED,Labaratory Equipments For Sara Project,Labaratory Equipments For Sara Project,complete,"142,737,100",,UGX,25/11/2021,"Procurement and Disposal Unit
+Mbarara University of Science and Technology","Procurement and Disposal Unit
+Mbarara University of Science and Technology",25/11/2021,08/11/2021
+id-9.2921,ocds-rdvc92-501593786029-2020-07-03T11:20:29+00:00,compiled,03/07/2020,ocds-rdvc92-501593786029,427,National Forestry Authority,70511,OPEN,Repair Of Uar 539Y For Lake Shores,Repair Of Uar 539Y For Lake Shores,complete,"9,923,800",,UGX,29/05/2020,NFA,NFA,29/05/2020,20/05/2020
+id-3.999,ocds-rdvc92-231735813294-2025-01-02T10:21:34+00:00,compiled,02/01/2025,ocds-rdvc92-231735813294,458,Uganda Communications Commission,92226,OPEN,"Security Lights Improvement Works At Masaka,Mwizi,Njeru And Gulu Remote Stations","Security Lights Improvement Works At Masaka,Mwizi,Njeru And Gulu Remote Stations",complete,"25,000,000",,UGX,23/04/2024,"Procurement and Disposal Unit
+1st Floor UCC House
+Uganda Communications Commission
+Plot 42-44 Spring Road 
+Kampala","Procurement and Disposal Unit
+1st Floor UCC House
+Uganda Communications Commission
+Plot 42-44 Spring Road 
+Kampala",23/04/2024,04/03/2024
+id-27.1571,ocds-rdvc92-781676714167-2023-02-18T09:56:07+00:00,compiled,18/02/2023,ocds-rdvc92-781676714167,456,Uganda Bureau of Statistics,84992,OPEN,Supply Of Printed Household Form A3,Supply Of Printed Household Form A3,complete,"8,000,000",,UGX,19/10/2022,ubos,ubos,19/10/2022,22/09/2022
+id-0.2492,ocds-rdvc92-321608209300-2020-12-17T09:48:20+00:00,compiled,17/12/2020,ocds-rdvc92-321608209300,478,Uganda Revenue Authority,73449,OPEN,Supply Of Whiteboard For It Digital Transportation,Supply Of Whiteboard For It Digital Transportation,complete,"15,000,000",,UGX,27/11/2020,"Procurement and Disposal Unit 
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637","Procurement and Disposal Unit 
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637",27/11/2020,10/11/2020
+id-17.1859,ocds-rdvc92-281643293222-2022-01-27T14:20:22+00:00,compiled,27/01/2022,ocds-rdvc92-281643293222,431,National Planning Authority,80742,OPEN,One Mobile Phone And One Laptop Computer,One Mobile Phone And One Laptop Computer,complete,"14,000,000",,UGX,23/08/2021,"NPA PLANNING HOUSE
+PLOT17B CLEMENT HILL ROAD","NPA PLANNING HOUSE
+PLOT17B CLEMENT HILL ROAD",23/08/2021,22/07/2021
+id-12.1512,ocds-rdvc92-421649496762-2022-04-09T09:32:42+00:00,compiled,09/04/2022,ocds-rdvc92-421649496762,478,Uganda Revenue Authority,80108,OPEN,Supply Of Office Equipment - Retender,Supply Of Office Equipment - Retender,complete,"21,000,000",,UGX,16/11/2021,"Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341","Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341",16/11/2021,19/08/2021
+id-25.2324,ocds-rdvc92-711618565761-2021-04-16T06:36:01+00:00,compiled,16/04/2021,ocds-rdvc92-711618565761,385,Makerere University,75240,OPEN,Procurement Of Rotary Evaporator For Dr. Godfrey  Bbosa'S Project Under Rif,Procurement Of Rotary Evaporator For Dr. Godfrey  Bbosa'S Project Under Rif,complete,"10,000,000",,UGX,06/01/2021,Makerere University PDU c.5 Lincoln flats,Makerere University PDU c.5 Lincoln flats,15/12/2020,02/11/2020
+id-22.2391,ocds-rdvc92-521620976531-2021-05-14T04:15:31+00:00,compiled,14/05/2021,ocds-rdvc92-521620976531,616,Kayunga District Local Government,75648,OPEN,Construction Of Kangulumira Sub-County Administration Block,Construction Of Kangulumira Sub-County Administration Block,complete,"60,000,000",,UGX,03/09/2020,KAYUNGA DISTRICT LOCAL GOVERNMENT HEALTH BOARD ROOM,Kayunga District Local Government Procurement and Disposal Unit PO BOX 18000 KAYUNGA,13/08/2020,24/04/2020
+id-3.1440,ocds-rdvc92-501676711372-2023-02-18T09:09:32+00:00,compiled,18/02/2023,ocds-rdvc92-501676711372,456,Uganda Bureau of Statistics,84989,OPEN,Supply Of Branded T-Shirts And Corporate Shorts For Gis,Supply Of Branded T-Shirts And Corporate Shorts For Gis,complete,"24,215,000",,UGX,22/11/2022,ubos,ubos,22/11/2022,09/10/2022
+id-1.2054,ocds-rdvc92-651570092868-2019-10-03T06:54:28+00:00,compiled,03/10/2019,ocds-rdvc92-651570092868,471,Uganda National Bureau of Standards,67258,OPEN,Provision Of Warehousing In Kampala,Provision Of Warehousing In Kampala,complete,"240,000,000",,UGX,03/05/2019,"Uganda National Bureau of Standards, P.O Box 6328, Kampala,Plot 2-12 By pass Link Bweyogerere Industrial & Business Park,","Uganda National Bureau of Standards, P.O Box 6328, Kampala,Plot 2-12 By pass Link Bweyogerere Industrial & Business Park,",03/05/2019,28/01/2019
+id-28.512,ocds-rdvc92-411598595400-2020-08-28T03:17:17+00:00,compiled,28/08/2020,ocds-rdvc92-411598595400,616,Kayunga District Local Government,75622,OPEN,Construction Of Staff House At Wabwoko Hc Iii,Construction Of Staff House At Wabwoko Hc Iii,complete,"95,000,000",,UGX,03/09/2020,Kayunga DLG PDU,Kayunga DLG PDU,03/09/2020,03/07/2020
+id-28.509,ocds-rdvc92-531655470332-2022-06-17T12:52:12+00:00,compiled,17/06/2022,ocds-rdvc92-531655470332,406,Ministry of Local Government,81683,OPEN,Procurement Of Partitioning Services For Offices Of The Parish Development Model Secretariat On 7Th Floor,Procurement Of Partitioning Services For Offices Of The Parish Development Model Secretariat On 7Th Floor,complete,"130,000,000",,UGX,20/05/2022,PDU MOLG,PDU MOLG,20/05/2022,01/04/2022
+id-16.2589,ocds-rdvc92-601665647136-2022-10-13T07:45:36+00:00,compiled,13/10/2022,ocds-rdvc92-601665647136,427,National Forestry Authority,83565,OPEN,Printing Of The Uganda Bamboo Strategy And Action Plan,Printing Of The Uganda Bamboo Strategy And Action Plan,complete,"14,160,000",,UGX,05/10/2021,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,05/10/2021,13/09/2021
+id-12.1225,ocds-rdvc92-551594285151-2020-07-09T05:59:11+00:00,compiled,09/07/2020,ocds-rdvc92-551594285151,407,Ministry of Public Service,71041,LIMITED,Assorted Furniture,Assorted Furniture,complete,"150,000,000",,UGX,24/03/2020,MoPS,MoPS,24/03/2020,09/03/2020
+id-8.254,ocds-rdvc92-601594728517-2020-07-14T09:08:37+00:00,compiled,14/07/2020,ocds-rdvc92-601594728517,380,Kyambogo University,71625,OPEN,Rehabilitation And Upgrading Of The University'S Fischer Road (1.08Km),Rehabilitation And Upgrading Of The University'S Fischer Road (1.08Km),complete,"2,100,000,000",,UGX,21/02/2020,"PDU, KYU","PDU, KYU",21/02/2020,09/01/2020
+id-24.283,ocds-rdvc92-461664366695-2022-09-28T12:04:55+00:00,compiled,28/09/2022,ocds-rdvc92-461664366695,427,National Forestry Authority,83398,OPEN,Procurement Of Stationary,Procurement Of Stationary,complete,"4,678,346",,UGX,27/01/2022,National Forestry Authority,National Forestry Authority,27/01/2022,18/01/2022
+id-9.1000,ocds-rdvc92-801707461857-2024-02-09T06:57:47+00:00,compiled,09/02/2024,ocds-rdvc92-801707461857,806,Kiira Motors Corporation,88826,OPEN,Tools And Machinery For Building Kayoola Buses,Tools And Machinery For Building Kayoola Buses,complete,"92,358,700",,UGX,13/11/2023,"Kiira Motors Corporation,
+Jinja Industrial and Business Park
+Jinja","Kiira Motors Corporation,
+Jinja Industrial and Business Park
+Jinja",13/11/2023,23/10/2023
+id-24.516,ocds-rdvc92-511639826237-2021-12-18T11:17:17+00:00,compiled,18/12/2021,ocds-rdvc92-511639826237,645,Mubende District Local Government,78965,SELECTIVE,Construction Of A 4-Stance Vip Latrine At Kasozi Primary School In Butoloogo Sub-County,Construction Of A 4-Stance Vip Latrine At Kasozi Primary School In Butoloogo Sub-County,complete,"14,000,000",,UGX,01/10/2021,Mubende Pdu-unit,Mubende Pdu-unit,01/10/2021,01/09/2021
+id-13.426,ocds-rdvc92-531666773343-2022-10-26T08:35:43+00:00,compiled,26/10/2022,ocds-rdvc92-531666773343,477,Uganda Railway Cooperation ,83685,OPEN,Service And Supply Of Fire Suppression System For Mv Kaawa,Service And Supply Of Fire Suppression System For Mv Kaawa,complete,"34,000,000",,UGX,23/09/2022,URC,URC,23/09/2022,09/08/2022
+id-2.236,ocds-rdvc92-411665042301-2022-10-06T07:45:01+00:00,compiled,06/10/2022,ocds-rdvc92-411665042301,427,National Forestry Authority,83493,OPEN,Mainteinance Of 30Ha Of Bamboo,Mainteinance Of 30Ha Of Bamboo,complete,"6,000,000",,UGX,12/05/2022,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,12/05/2022,27/04/2022
+id-27.512,ocds-rdvc92-781662973806-2022-09-12T09:10:06+00:00,compiled,12/09/2022,ocds-rdvc92-781662973806,602,Soroti Municipality,83692,OPEN,Revenue Collection Taxi Park Places Of Conveniences,Revenue Collection Taxi Park Places Of Conveniences,complete,"1,200,000",,UGX,11/07/2022,Soroti City Hall,PDU Soroti City,16/06/2022,10/05/2022
+id-2.3146,ocds-rdvc92-861584002941-2020-03-12T05:49:01+00:00,compiled,12/03/2020,ocds-rdvc92-861584002941,404,Ministry of Justice and Constitutional Affairs,69179,OPEN,Repair And Services Of Motor Vehicle No Ug 0481J,Repair And Services Of Motor Vehicle No Ug 0481J,complete,"8,000,000",,UGX,04/11/2019,"Ministry of Justice and Constitutional Affairs 
+Head Procurement and Disposal Unit
+Room:WB01","Ministry of Justice and Constitutional Affairs 
+Head Procurement and Disposal Unit
+Room:WB01",04/11/2019,21/10/2019
+id-22.2160,ocds-rdvc92-421625556499-2021-07-06T04:28:19+00:00,compiled,06/07/2021,ocds-rdvc92-421625556499,436,Office of the President,76686,LIMITED,Feeding Visitors Of The Swearing-In And Inauguration Ceremonies Of The President Elect 2021,Feeding Visitors Of The Swearing-In And Inauguration Ceremonies Of The President Elect 2021,complete,"42,300,000",,UGX,31/03/2021,"PDU
+Office of the President","PDU
+Office of the President",31/03/2021,01/03/2021
+id-7.1029,ocds-rdvc92-101627990437-2021-08-03T08:33:57+00:00,compiled,03/08/2021,ocds-rdvc92-101627990437,25,Electoral Commission,77464,OPEN,Hotel Services For Stakeholders Workshop For Polling Activities In Luwero Regional Centre,Hotel Services For Stakeholders Workshop For Polling Activities In Luwero Regional Centre,complete,"10,834,000",,UGX,01/12/2020,ec-pdu (room 9),ec-pdu (room 9),01/12/2020,30/11/2020
+id-7.1118,ocds-rdvc92-551620626355-2021-05-10T02:59:15+00:00,compiled,10/05/2021,ocds-rdvc92-551620626355,417,National Agricultural Advisory Services,75583,OPEN,Purchase Of Shopping Vouchers For Easter,Purchase Of Shopping Vouchers For Easter,complete,"30,500,000",,UGX,15/03/2021,NAADS Secretariat,NAADS Secretariat,15/03/2021,09/03/2021
+id-11.347,ocds-rdvc92-931581660827-2020-02-14T03:13:47+00:00,compiled,14/02/2020,ocds-rdvc92-931581660827,433,National Water & Sewerage Corporation,68584,OPEN,"Supply & Installation Of Inverter Batteries For Commercial,Nateete,Kireka,It& Seeta Under Lot 1,2 And Lot 3 Inverter For Jinja Road","Supply & Installation Of Inverter Batteries For Commercial,Nateete,Kireka,It& Seeta Under Lot 1,2 And Lot 3 Inverter For Jinja Road",complete,"126,260,000",,UGX,03/07/2019,"Senior Manager Procurement 
+National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801","Senior Manager Procurement 
+National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801",03/07/2019,20/03/2019
+id-13.1761,ocds-rdvc92-211664882611-2022-10-04T11:23:53+00:00,compiled,04/10/2022,ocds-rdvc92-211664882611,617,Entebbe Municipal Council,84473,OPEN,Purchase Of Tyres And Tubes For Health Department,Purchase Of Tyres And Tubes For Health Department,complete,"6,000,000",,UGX,08/07/2022,Entebbe Municipal Council Hall,Procurement and Disposal Unit- Entebbe Municipal Council,08/07/2022,07/06/2022
+id-5.379,ocds-rdvc92-271594642548-2020-07-13T09:15:48+00:00,compiled,13/07/2020,ocds-rdvc92-271594642548,19,Courts of Judicature,71506,OPEN,Procurement Of Emergency Repairs Of Nabweru Chief Magistrate Court,Procurement Of Emergency Repairs Of Nabweru Chief Magistrate Court,complete,"35,851,704",,UGX,19/11/2019,"The Procurement and Disposal Unit, the Judiciary","The Procurement and Disposal Unit, the Judiciary",19/11/2019,24/09/2019
+id-30.163,ocds-rdvc92-481572602199-2019-11-01T08:57:15+00:00,compiled,01/11/2019,ocds-rdvc92-481572602199,381,LAW DEVELOPMENT CENTRE,67572,OPEN,Marking Re-Treat -Diploma ,Marking Re-Treat -Diploma ,complete,"35,005,600",,UGX,30/07/2019,"Law Development Centre, Procurement and Diposal Unit,P.O Box 711,Kampala","Law Development Centre, Procurement and Diposal Unit,P.O Box 711,Kampala",30/07/2019,02/07/2019
+id-21.2733,ocds-rdvc92-671601374733-2020-09-29T07:18:53+00:00,compiled,29/09/2020,ocds-rdvc92-671601374733,433,National Water & Sewerage Corporation,72782,OPEN,Supply Of Reducing Bushes For Static Plant,Supply Of Reducing Bushes For Static Plant,complete,"9,528,500",,UGX,17/07/2020,"National Water and Sewerage Corporation
+Plot No. 43/49, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda","National Water and Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O. Box 7053 Kampala, Uganda",17/07/2020,05/06/2020
+id-16.2407,ocds-rdvc92-771633527340-2021-10-06T10:35:40+00:00,compiled,06/10/2021,ocds-rdvc92-771633527340,427,National Forestry Authority,78364,OPEN,Plantation Weeding Of 60Ha In South Busoga,Plantation Weeding Of 60Ha In South Busoga,complete,"6,000,000",,UGX,20/08/2021,National Forestry Authority,National Forestry Authority,20/08/2021,30/07/2021
+id-0.1428,ocds-rdvc92-731616055160-2021-03-18T05:12:40+00:00,compiled,18/03/2021,ocds-rdvc92-731616055160,472,Uganda National Examinations Board,74687,OPEN,Sewing & Repairing Of Green Bags For 2020 Exams,Sewing & Repairing Of Green Bags For 2020 Exams,complete,"10,000,000",,UGX,31/07/2020,"UGANDA NATIONAL EXAMINATIONS BOARD, PDU ROOM 46 NTINDA","UGANDA NATIONAL EXAMINATIONS BOARD, PDU ROOM 46 NTINDA",31/07/2020,29/06/2020
+id-14.2645,ocds-rdvc92-421666690822-2022-10-25T09:40:22+00:00,compiled,25/10/2022,ocds-rdvc92-421666690822,495,Buikwe District Local Government,83673,OPEN,Construction Of A 4 Classroom Block At Nkokonjeru Demonstration School,Construction Of A 4 Classroom Block At Nkokonjeru Demonstration School,complete,"168,805,000",,UGX,27/01/2022,Water Board Room,PDU Buikwe,27/01/2022,22/12/2021
+id-21.15,ocds-rdvc92-211626160245-2021-07-13T04:10:45+00:00,compiled,13/07/2021,ocds-rdvc92-211626160245,457,Uganda Coffee Development Authority,76858,OPEN,Procurement Of Soil Testing Kits,Procurement Of Soil Testing Kits,complete,"84,000,000",,UGX,31/12/2020,"Room 2.3, 2nd Floorr, Coffee House-Jinja Raod","Room 2.3, 2nd Floorr, Coffee House-Jinja Raod",23/12/2020,19/11/2020
+id-30.199,ocds-rdvc92-701645434157-2022-02-21T09:04:27+00:00,compiled,21/02/2022,ocds-rdvc92-701645434157,462,Uganda Electricity Transmission Company,79774,OPEN,Battery Banks And Chargers  110Vdc And 48Vdc Battery Banks110Vdc And48Vdc Chargers And Inverters,Battery Banks And Chargers  110Vdc And 48Vdc Battery Banks110Vdc And48Vdc Chargers And Inverters,complete,"173,345,548",,UGX,11/08/2021,UETCL PDD 2ND FLOOR ANNEX BUILDING,UETCL PDD 2ND FLOOR ANNEX BUILDING,05/08/2021,18/01/2021
+id-0.2263,ocds-rdvc92-921575536640-2019-12-05T06:04:00+00:00,compiled,05/12/2019,ocds-rdvc92-921575536640,455,Uganda Broadcasting Corporation,67751,OPEN,Professional Production Computers,Professional Production Computers,complete,"80,000,000",,UGX,29/08/2019,UBC Board Room,UBC PDU OFFICE,29/08/2019,29/07/2019
+id-11.1247,ocds-rdvc92-161593164224-2020-06-26T06:37:04+00:00,compiled,26/06/2020,ocds-rdvc92-161593164224,426,National Environment Management Authority,70044,OPEN,Installation Of Air Conditioning Equipment At Nef House,Installation Of Air Conditioning Equipment At Nef House,complete,"48,000,000",,UGX,01/10/2019,"P.O BOX 22255
+Kampal","P.O BOX 22255
+Kampal",27/09/2019,16/09/2019
+id-30.1310,ocds-rdvc92-361582876178-2020-02-28T04:49:38+00:00,compiled,28/02/2020,ocds-rdvc92-361582876178,638,Hoima Municipality,68870,SELECTIVE,Construction Of 5 Stance Lined Latrine At Buswekera Primary School,Construction Of 5 Stance Lined Latrine At Buswekera Primary School,complete,"25,000,000",,UGX,19/11/2019,HPDU,HPDU,19/11/2019,14/10/2019
+id-22.1026,ocds-rdvc92-591675850976-2023-02-08T10:09:36+00:00,compiled,08/02/2023,ocds-rdvc92-591675850976,776,FINANCIAL INTELLIGENCE AUTHORITY,84815,OPEN,Provision Of Annual Waf Licenses,Provision Of Annual Waf Licenses,complete,"50,000,000",,UGX,29/11/2022,"Rwenzori Towers
+Wing B 4th Floor
+Nakasero Road","Rwenzori Towers
+Wing B 4th Floor
+Nakasero Road",29/11/2022,26/10/2022
+id-2.864,ocds-rdvc92-791652352009-2022-05-12T10:40:09+00:00,compiled,12/05/2022,ocds-rdvc92-791652352009,646,Ministry of Tourism Wildlife and Antiquities,80588,SELECTIVE,Consultancy Services For Pre-Feasibility Studies For The Development Of Water Based Eco Adventure Perks,Consultancy Services For Pre-Feasibility Studies For The Development Of Water Based Eco Adventure Perks,complete,"200,000,000",,UGX,01/04/2022,pdu motwa,pdu motwa,01/04/2022,08/02/2022
+id-26.443,ocds-rdvc92-871637819699-2021-11-25T05:54:59+00:00,compiled,25/11/2021,ocds-rdvc92-871637819699,605,Mbarara District Local Government,78735,LIMITED,Supply Of Office Furniture For The Office Of The Town Clerk ( One Office Table & One Office Chair ) In Rwanyamahembe Town Council.,Supply Of Office Furniture For The Office Of The Town Clerk ( One Office Table & One Office Chair ) In Rwanyamahembe Town Council.,complete,"2,500,000",,UGX,10/09/2021,PDU-MBARARA DISTRICT LOCAL GOVERNMENT.,PDU-MBARARA DISTRICT LOCAL GOVERNMENT.,10/09/2021,20/07/2021
+id-26.2759,ocds-rdvc92-811581488284-2020-02-12T03:18:04+00:00,compiled,12/02/2020,ocds-rdvc92-811581488284,418,National Agricultural Research Organization,68484,OPEN,Supply Of Geographical Positioning System And Depth Meter Equipment,Supply Of Geographical Positioning System And Depth Meter Equipment,complete,"8,900,000",,UGX,10/09/2019,Procurement and Disposal Unit Room 3R,Procurement and Disposal Unit Room 3R,09/09/2019,20/08/2019
+id-5.1753,ocds-rdvc92-851620375819-2021-05-07T05:23:39+00:00,compiled,07/05/2021,ocds-rdvc92-851620375819,433,National Water & Sewerage Corporation,75559,OPEN,Supply Of Complete Coupling Assembly For Replacement On Muyenga Pumps Gaba 3 Wpd Under Reservation Scheme.,Supply Of Complete Coupling Assembly For Replacement On Muyenga Pumps Gaba 3 Wpd Under Reservation Scheme.,complete,"70,800,000",,UGX,07/04/2021,"National Water & Sewerage Corporation
+Plot No. 49/43 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801","National Water & Sewerage Corporation
+Plot No. 49/43 6th Street, Industrial Area 
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315800/801",07/04/2021,09/01/2021
+id-6.1776,ocds-rdvc92-161614153117-2021-02-24T04:51:57+00:00,compiled,24/02/2021,ocds-rdvc92-161614153117,739,Pride Microfinance Limited,74659,OPEN,Supply Of Cashier Printer Ribbons Pml/Supls/20/00792,Supply Of Cashier Printer Ribbons Pml/Supls/20/00792,complete,"7,500,000",,UGX,28/10/2020,PDU,PDU,28/10/2020,15/10/2020
+id-25.1911,ocds-rdvc92-291656677474-2022-07-01T12:11:14+00:00,compiled,01/07/2022,ocds-rdvc92-291656677474,456,Uganda Bureau of Statistics,82147,OPEN,Provision Of Catering Services,Provision Of Catering Services,complete,"100,000,000",,UGX,22/09/2020,UBOS,UBOS,22/09/2020,29/06/2020
+id-0.802,ocds-rdvc92-511668604604-2022-11-16T13:16:44+00:00,compiled,16/11/2022,ocds-rdvc92-511668604604,478,Uganda Revenue Authority,84264,OPEN,Partitioning Of Office Premises At Mombasa,Partitioning Of Office Premises At Mombasa,complete,"72,000,000",,UGX,26/10/2022,"Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341","Procurement & Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor, URA Tower
+Tel: 017 44 2155/6/7/8/8/3341",25/10/2022,04/10/2022
+id-20.919,ocds-rdvc92-461565246192-2019-08-08T04:36:32+00:00,compiled,08/08/2019,ocds-rdvc92-461565246192,18,Cotton Development Organization,70067,OPEN,Supply And Delivery Of Computer Accessories,Supply And Delivery Of Computer Accessories,complete,"10,635,000",,UGX,25/03/2020,"PDU, COTTON HOUSE","PDU, COTTON HOUSE",25/03/2020,20/02/2020
+id-21.1201,ocds-rdvc92-581628151329-2021-08-05T05:15:29+00:00,compiled,05/08/2021,ocds-rdvc92-581628151329,758,Ministry of Science Technology and Innovation,77514,OPEN,Provision Of Accommodation And Conference Facilities For The Team Sciences /Evaluating Project Concepts Received From The Nrip Call For Concepts,Provision Of Accommodation And Conference Facilities For The Team Sciences /Evaluating Project Concepts Received From The Nrip Call For Concepts,complete,"38,683,700",,UGX,07/04/2021,"MOSTI, 5TH FLOOR RUMEE BUILDING, PLOT 19 LUMUMBA AVENUE","MOSTI, 5TH FLOOR RUMEE BUILDING, PLOT 19 LUMUMBA AVENUE",07/04/2021,19/06/2021
+id-8.1732,ocds-rdvc92-241599816852-2020-09-11T06:34:12+00:00,compiled,11/09/2020,ocds-rdvc92-241599816852,14,Butabika Hospital,72683,OPEN,Procurement Of Integrated Chemistry & Immunoassay Analyser,Procurement Of Integrated Chemistry & Immunoassay Analyser,complete,"488,000,000",,UGX,06/10/2020,"Butabika National Referral Mental Hospital 
+P.O.Box 7017
+Kampala - U","Butabika National Referral Mental Hospital 
+P.O.Box 7017
+Kampala - U",29/09/2020,12/08/2020
+id-22.2836,ocds-rdvc92-451659359537-2022-08-01T13:12:17+00:00,compiled,01/08/2022,ocds-rdvc92-451659359537,481,Uganda Wildlife Authority,82812,OPEN,Construction Of One Waterborne Toilet At Apoka Within Kvca,Construction Of One Waterborne Toilet At Apoka Within Kvca,complete,"100,000,000",,UGX,14/02/2022,PDU,PDU,14/02/2022,03/01/2022
+id-7.1704,ocds-rdvc92-231730289604-2024-10-30T12:00:04+00:00,compiled,30/10/2024,ocds-rdvc92-231730289604,424,National Drug Authority,91867,OPEN,"Printing,Supply And Delivery Of Nda Branded Notebooks,Plano,Desktop And Wall Calendars 2025","Printing,Supply And Delivery Of Nda Branded Notebooks,Plano,Desktop And Wall Calendars 2025",complete,"100,164,200",,UGX,05/09/2024,"Plot 93 Buganda Road , National Drug Authority 2nd floor","Plot 93 Buganda Road , National Drug Authority 2nd floor",05/09/2024,09/07/2024
+id-21.2412,ocds-rdvc92-671565615669-2019-08-12T11:14:29+00:00,compiled,12/08/2019,ocds-rdvc92-671565615669,458,Uganda Communications Commission,66993,OPEN,Supply And Installation Of It Network Access Control Software (Nac) And Email Security Hardware,Supply And Installation Of It Network Access Control Software (Nac) And Email Security Hardware,complete,"259,560,000",,UGX,16/01/2020,"Procurement and Disposal Unit 
+Uganda Communications Commission
+1st Floor, UCC House 
+Plot 42-44 Spring Road, Bugolobi
+P.O.Box 7376 Kampala Uganda","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-4348832
+Email:ucc@cc.co.ug",16/01/2020,02/07/2019
+id-6.113,ocds-rdvc92-521569944441-2019-10-01T13:40:41+00:00,compiled,01/10/2019,ocds-rdvc92-521569944441,472,Uganda National Examinations Board,67234,OPEN,Fountain Solution For Web Offset Machines,Fountain Solution For Web Offset Machines,complete,"20,000,000",,UGX,31/07/2019,"UNEB NTINDA
+PDU ROOM 46","UNEB NTINDA
+PDU ROOM 46",31/07/2019,09/07/2019
+id-5.18,ocds-rdvc92-531602661697-2020-10-14T04:48:17+00:00,compiled,14/10/2020,ocds-rdvc92-531602661697,474,Uganda National Roads Authority,72943,OPEN,Design And Build Of The Upgrading Of Kira - Matuga Road And Improvement Of 5No. Junctions,Design And Build Of The Upgrading Of Kira - Matuga Road And Improvement Of 5No. Junctions,complete,1.31E+11,,UGX,09/08/2019,PDU Board room,PDU Registry,09/08/2019,02/10/2018
+id-6.2658,ocds-rdvc92-831592895911-2020-06-23T04:05:11+00:00,compiled,23/06/2020,ocds-rdvc92-831592895911,467,Insurance Regulatory Authority,69868,OPEN,Supply Of Furniture,Supply Of Furniture,complete,"12,800,000",,UGX,13/03/2020,"Insurance Regulatory Authority, PDU Offices, Plot 4 Kyadondo Road, Trust Tower, 5th Floor","Insurance Regulatory Authority, PDU Offices, Plot 4 Kyadondo Road, Trust Tower, 5th Floor",13/03/2020,03/03/2020
+id-29.1741,ocds-rdvc92-221696322098-2023-10-03T08:34:58+00:00,compiled,03/10/2023,ocds-rdvc92-221696322098,478,Uganda Revenue Authority,87692,OPEN,Improvement Of Lightening Protection System At Ura Short Tower Nakawa,Improvement Of Lightening Protection System At Ura Short Tower Nakawa,complete,"25,000,000",,UGX,18/09/2023,"Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda","Procurement and Disposal Unit (PDU)
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda",15/09/2023,28/08/2023
+id-27.2174,ocds-rdvc92-551596195816-2020-07-31T08:43:36+00:00,compiled,31/07/2020,ocds-rdvc92-551596195816,566,Tororo District Local Government,72287,OPEN,Construction Of Out Patient Department Block At Panyangasi Health Centre Iii,Construction Of Out Patient Department Block At Panyangasi Health Centre Iii,complete,"80,000,000",,UGX,23/07/2019,P.O.BOX 1 TORORO,P.O.BOX 1 TORORO,23/07/2019,14/06/2019
+id-21.533,ocds-rdvc92-511641980206-2022-01-12T09:36:46+00:00,compiled,12/01/2022,ocds-rdvc92-511641980206,433,National Water & Sewerage Corporation,79164,OPEN,"Refilling, Servicing, Maintenance And Supply Of Fire Extinguishers","Refilling, Servicing, Maintenance And Supply Of Fire Extinguishers",complete,"12,193,403",,UGX,06/09/2021,"National Water and Sewerage Corporation Masaka Area
+P.O Box 56, Masaka
+Plot 29-31 Victoria street","National Water and Sewerage Corporation Masaka Area
+P.O Box 56, Masaka
+Plot 29-31 Victoria street",06/09/2021,23/07/2021
+id-17.2034,ocds-rdvc92-501654685375-2022-06-08T10:49:35+00:00,compiled,08/06/2022,ocds-rdvc92-501654685375,462,Uganda Electricity Transmission Company,81396,OPEN,Supply Of Assorted Tools,Supply Of Assorted Tools,complete,"15,796,000",,UGX,13/04/2022,"Uganda Electricity Transmission Company Limited â Headquarter Annex
+Plot 12 Hannington Road â Opposite Serena Hotel.
+Procurement Office â 2nd Floor, Annex building
+Tel: +256 414 233433/4
+Fax: +256 414 341789
+Email: procurement@uetcl.com","Uganda Electricity Transmission Company Limited â Headquarter Annex
+Plot 12 Hannington Road â Opposite Serena Hotel.
+Procurement Office â 2nd Floor, Annex building
+Tel: +256 414 233433/4
+Fax: +256 414 341789
+Email: procurement@uetcl.com",12/04/2022,18/10/2021
+id-30.1652,ocds-rdvc92-941600241387-2020-09-16T04:29:47+00:00,compiled,16/09/2020,ocds-rdvc92-941600241387,604,Soroti District Local Government,72706,OPEN,Construction Of A Semi Detached Staff House At Tiriri Health Centre Iv - Ddeg Health,Construction Of A Semi Detached Staff House At Tiriri Health Centre Iv - Ddeg Health,complete,"95,000,000",,UGX,07/08/2020,Lukiko Hall,"PDU, Soroti DLG",07/08/2020,30/06/2020
+id-1.818,ocds-rdvc92-591676272205-2023-02-13T07:10:05+00:00,compiled,13/02/2023,ocds-rdvc92-591676272205,481,Uganda Wildlife Authority,84894,OPEN,Supply Of 25 Mordern Bee Hives (Ktb) Kca,Supply Of 25 Mordern Bee Hives (Ktb) Kca,complete,"5,000,000",,UGX,28/11/2022,"Kibale National Park 
+Isunga Hq
+Fort portal","Kibale National Park 
+Isunga Hq
+Fort portal",28/11/2022,22/09/2022
+id-19.621,ocds-rdvc92-481663220045-2022-09-15T05:34:05+00:00,compiled,15/09/2022,ocds-rdvc92-481663220045,462,Uganda Electricity Transmission Company,83309,OPEN,Supply Of Stay Wire 7/8 Swg For Matuga - Kasana Prject,Supply Of Stay Wire 7/8 Swg For Matuga - Kasana Prject,complete,"25,000,000",,UGX,09/08/2022,UETCL,UETCL,02/08/2022,09/05/2022
+id-20.969,ocds-rdvc92-191594707298-2020-07-14T03:14:58+00:00,compiled,14/07/2020,ocds-rdvc92-191594707298,648,National Information and Technology Authority,71520,OPEN,Publiaction And Printing Of Nita-U,Publiaction And Printing Of Nita-U,complete,"6,090,000",,UGX,13/12/2019,NITA-U,NITA-U,13/12/2019,26/11/2019
+id-8.220,ocds-rdvc92-141594379337-2020-07-10T08:08:57+00:00,compiled,10/07/2020,ocds-rdvc92-141594379337,479,Uganda Tourism Board,71274,LIMITED,Provision Of Medical Insurance For Staff And Dependents,Provision Of Medical Insurance For Staff And Dependents,complete,"150,000,000",,UGX,24/09/2019,"UGANDA TOURISM BOARD
+LUGOGO HOUSE","UGANDA TOURISM BOARD
+LUGOGO HOUSE",24/09/2019,14/08/2019
+id-23.1728,ocds-rdvc92-481600349418-2020-09-17T10:30:18+00:00,compiled,17/09/2020,ocds-rdvc92-481600349418,604,Soroti District Local Government,72722,OPEN,"Suppy Of General Stationery And Pinted, Small Office Equipments, Computer Consumables & Photocopying Services","Suppy Of General Stationery And Pinted, Small Office Equipments, Computer Consumables & Photocopying Services",complete,"80,000,000",,UGX,07/08/2020,Lukiko Hall,"PDU Office, Soroti DLG",07/08/2020,26/06/2020
+id-28.2606,ocds-rdvc92-721594367596-2020-07-10T04:53:16+00:00,compiled,10/07/2020,ocds-rdvc92-721594367596,648,National Information and Technology Authority,71203,OPEN,Tickets   To Germany,Tickets   To Germany,complete,"27,500,000",,UGX,07/08/2019,NITA-U,NITA-U,06/08/2019,12/07/2019
+id-17.2626,ocds-rdvc92-151667464588-2022-11-03T08:36:28+00:00,compiled,03/11/2022,ocds-rdvc92-151667464588,474,Uganda National Roads Authority,83747,OPEN,Civil Works For The Upgrading Of The Luwero - Butalangu Road (30Km) To Paved (Bituminous) Standard.,Civil Works For The Upgrading Of The Luwero - Butalangu Road (30Km) To Paved (Bituminous) Standard.,complete,"95,544,023,162",,UGX,11/08/2022,PDU Boardroom,PDU Registry,11/08/2022,21/03/2022
+id-13.2310,ocds-rdvc92-621643186707-2022-01-26T08:45:07+00:00,compiled,26/01/2022,ocds-rdvc92-621643186707,458,Uganda Communications Commission,79370,OPEN,Provision Of Digital Awareness Campaign Services,Provision Of Digital Awareness Campaign Services,complete,"454,000,000",,UGX,09/09/2021,"Procurement and Disposal Unit 
+Uganda Communications Commission
+1st Floor, UCC House 
+Plot 42-44 Spring Road, Bugolobi
+P.O.Box 7376 Kampala Uganda","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-4348832
+Email:ucc@cc.co.ug",09/09/2021,30/06/2021
+id-17.906,ocds-rdvc92-661679390214-2023-03-21T09:16:54+00:00,compiled,21/03/2023,ocds-rdvc92-661679390214,566,Tororo District Local Government,85230,LIMITED,"Supply And Delivery Of Garbage Skips For Mile 5 Trading Centre,Nyangole S/C Under Local Revenue","Supply And Delivery Of Garbage Skips For Mile 5 Trading Centre,Nyangole S/C Under Local Revenue",complete,"8,000,000",,UGX,27/01/2023,"TDLG P.O.BOX 1,PDU OFFICE","TDLG P.O.BOX 1,PDU OFFICE",27/01/2023,27/07/2022
+id-4.171,ocds-rdvc92-401685356815-2023-05-29T10:40:15+00:00,compiled,29/05/2023,ocds-rdvc92-401685356815,433,National Water & Sewerage Corporation,85984,OPEN,Supply And Fitting Of Assorted Parts To Repair Oil Leakages On Tractor Uas 532S,Supply And Fitting Of Assorted Parts To Repair Oil Leakages On Tractor Uas 532S,complete,"5,841,000",,UGX,09/12/2022,"National Water & Sewerage Corporation
+Plot No. 18/20 6th Street, Industrial Area
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801
+Email: nwscbid@nwscic.co.ug","National Water & Sewerage Corporation
+Plot No. 18/20 6th Street, Industrial Area
+P.O.Box 7053 Kampala, Uganda
+Tel: 256-313-315484/801
+Email: nwscbid@nwscic.co.ug",09/12/2022,08/11/2022
+id-20.2426,ocds-rdvc92-381736336080-2025-01-08T11:34:40+00:00,compiled,08/01/2025,ocds-rdvc92-381736336080,458,Uganda Communications Commission,92258,OPEN,Supply And Delivery Of Assorted Stationery Forucc,Supply And Delivery Of Assorted Stationery Forucc,complete,"51,814,390",,UGX,27/09/2024,"Procurement and Disposal Unit
+1st Floor UCC House
+Uganda Communications Commission
+Plot 42-44 Spring Road 
+Kampala","Procurement and Disposal Unit
+1st Floor UCC House
+Uganda Communications Commission
+Plot 42-44 Spring Road 
+Kampala",27/09/2024,28/08/2024
+id-8.505,ocds-rdvc92-101582101928-2020-02-19T05:45:28+00:00,compiled,19/02/2020,ocds-rdvc92-101582101928,393,"Ministry of Agriculture, Animal Industry and Fisheries",68694,OPEN,Installation Of A Local Area Network In The Acdp Offices,Installation Of A Local Area Network In The Acdp Offices,complete,"123,000,000",,UGX,01/07/2019,PDU,PDU,01/07/2019,18/01/2019
+id-23.2683,ocds-rdvc92-781595426906-2020-07-22T11:08:26+00:00,compiled,22/07/2020,ocds-rdvc92-781595426906,385,Makerere University,72098,OPEN,Supply Of Printer Laptop And Desktop Computer For Conas -Under  Bioconversion  Technology Ugandan Ltd Project,Supply Of Printer Laptop And Desktop Computer For Conas -Under  Bioconversion  Technology Ugandan Ltd Project,complete,   ,,USD,18/11/2019,"CEDAT/CONAS,SUB-PDU,room 5007, level 4 CEDAT New Building","CEDAT/CONAS,SUB-PDU,room 5007, level 4 CEDAT New Building",18/11/2019,06/11/2019
+id-21.775,ocds-rdvc92-661584015555-2020-03-12T09:19:15+00:00,compiled,12/03/2020,ocds-rdvc92-661584015555,393,"Ministry of Agriculture, Animal Industry and Fisheries",69204,OPEN,Procurement Of Translation Services (Direct Method) From English Into Seven(7) Local Languages,Procurement Of Translation Services (Direct Method) From English Into Seven(7) Local Languages,complete,"35,000,000",,UGX,30/12/2019,PDU,PDU,30/12/2019,23/10/2019
+id-4.350,ocds-rdvc92-931612349900-2021-02-03T07:58:20+00:00,compiled,03/02/2021,ocds-rdvc92-931612349900,645,Mubende District Local Government,73945,SELECTIVE,Construction Of A 3-Stance Vip Latrine At Kanyogoga Trading Centre Slaughter Slab In Kigando Sub-County,Construction Of A 3-Stance Vip Latrine At Kanyogoga Trading Centre Slaughter Slab In Kigando Sub-County,complete,"9,000,000",,UGX,20/10/2020,Procurement and Disposal Unit- Mubende,Procurement and Disposal Unit- Mubende,20/10/2020,14/09/2020
+id-1.458,ocds-rdvc92-211615902840-2021-03-16T10:54:00+00:00,compiled,16/03/2021,ocds-rdvc92-211615902840,684,UGANDA DEVELOPMENT CORPORATION,74718,SELECTIVE,Procurement Of A Consultancy Firm To Undertake A Feasibility Study For The Establishment Of A Starch Factory In Gulu District,Procurement Of A Consultancy Firm To Undertake A Feasibility Study For The Establishment Of A Starch Factory In Gulu District,complete,"200,000,000",,UGX,12/01/2021,udc,udc,12/01/2021,02/12/2020
+id-8.2302,ocds-rdvc92-251659448194-2022-08-02T13:50:12+00:00,compiled,02/08/2022,ocds-rdvc92-251659448194,467,Insurance Regulatory Authority,86655,OPEN,Security Equipment Maintenance ,Security Equipment Maintenance ,active,"9,000,000",,UGX,01/08/2023,"PDU Office, Insurance Regulatory Authority of Uganda, Insurance Tower Plot 6 Lumumba Avenue","PDU Office, Insurance Regulatory Authority of Uganda, Insurance Tower Plot 6 Lumumba Avenue",01/08/2023,25/05/2023
+id-15.134,ocds-rdvc92-481622022168-2021-05-26T06:42:48+00:00,compiled,26/05/2021,ocds-rdvc92-481622022168,410,Ministry of Works and Transport,75928,OPEN,Repair Of Ford Ranger Ug 1636W Pickup,Repair Of Ford Ranger Ug 1636W Pickup,complete,"10,564,600",,UGX,08/01/2021,"Ministry of Works and Transport, Procurement and Disposal Unit","Ministry of Works and Transport, Procurement and Disposal Unit",08/01/2021,11/11/2020
+id-15.2307,ocds-rdvc92-831659606821-2022-08-04T09:53:41+00:00,compiled,04/08/2022,ocds-rdvc92-831659606821,595,Moroto Municipal Council,82943,OPEN,Collection Of Market Dues At South Division,Collection Of Market Dues At South Division,complete,"2,000,000",,UGX,02/09/2022,Public Library,Procurement & Disposal Unit,02/09/2022,11/04/2022
+id-19.399,ocds-rdvc92-441597936514-2020-08-20T12:15:14+00:00,compiled,20/08/2020,ocds-rdvc92-441597936514,438,Parliament of Uganda,72521,OPEN,Prescribed Attire For Department Of Official Report,Prescribed Attire For Department Of Official Report,complete,"66,080,000",,UGX,26/02/2020,"South Wing, Basement Floor, Office B20A.","South Wing, Basement Floor, Office B20A.",26/02/2020,22/01/2020
+id-3.17,ocds-rdvc92-921615358486-2021-03-10T03:41:26+00:00,compiled,10/03/2021,ocds-rdvc92-921615358486,406,Ministry of Local Government,74416,OPEN,Procurement Of Hotel Services To Facilitate The Training Of Internal Auditors On Implementation Of The Internal Auditors Manual,Procurement Of Hotel Services To Facilitate The Training Of Internal Auditors On Implementation Of The Internal Auditors Manual,complete,"17,487,600",,UGX,04/12/2020,PDU MOLG,PDU MOLG,04/12/2020,30/09/2020
+id-19.1128,ocds-rdvc92-241628513588-2021-08-09T09:53:08+00:00,compiled,09/08/2021,ocds-rdvc92-241628513588,642,Nebbi District Local Government,77584,LIMITED,Supply Of Improved Piglets,Supply Of Improved Piglets,complete,"1,840,000",,UGX,04/12/2020,"PDU, NEBBI DLG","PDU, NEBBI DLG",04/12/2020,23/09/2020
+id-2.997,ocds-rdvc92-201586940949-2020-04-15T05:55:49+00:00,compiled,15/04/2020,ocds-rdvc92-201586940949,770,Equal Opportunities Commmision,69553,OPEN,Documentary For Csw,Documentary For Csw,complete,"15,000,000",,UGX,17/03/2020,PDU,PDU,06/03/2020,12/02/2020
+id-0.35,ocds-rdvc92-581665478986-2022-10-11T09:03:07+00:00,compiled,11/10/2022,ocds-rdvc92-581665478986,598,Gulu City Council,86614,OPEN,"Collectionof Revenue Fromgulu Main Market Lot B(2,3,8,11,12)","Collectionof Revenue Fromgulu Main Market Lot B(2,3,8,11,12)",complete,"300,000",,UGX,12/08/2022,Head Procurement and Disposal Unit Office,Head Procurement and Disposal Unit Office,12/08/2022,10/06/2022
+id-24.2288,ocds-rdvc92-251665120334-2022-10-07T05:25:34+00:00,compiled,07/10/2022,ocds-rdvc92-251665120334,427,National Forestry Authority,83509,OPEN,Maintenance Of 100000Assorted  Seedlingsin Soroti Nursery Under Nctpp,Maintenance Of 100000Assorted  Seedlingsin Soroti Nursery Under Nctpp,complete,"6,000,000",,UGX,09/02/2022,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,09/02/2022,07/02/2022
+id-21.1619,ocds-rdvc92-391671096902-2022-12-15T09:35:02+00:00,compiled,15/12/2022,ocds-rdvc92-391671096902,509,Isingiro District Local Government,84109,OPEN,Construction Of 2-Stance Pit Latrine Attached With Urinal & Curtain Wall At Kamubeizi T/C Headquarters And 3-Stance Pit Latrine At Kanywamaizi Hciii In Kabuyanda S/C,Construction Of 2-Stance Pit Latrine Attached With Urinal & Curtain Wall At Kamubeizi T/C Headquarters And 3-Stance Pit Latrine At Kanywamaizi Hciii In Kabuyanda S/C,complete,"30,000,000",,UGX,03/01/2023,Isingiro DLG Council Hall,procurement & disposal unit 1st floor Isingiro DLG,03/01/2023,27/07/2022
+id-27.143,ocds-rdvc92-331623062909-2021-06-07T07:48:29+00:00,compiled,07/06/2021,ocds-rdvc92-331623062909,776,FINANCIAL INTELLIGENCE AUTHORITY,76177,OPEN,Procurement Of Web Application Firewall,Procurement Of Web Application Firewall,complete,"40,000,000",,UGX,18/12/2020,FIA pdu,FIA pdu,18/12/2020,12/10/2020
+id-17.2776,ocds-rdvc92-461617958878-2021-04-09T06:01:18+00:00,compiled,09/04/2021,ocds-rdvc92-461617958878,478,Uganda Revenue Authority,75079,OPEN,Supply Of Laboratory Consumables For Tax Investigation Department,Supply Of Laboratory Consumables For Tax Investigation Department,complete,"9,000,000",,UGX,12/01/2021,"Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637","Procurement and Disposal Unit
+Uganda Revenue Authority
+P.O Box 7279 Kampala - Uganda
+13th Floor URA Tower
+Tel: 0417 44 2155/6/7/8/9/4637",12/01/2021,18/12/2020
+id-9.2151,ocds-rdvc92-571687338918-2023-06-21T09:15:18+00:00,compiled,21/06/2023,ocds-rdvc92-571687338918,602,Soroti Municipality,86388,SELECTIVE,Rehabilitation Of A 2 Classroom Block At Moruapesur Primary School,Rehabilitation Of A 2 Classroom Block At Moruapesur Primary School,complete,"25,000,000",,UGX,20/04/2023,Soroti City Hall,Soroti City PDU,20/04/2023,01/02/2023
+id-26.2509,ocds-rdvc92-421628685089-2021-08-11T09:31:29+00:00,compiled,11/08/2021,ocds-rdvc92-421628685089,405,"Ministry of Lands, Housing and Urban Development",77662,OPEN,Procurement Of Furniture For The Reception,Procurement Of Furniture For The Reception,complete,"30,300,000",,UGX,04/06/2021,"MLHUD FIRST FLOOR, PDU ROOM 17","MLHUD FIRST FLOOR, PDU ROOM 17",04/06/2021,16/04/2021
+id-9.1370,ocds-rdvc92-431594137656-2020-07-07T13:00:56+00:00,compiled,07/07/2020,ocds-rdvc92-431594137656,13,Busitema University,70794,LIMITED,Construction Of Lecture Block At Mbalae Campus,Construction Of Lecture Block At Mbalae Campus,complete,"500,000,000",,UGX,30/10/2019,PDU,PDU,30/10/2019,16/09/2019
+id-27.2222,ocds-rdvc92-491643708676-2022-02-01T09:44:36+00:00,compiled,01/02/2022,ocds-rdvc92-491643708676,581,Nwoya District Local Government,79423,OPEN,Design And Feasibility Study For A Solar Motorized Borehole System At Latoro Pajengo Got Apwoyo Sub-County,Design And Feasibility Study For A Solar Motorized Borehole System At Latoro Pajengo Got Apwoyo Sub-County,complete,"30,800,000",,UGX,15/09/2021,Engineerig Boardroom,pdu,15/09/2021,20/07/2021
+id-30.416,ocds-rdvc92-531594626138-2020-07-13T04:42:18+00:00,compiled,13/07/2020,ocds-rdvc92-531594626138,768,Soroti University,71447,OPEN,Supply Of Stationery  For The School Of Engineering,Supply Of Stationery  For The School Of Engineering,complete,"7,005,000",,UGX,22/04/2020,soroti University PDU Offices,soroti University PDU Offices,31/03/2020,03/03/2020
+id-18.998,ocds-rdvc92-321627997583-2021-08-03T10:33:03+00:00,compiled,03/08/2021,ocds-rdvc92-321627997583,642,Nebbi District Local Government,77468,LIMITED,Construction Of 2 Stance Vip Latrine/Urinal At Azingo P/S,Construction Of 2 Stance Vip Latrine/Urinal At Azingo P/S,complete,"12,000,000",,UGX,04/12/2020,"PDU, NEBBI DLG","PDU, NEBBI DLG",04/12/2020,24/09/2020
+id-20.1667,ocds-rdvc92-261624619167-2021-06-25T08:06:07+00:00,compiled,25/06/2021,ocds-rdvc92-261624619167,635,Directorate of Citzenship and Immigration Control,76483,OPEN,Construction Of Public Toilets At Ngomoromo Madi Opei And Awiny Lwinyo Border Post,Construction Of Public Toilets At Ngomoromo Madi Opei And Awiny Lwinyo Border Post,complete,"74,336,400",,UGX,24/05/2021,pdu,pdu,24/05/2021,19/02/2021
+id-6.1378,ocds-rdvc92-171671615133-2022-12-21T09:32:13+00:00,compiled,21/12/2022,ocds-rdvc92-171671615133,385,Makerere University,84230,OPEN,Procuremenmt Of Assorted Ict Equipments For Conas Under Tipas Project,Procuremenmt Of Assorted Ict Equipments For Conas Under Tipas Project,complete,"46,459,000",,UGX,29/07/2022,CEDAT/CONAS SUB-PDU,CEDAT/CONAS SUB-PDU,29/07/2022,07/07/2022
+id-14.1849,ocds-rdvc92-511651569908-2022-05-03T09:25:08+00:00,compiled,03/05/2022,ocds-rdvc92-511651569908,427,National Forestry Authority,80464,OPEN,Maintenance By Slash Weeding Of 100Ha Newly Planted Opit Cfr,Maintenance By Slash Weeding Of 100Ha Newly Planted Opit Cfr,complete,"15,000,000",,UGX,15/11/2021,National Forestry Authority,National Forestry Authority,15/11/2021,29/10/2021
+id-3.2803,ocds-rdvc92-251659606256-2022-08-04T09:44:16+00:00,compiled,04/08/2022,ocds-rdvc92-251659606256,595,Moroto Municipal Council,82939,OPEN,Office Cleaning Materials,Office Cleaning Materials,complete,"11,130,257",,UGX,02/09/2022,Public Library,Procurement & Disposal Unit,02/09/2022,11/04/2022
+id-2.3038,ocds-rdvc92-361642757231-2022-01-21T09:27:11+00:00,compiled,21/01/2022,ocds-rdvc92-361642757231,546,Moroto ,79322,OPEN,Completion Of A Two Classroom Block At Nadunget S.S.S,Completion Of A Two Classroom Block At Nadunget S.S.S,complete,"90,000,000",,UGX,20/08/2021,pdu,pdu,20/08/2021,21/07/2021
+id-10.2398,ocds-rdvc92-451652770452-2022-05-17T06:54:12+00:00,compiled,17/05/2022,ocds-rdvc92-451652770452,604,Soroti District Local Government,80675,OPEN,Procurement And Repair Of Office Equipment  To The District : Sub Counties,Procurement And Repair Of Office Equipment  To The District : Sub Counties,complete,"4,114,000",,UGX,03/09/2021,Lukiko Hall,PDU,03/09/2021,19/07/2021
+id-9.2749,ocds-rdvc92-641630940679-2021-09-06T12:04:39+00:00,compiled,06/09/2021,ocds-rdvc92-641630940679,410,Ministry of Works and Transport,78071,LIMITED,Intallation Of Service Kit No.Sk 115-5A,Intallation Of Service Kit No.Sk 115-5A,complete,"77,500",,USD,09/03/2021,PDU-EACAA,PDU-EACAA,09/03/2021,15/12/2020
+id-2.2696,ocds-rdvc92-581621518077-2021-05-20T10:41:17+00:00,compiled,20/05/2021,ocds-rdvc92-581621518077,427,National Forestry Authority,75808,OPEN,Spraying(Pre-Plant Spraying);Lendu Plantations,Spraying(Pre-Plant Spraying);Lendu Plantations,complete,"50,000,000",,UGX,04/03/2021,National Forestry Authority,National Forestry Authority,04/03/2021,23/02/2021
+id-17.945,ocds-rdvc92-931667367234-2022-11-02T05:33:54+00:00,compiled,02/11/2022,ocds-rdvc92-931667367234,467,Insurance Regulatory Authority,83737,OPEN,Provision Of Television Advertising Services,Provision Of Television Advertising Services,complete,"150,000,000",,UGX,24/11/2022,"IRA Offices, Plot 6 Lumumba Avenue, Insurance Tower , 9th Floor","IRA Offices, Plot 6 Lumumba Avenue, Insurance Tower , 9th Floor",24/11/2022,19/10/2022
+id-17.2814,ocds-rdvc92-221705400877-2024-01-16T10:27:57+00:00,compiled,16/01/2024,ocds-rdvc92-221705400877,427,National Forestry Authority,88343,OPEN,Planting Of 100Ha In Mwenge Plantations,Planting Of 100Ha In Mwenge Plantations,complete,"25,000,000",,UGX,15/11/2023,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,15/11/2023,26/10/2023
+id-14.144,ocds-rdvc92-391623048335-2021-06-07T03:45:35+00:00,compiled,07/06/2021,ocds-rdvc92-391623048335,474,Uganda National Roads Authority,76160,OPEN,Supply And Delivery Of Cisco Phones,Supply And Delivery Of Cisco Phones,complete,"240,000,000",,UGX,06/11/2020,"PDU Registry, 1st Floor","PDU Registry, 1st Floor",06/11/2020,23/06/2020
+id-9.990,ocds-rdvc92-981594799291-2020-07-15T04:48:17+00:00,compiled,15/07/2020,ocds-rdvc92-981594799291,26,Electricity Regulatory Authority,72501,OPEN,Desk Printers (9 Pcs),Desk Printers (9 Pcs),complete,"11,575,800",,UGX,24/08/2020,ERA House plot 15 Shimoni Road,ERA House plot 15 Shimoni Road,24/08/2020,10/08/2020
+id-31.1564,ocds-rdvc92-441601877750-2020-10-05T03:02:30+00:00,compiled,05/10/2020,ocds-rdvc92-441601877750,417,National Agricultural Advisory Services,72874,OPEN,"Supply Of 59,450 Tea Plantlets To Sheema District","Supply Of 59,450 Tea Plantlets To Sheema District",complete,"23,780,000",,UGX,09/09/2020,NAADS Secretariat,NAADS Secretariat,09/09/2020,31/08/2020
+id-19.2282,ocds-rdvc92-481566549830-2019-08-23T06:43:50+00:00,compiled,23/08/2019,ocds-rdvc92-481566549830,386,Makerere University Business School,73379,LIMITED,Drugs And Sundries,Drugs And Sundries,complete,"2,000,000",,UGX,30/01/2020,"PDU-MUBS,Plot 21A Port bell Road, P.O Box 1337, Kampala Uganda","PDU-MUBS,Plot 21A Port bell Road, P.O Box 1337, Kampala Uganda",30/01/2020,28/08/2019
+id-22.764,ocds-rdvc92-451622038237-2021-05-26T11:10:37+00:00,compiled,26/05/2021,ocds-rdvc92-451622038237,427,National Forestry Authority,75941,OPEN,Restoration Maintenance In Bugala Sector,Restoration Maintenance In Bugala Sector,complete,"15,000,000",,UGX,19/03/2021,National forestry Authority,National forestry Authority,19/03/2021,03/02/2021
+id-12.2078,ocds-rdvc92-481572415443-2019-10-30T05:04:20+00:00,compiled,30/10/2019,ocds-rdvc92-481572415443,746,National Identification & Registration Authority,69996,OPEN,Usb Cables- Ext Cables 450,Usb Cables- Ext Cables 450,complete,"41,949,000",,UGX,24/10/2019,PDU Offices at Kololo,PDU Offices at Kololo,24/10/2019,03/10/2019
+id-25.420,ocds-rdvc92-861686564111-2023-06-12T10:01:51+00:00,compiled,12/06/2023,ocds-rdvc92-861686564111,462,Uganda Electricity Transmission Company,86168,OPEN,Calibration Of The Optical Time Domain (Otdr),Calibration Of The Optical Time Domain (Otdr),complete,"60,000,000",,UGX,08/02/2023,"UETCL P.O. BOX 7625 Kampala ,Uganda Plot 10 , Hannington Rd","UETCL P.O. BOX 7625 Kampala ,Uganda Plot 10 , Hannington Rd",07/02/2023,12/10/2022
+id-30.2650,ocds-rdvc92-331702298293-2023-12-11T12:38:13+00:00,compiled,11/12/2023,ocds-rdvc92-331702298293,478,Uganda Revenue Authority,88104,LIMITED,Acquisition Of A Mobile Forensic License For Tid - Detego,Acquisition Of A Mobile Forensic License For Tid - Detego,complete,"150,000,000",,UGX,28/12/2023,"Procurement and Disposal Unit (PDU)
+ Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug","Procurement and Disposal Unit (PDU)
+ Uganda Revenue Authority 
+P.O Box 7279 Kampala - Uganda 
+Email: ProcurementEnquiries@ura.go.ug",28/12/2023,15/11/2023
+id-21.1980,ocds-rdvc92-711736838582-2025-01-14T07:09:42+00:00,compiled,14/01/2025,ocds-rdvc92-711736838582,472,Uganda National Examinations Board,92260,OPEN,Provision Of Security Services,Provision Of Security Services,complete,"147,972,000",,UGX,10/10/2024,"UNEB NTINDA, PDU, ROOM 46","UNEB NTINDA, PDU, ROOM 46",10/10/2024,14/08/2024
+id-11.1470,ocds-rdvc92-881654523520-2022-06-06T13:52:00+00:00,compiled,06/06/2022,ocds-rdvc92-881654523520,394,Ministry of Defence,81309,OPEN,Procurement Of Expendable Items Not On Framework Contract For Ungu Vii,Procurement Of Expendable Items Not On Framework Contract For Ungu Vii,complete,"90,794,375",,UGX,05/10/2021,"MINISTRY OF DEFENCE AND VETERAN AFFAIRS
+P.O.BOX, 3798, KAMPALA
+UPPER MBUYA CHWA II ROAD","MINISTRY OF DEFENCE AND VETERAN AFFAIRS
+P.O.BOX, 3798, KAMPALA
+UPPER MBUYA CHWA II ROAD",05/10/2021,11/09/2021
+id-25.833,ocds-rdvc92-141593686914-2020-07-02T07:48:34+00:00,compiled,02/07/2020,ocds-rdvc92-141593686914,413,Mulago Hospital Complex,70392,LIMITED,Procurement Of Clinical Chemistry Reagents,Procurement Of Clinical Chemistry Reagents,complete,"135,616,870",,UGX,13/11/2019,"Mulago hospital complex
+1st floor assessment centre
+room 7.15","Mulago hospital complex
+1st floor assessment centre
+room 7.15",13/11/2019,22/10/2019
+id-19.334,ocds-rdvc92-561649421793-2022-04-08T12:43:13+00:00,compiled,08/04/2022,ocds-rdvc92-561649421793,458,Uganda Communications Commission,80725,OPEN,Services For Routine Vehicle Maintenance,Services For Routine Vehicle Maintenance,complete,"90,000,000",,UGX,18/11/2021,"PDU, UCC","PDU, UCC",17/11/2021,12/10/2021
+id-22.163,ocds-rdvc92-321592906853-2020-06-23T07:07:33+00:00,compiled,23/06/2020,ocds-rdvc92-321592906853,635,Directorate of Citzenship and Immigration Control,69894,OPEN,Office Furniture For Immigration Offices,Office Furniture For Immigration Offices,complete,"85,910,000",,UGX,19/05/2020,PDU DCIC,PDU DCIC,19/05/2020,10/02/2020
+id-17.2854,ocds-rdvc92-861653972817-2022-05-31T04:53:37+00:00,compiled,31/05/2022,ocds-rdvc92-861653972817,433,National Water & Sewerage Corporation,80944,LIMITED,Supply Of Change Over Switches For Static Plant Under Reservation Scheme,Supply Of Change Over Switches For Static Plant Under Reservation Scheme,complete,"159,477,000",,UGX,07/01/2022,"Senior Manager Procurement
+National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Email: bids@nwsc.co.ug
+Tel: +256-313-315801","Senior Manager Procurement
+National Water & Sewerage Corporation
+Plot No. 18/20, 6th Street, Industrial Area, Kampala 
+P.O.Box 7053 Kampala, Uganda
+Email: bids@nwsc.co.ug
+Tel: +256-313-315801",07/01/2022,22/09/2021
+id-9.1013,ocds-rdvc92-901645515962-2022-02-22T07:46:02+00:00,compiled,22/02/2022,ocds-rdvc92-901645515962,381,LAW DEVELOPMENT CENTRE,79692,OPEN,Engraving Ldc Assets,Engraving Ldc Assets,complete,"10,800,000",,UGX,08/11/2021,"Law Developement Centre,Procurement and Disposal Unit,P.O Box 7117,Kampala.","Law Developement Centre,Procurement and Disposal Unit,P.O Box 7117,Kampala.",08/11/2021,22/09/2021
+id-19.2023,ocds-rdvc92-441653463141-2022-05-25T07:19:01+00:00,compiled,25/05/2022,ocds-rdvc92-441653463141,418,National Agricultural Research Organization,80788,OPEN,Supply For Mushroom Spown Production,Supply For Mushroom Spown Production,complete,"7,569,000",,UGX,17/02/2022,Ngetta Zardi,Ngetta Zardi,17/02/2022,10/02/2022
+id-7.2335,ocds-rdvc92-841694098608-2023-09-07T14:56:57+00:00,compiled,07/09/2023,ocds-rdvc92-841694098608,467,Insurance Regulatory Authority,88610,SELECTIVE,"Complaints Bureau Maintenance, Ssl Certificate And Hosting System Maintenance And Upgrade  ","Complaints Bureau Maintenance, Ssl Certificate And Hosting System Maintenance And Upgrade  ",complete,"30,000,000",,UGX,04/09/2023,"PDU Office, Insurance Regulatory Authority of Uganda","PDU Office, Insurance Regulatory Authority of Uganda",04/09/2023,07/07/2023
+id-0.2194,ocds-rdvc92-541594107588-2020-07-07T04:39:48+00:00,compiled,07/07/2020,ocds-rdvc92-541594107588,769,Directorate of Government Analytical Laboratory,70685,OPEN,Procurement For Supply & Delivery Of Assorted Laboratory Chemicals & Reagents For Prl Laboratory,Procurement For Supply & Delivery Of Assorted Laboratory Chemicals & Reagents For Prl Laboratory,complete,"38,810,000",,UGX,20/08/2019,"Procurement & Disposal Unit
+Directorate of Government Analytical Laboratory
+P.O. Box 2174, Kampala Uganda","Procurement & Disposal Unit
+Directorate of Government Analytical Laboratory
+P.O. Box 2174, Kampala Uganda",20/08/2019,23/07/2019
+id-4.956,ocds-rdvc92-271676613894-2023-02-17T06:04:54+00:00,compiled,17/02/2023,ocds-rdvc92-271676613894,689,UGANDA PRISONS SERVICE,84961,OPEN,Procurement Of Fabrics & Upholstery Materials For Production Of Furniture And Flags For Sale,Procurement Of Fabrics & Upholstery Materials For Production Of Furniture And Flags For Sale,complete,"35,900,000",,UGX,14/10/2022,UGANDA PRISONS HEADQURTERS,UGANDA PRISONS HEADQURTERS,14/10/2022,23/08/2022
+id-25.2794,ocds-rdvc92-441646048818-2022-02-28T11:46:58+00:00,compiled,28/02/2022,ocds-rdvc92-441646048818,461,Uganda Electricity Generation Company,79791,OPEN,Servicing And Maintenance Of Hvac System At Isimba Hpp,Servicing And Maintenance Of Hvac System At Isimba Hpp,complete,"96,000,000",,UGX,30/11/2021,UEGCL Head Offices,UEGCL Head Offices,30/11/2021,20/09/2021
+id-23.56,ocds-rdvc92-751572792311-2019-11-03T13:45:11+00:00,compiled,03/11/2019,ocds-rdvc92-751572792311,458,Uganda Communications Commission,67467,OPEN,Design And Printing Of Certificates And Invitation Cards For Uganda Film Festival 2019,Design And Printing Of Certificates And Invitation Cards For Uganda Film Festival 2019,complete,"7,500,000",,UGX,25/10/2019,"Procurement and Disposal Unit 
+Uganda Communications Commission
+1st Floor, UCC House 
+Plot 42-44 Spring Road, Bugolobi
+P.O.Box 7376 Kampala Uganda","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-4348832
+Email:ucc@cc.co.ug",25/10/2019,15/10/2019
+id-20.2578,ocds-rdvc92-581623414870-2021-06-11T09:34:30+00:00,compiled,11/06/2021,ocds-rdvc92-581623414870,418,National Agricultural Research Organization,76262,OPEN,Procurement Of Computers,Procurement Of Computers,complete,"29,575,000",,UGX,04/03/2021,Rwebitaba PDU,Rwebitaba PDU,04/03/2021,10/02/2021
+id-1.438,ocds-rdvc92-681687175123-2023-06-19T11:45:23+00:00,compiled,19/06/2023,ocds-rdvc92-681687175123,462,Uganda Electricity Transmission Company,86333,OPEN,Supply Of Process Flow Banners,Supply Of Process Flow Banners,complete,"7,500,000",,UGX,12/10/2022,"UETCL
+P.O.Box 7625
+Kampala Uganda
+Plot 10 Hannington Road","UETCL
+P.O.Box 7625
+Kampala Uganda
+Plot 10 Hannington Road",05/10/2022,24/03/2022
+id-27.468,ocds-rdvc92-331665989732-2022-10-17T06:55:32+00:00,compiled,17/10/2022,ocds-rdvc92-331665989732,427,National Forestry Authority,83585,OPEN,"Spot Hoeing Of Forest Plantations,Mwenge Plantations","Spot Hoeing Of Forest Plantations,Mwenge Plantations",complete,"6,400,000",,UGX,15/11/2021,NATIONAL FORESTRY AUTHORITY,NATIONAL FORESTRY AUTHORITY,15/11/2021,01/11/2021
+id-28.2320,ocds-rdvc92-731652851323-2022-05-18T05:22:03+00:00,compiled,18/05/2022,ocds-rdvc92-731652851323,418,National Agricultural Research Organization,80647,OPEN,Assorted Agric. Supplies,Assorted Agric. Supplies,complete,"10,270,000",,UGX,07/02/2022,Bulindi ZARDI,Bulindi ZARDI,07/02/2022,31/01/2022
+id-5.2498,ocds-rdvc92-491717662633-2024-06-06T08:30:33+00:00,compiled,06/06/2024,ocds-rdvc92-491717662633,642,Nebbi District Local Government,91703,OPEN,Renovation Of  Dhos Stores,Renovation Of  Dhos Stores,complete,"20,000,000",,UGX,08/10/2024,"PDU - BOARD ROOM 
+NEXT TO DISTRICT SERVICE COMMISSION 
+ROOM 2","PDU - BOARD ROOM 
+NEXT TO DISTRICT SERVICE COMMISSION 
+ROOM 2",08/10/2024,25/04/2024
+id-17.2697,ocds-rdvc92-731621083986-2021-05-15T10:06:26+00:00,compiled,15/05/2021,ocds-rdvc92-731621083986,458,Uganda Communications Commission,75662,OPEN,Supply Delivery And Installation Of An X-Ray Inspection Machine (Baggage Scanner).,Supply Delivery And Installation Of An X-Ray Inspection Machine (Baggage Scanner).,complete,"50,000,000",,UGX,12/02/2021,"Procurement and Disposal Unit 
+Uganda Communications Commission
+1st Floor, UCC House 
+Plot 42-44 Spring Road, Bugolobi
+P.O.Box 7376 Kampala Uganda","Uganda Communications Commission
+Procurement and Disposal Unit 
+1st Floor, UCC House 
+P.O.Box 7376 Kampala Uganda 
+UCC House, Plot 42-44 Spring Road, Bugolobi
+Tel; 256-41-4339000
+Fax: 256-41-4348832
+Email:ucc@cc.co.ug",12/02/2021,01/02/2021
+id-20.1913,ocds-rdvc92-611727862239-2024-10-02T09:43:59+00:00,compiled,02/10/2024,ocds-rdvc92-611727862239,617,Entebbe Municipal Council,91629,OPEN,"Maintenance, Repair And Servicing Of Computers, Printers And Other Accessories Such As Telephone, Cameras","Maintenance, Repair And Servicing Of Computers, Printers And Other Accessories Such As Telephone, Cameras",complete,"51,060,000",,UGX,17/07/2024,Entebbe Municipal Council- Council Hall,Entebbe Municipal Council- Procurement and Disposal Unit,17/07/2024,12/06/2024
+id-31.234,ocds-rdvc92-651628140348-2021-08-05T02:12:28+00:00,compiled,05/08/2021,ocds-rdvc92-651628140348,476,Uganda Property Holdings,77506,OPEN,Provision Of Survey Services For Uphl Mombasa Properties,Provision Of Survey Services For Uphl Mombasa Properties,complete,"2,884,200",,KES,03/02/2021,"UPHL HEAD OFFICE, KAMPALA ROOM G12",UPHL MOMBASA OFFICES,01/02/2021,23/11/2020
+id-17.2014,ocds-rdvc92-551623142743-2021-06-08T05:59:03+00:00,compiled,08/06/2021,ocds-rdvc92-551623142743,566,Tororo District Local Government,76200,LIMITED,Renovation Of A Four Class Room Block At Makaur Primary School Under  Ddeg,Renovation Of A Four Class Room Block At Makaur Primary School Under  Ddeg,complete,"28,000,000",,UGX,18/02/2021,TORORO DLG PDU,TORORO DLG PDU,18/02/2021,17/06/2020
+id-8.2050,ocds-rdvc92-891614953042-2021-03-05T11:04:02+00:00,compiled,05/03/2021,ocds-rdvc92-891614953042,472,Uganda National Examinations Board,74380,LIMITED,Supply & Delivery Of Plates For Printery,Supply & Delivery Of Plates For Printery,complete,"200,000,000",,UGX,31/08/2020,"UGANDA NATIONAL EXAMINATIONS BOARD,PDU ROOM 46 NTINDA","UGANDA NATIONAL EXAMINATIONS BOARD,PDU ROOM 46 NTINDA",31/08/2020,31/07/2020
