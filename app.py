@@ -150,6 +150,25 @@ st.markdown(
         background-color: #b30000 !important;
         border: 1px solid #b30000 !important;
     }
+    /* file upload box: light background so the dark text stays readable */
+    section[data-testid="stFileUploaderDropzone"] {
+        background-color: #FFFFFF !important;
+        border: 1px dashed rgba(0, 0, 0, 0.3) !important;
+    }
+    section[data-testid="stFileUploaderDropzone"] * {
+        color: #1F1F1F !important;
+    }
+    section[data-testid="stFileUploaderDropzone"] button {
+        background-color: var(--ppda-red) !important;
+        border: 1px solid var(--ppda-red) !important;
+        border-radius: 8px !important;
+    }
+    section[data-testid="stFileUploaderDropzone"] button * {
+        color: #FFFFFF !important;
+    }
+    div[data-testid="stFileUploaderFile"] * {
+        color: #1F1F1F !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
