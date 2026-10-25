@@ -73,25 +73,29 @@ st.markdown(
     }
 
     .stApp header {background: transparent;}
+    div.block-container, div[data-testid="stMainBlockContainer"] {
+        padding-top: 1.6rem !important;
+        padding-bottom: 0.75rem !important;
+    }
     div[data-testid="stForm"] {
         border: 1px solid rgba(217, 0, 0, 0.15);
         border-radius: 14px;
-        padding: 1.5rem 1.5rem 1rem 1.5rem;
+        padding: 0.75rem 1.25rem 0.5rem 1.25rem;
         background: var(--ppda-panel) !important;
     }
     .ppda-hero {
-        padding: 1.25rem 1.5rem;
+        padding: 0.7rem 1.25rem;
         border-radius: 14px;
         background: linear-gradient(135deg, rgba(252,209,22,0.35), rgba(217,0,0,0.12));
         border: 1px solid rgba(217,0,0,0.15);
-        margin-bottom: 1.25rem;
+        margin-bottom: 0.5rem;
     }
     .ppda-hero h1, .ppda-hero p {
         color: var(--ppda-black) !important;
     }
     .ppda-hero h1 {
         margin: 0;
-        font-size: clamp(1.1rem, 2.6vw, 1.8rem);
+        font-size: clamp(1.1rem, 2.2vw, 1.5rem);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -269,10 +273,9 @@ def load_pipeline():
     model_path = MODEL_FILENAME
 
     if not os.path.exists(model_path):
-        st.info(f"Model file '{MODEL_FILENAME}' not found locally. Downloading from Hugging Face Hub...")
         try:
-            model_path = hf_hub_download(repo_id=HUGGING_FACE_REPO_ID, filename=MODEL_FILENAME)
-            st.success("Model downloaded successfully.")
+            with st.spinner("Loading the model (the first start downloads about 270 MB, so it can take a minute)..."):
+                model_path = hf_hub_download(repo_id=HUGGING_FACE_REPO_ID, filename=MODEL_FILENAME)
         except Exception as e:
             st.error(
                 f"Failed to download model from Hugging Face Hub ('{HUGGING_FACE_REPO_ID}'): {e}\n\n"
@@ -378,6 +381,14 @@ def match_to_learned(values, learned):
         return stripped
 
     return values.map(fix)
+
+
+def match_one(pipeline, column, value):
+    """The spelling the model learned for a single typed value."""
+    learned = learned_categories(pipeline, CATEGORY_PREFIXES[column])
+    if not learned:
+        return value.strip()
+    return match_to_learned(pd.Series([value]), learned).iloc[0]
 
 
 def prepare_batch(raw, pipeline=None):
@@ -504,48 +515,41 @@ with st.sidebar:
 tab_single, tab_batch = st.tabs(["🧾 Single tender", "📂 Batch: upload a file"])
 
 with tab_single:
-    with st.form("tender_prediction_form"):
-        st.header("📝 Tender Details")
+    form_col, result_col = st.columns([1.15, 1], gap="large")
 
-        col1, col2 = st.columns(2)
-        with col1:
+    with form_col:
+        with st.form("tender_prediction_form"):
             tender_title = st.text_area(
                 "Tender Title", "", placeholder="e.g. Supply of Fuel and Lubricants",
-                height=100,
-                help="Short title as it would appear on the tender notice."
+                height=68,
+                help="Short title as it would appear on the tender notice. Naming the works, goods or "
+                     "services and the scope (for example 'Rehabilitation of Regional Highway, Northern "
+                     "Uganda' rather than 'Road Works') gives the model stronger signals."
             )
-            st.caption(
-                "💡 **Tip:** Good titles name the works/goods/services and, where "
-                "relevant, the location or scope — e.g. *'Rehabilitation of Regional "
-                "Highway, Northern Uganda'* rather than just *'Road Works'*. Clearer "
-                "titles help the model's text features pick up stronger signals."
-            )
-        with col2:
             tender_description = st.text_area(
                 "Tender Description", "",
                 placeholder="e.g. Supply and delivery of diesel, petrol and lubricants for one financial year.",
-                height=180,
+                height=80,
                 help="More detail helps the model's text features pick up relevant signals."
             )
 
-        st.subheader("🗓️ Dates")
-        with st.expander("View/Edit Tender Dates", expanded=False):
-            today = datetime.date.today()
-            tender_date = st.date_input("Date", today, help="Publication date — used to derive year/month/quarter features.")
-            tender_period_start_date = st.date_input("Tender Period Start Date", today - datetime.timedelta(days=30))
-            tender_period_end_date = st.date_input(
-                "Tender Period End Date", today + datetime.timedelta(days=60),
-                help="Must be after the start date — duration is a key model feature."
-            )
+            with st.expander("🗓️ View/Edit Tender Dates", expanded=False):
+                today = datetime.date.today()
+                tender_date = st.date_input("Date", today, help="Publication date — used to derive year/month/quarter features.")
+                tender_period_start_date = st.date_input("Tender Period Start Date", today - datetime.timedelta(days=30))
+                tender_period_end_date = st.date_input(
+                    "Tender Period End Date", today + datetime.timedelta(days=60),
+                    help="Must be after the start date — duration is a key model feature."
+                )
 
-        date_error = tender_period_end_date <= tender_period_start_date
-        if date_error:
-            st.error("🚫 Tender Period End Date must be after the Start Date.")
+            date_error = tender_period_end_date <= tender_period_start_date
+            if date_error:
+                st.error("🚫 Tender Period End Date must be after the Start Date.")
 
-        st.markdown("---")
-        submitted = st.form_submit_button("🚀 Predict High-Value Tender Status", disabled=date_error)
+            submitted = st.form_submit_button("🚀 Predict High-Value Tender Status", disabled=date_error)
 
-        # the form starts empty, so check everything is filled in before predicting
+    # the result sits beside the form, so the whole thing fits on one screen
+    with result_col:
         missing_fields = []
         if not buyer_name.strip():
             missing_fields.append("Buyer Name (sidebar)")
@@ -560,18 +564,21 @@ with tab_single:
 
         if submitted and missing_fields:
             st.warning("Please fill in: " + ", ".join(missing_fields))
-        elif submitted:
+        elif not submitted:
+            st.markdown("#### High-Value Tender")
+            st.info("Fill in the tender details and press **Predict**. The result will appear here.")
+        else:
             input_data = pd.DataFrame(
                 {
                     "date": [tender_date.strftime("%d/%m/%Y")],
-                    "buyer_name": [buyer_name],
-                    "tender_procurementmethod": [tender_procurementmethod],
+                    "buyer_name": [match_one(loaded_pipeline, "buyer_name", buyer_name)],
+                    "tender_procurementmethod": [match_one(loaded_pipeline, "tender_procurementmethod", tender_procurementmethod)],
                     "tender_title": [tender_title],
                     "tender_description": [tender_description],
-                    "tender_status": [tender_status],
-                    # Not used as a model feature (removed to fix target leakage) —
-                    # kept here only because the preprocessor's transform() still
-                    # references these columns internally before discarding them.
+                    "tender_status": [match_one(loaded_pipeline, "tender_status", tender_status)],
+                    # Not used as a model feature (removed to fix target leakage). Kept only
+                    # because the preprocessor's transform() still references these columns
+                    # internally before discarding them.
                     "tender_value_amount": [0.0],
                     "tender_value_currency": ["UGX"],
                     "tender_tenderperiod_enddate": [tender_period_end_date.strftime("%d/%m/%Y")],
@@ -599,32 +606,27 @@ with tab_single:
                 except Exception:
                     pass
 
-                st.markdown("---")
-                result_col, chart_col = st.columns([1, 1])
+                st.markdown("#### High-Value Tender")
+                if prediction_label == "Yes":
+                    st.success("### 🟢 High-Value Tender: **Yes**")
+                    st.caption("Worth closer oversight and a careful look at resources for this tender. 📈")
+                else:
+                    st.info("### 🔵 High-Value Tender: **No**")
+                    st.caption("Standard procurement handling is likely sufficient. 📊")
 
-                with result_col:
-                    st.markdown("#### High-Value Tender")
-                    if prediction_label == "Yes":
-                        st.success("### 🟢 High-Value Tender: **Yes**")
-                        st.info("Consider strategic allocation of resources and closer oversight for this tender. 📈")
-                    else:
-                        st.info("### 🔵 High-Value Tender: **No**")
-                        st.caption("Standard procurement handling is likely sufficient. 📊")
-
-                    if proba is not None:
-                        confidence = proba[1] if prediction_label == "Yes" else proba[0]
+                if proba is not None:
+                    confidence = proba[1] if prediction_label == "Yes" else proba[0]
+                    metric_col, chart_col = st.columns([1, 1.2])
+                    with metric_col:
                         st.metric("Model Confidence", f"{confidence * 100:.1f}%")
                         st.progress(float(confidence))
-
-                with chart_col:
-                    if proba is not None:
+                    with chart_col:
                         proba_df = pd.DataFrame(
-                            {"Outcome": ["High-Value Tender: No", "High-Value Tender: Yes"], "Probability": [proba[0], proba[1]]}
+                            {"Outcome": ["No", "Yes"], "Probability": [proba[0], proba[1]]}
                         ).set_index("Outcome")
-                        st.caption("Prediction probability breakdown")
-                        st.bar_chart(proba_df, height=220)
-                    else:
-                        st.caption("This model doesn't expose probability scores.")
+                        st.bar_chart(proba_df, height=150)
+                else:
+                    st.caption("This model doesn't expose probability scores.")
 
             except Exception as e:
                 st.error(f"An error occurred during prediction: {e}")
